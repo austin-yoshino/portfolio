@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "113794843047",
+    "project_id": "boogeraids-picklerick",
+    "storage_bucket": "boogeraids-picklerick.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:113794843047:android:019f54e8d6c7b072a9f682",
+        "android_client_info": {
+          "package_name": "com.boogeraids.picklerick"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7LDcMrItPILZXf8A953d3bjZx7WkpoiI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
