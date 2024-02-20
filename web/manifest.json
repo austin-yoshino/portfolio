@@ -1,11 +1,11 @@
 {
   "name": "Austin Yoshino",
-  "short_name": "Portfolio",
+  "short_name": "Austin",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#1E1E1E",
   "theme_color": "#1E1E1E",
-  "description": "Super-Connector",
+  "description": "portfolior",
   "orientation": "portrait-primary",
   "prefer_related_applications": false,
   "icons": [

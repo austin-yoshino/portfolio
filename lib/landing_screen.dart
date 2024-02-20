@@ -35,22 +35,34 @@ class _LandingScreenState extends State<LandingScreen> {
               const Padding(
                 padding: EdgeInsets.only(top: 16),
                 child: Row(
-                  crossAxisAlignment: CrossAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
                     CircleAvatar(
                       backgroundImage:
                           AssetImage("assets/images/austinHeadshot.png"),
-                      radius: 30,
+                      radius: 40,
                     ),
                     SizedBox(width: 10),
-                    Text(
-                      "Austin Yoshino",
-                      textAlign: TextAlign.left,
-                      style: TextStyle(
-                        color: AppColors.gold,
-                        fontSize: 30,
-                        fontWeight: FontWeight.bold,
-                      ),
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: <Text>[
+                        Text(
+                          "Austin Yoshino",
+                          style: TextStyle(
+                            color: AppColors.gold,
+                            fontSize: 30,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                        Text(
+                          "Portfolio",
+                          style: TextStyle(
+                            color: AppColors.white,
+                            fontSize: 16,
+                            fontWeight: FontWeight.normal,
+                          ),
+                        ),
+                      ],
                     ),
                   ],
                 ),
@@ -629,7 +641,7 @@ class _LandingScreenState extends State<LandingScreen> {
   }
 }
 
-//SECTIONS: SKILLS PERSONAL | SOCIAL IMPACT | CASE STUDIES | ADD CAREGIVER TO MY BROTHER WITH CEREBRAL PALSY + RELENLESS & OPTIMISM | MEDIA
+//SECTIONS: SKILLS PERSONAL | CASE STUDIES | MEDIA
 //ADD RESUME TO LINKS
 
-//ADD DESIGN + PRODUCT PORTFOLIO
+//ADD DESIGN + PRODUCT + RESUME ASE STUDIES PORTFOLIO COULD CALL IT "SHOWROOMS"
