@@ -657,7 +657,7 @@ class _LandingScreenState extends State<LandingScreen> {
                     ),
                     SizedBox(height: 10),
                     Text(
-                      "Core Compentencies",
+                      "Core Compentencies:",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
