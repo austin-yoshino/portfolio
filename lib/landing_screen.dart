@@ -572,7 +572,7 @@ class _LandingScreenState extends State<LandingScreen> {
                     ),
                     const SizedBox(height: 10),
                     const Text(
-                      "Went viral on Twitter (294k impressions, 30k engagements)",
+                      "Went viral on Twitter (294k impressions & 30k engagements)",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
@@ -666,7 +666,7 @@ class _LandingScreenState extends State<LandingScreen> {
                     ),
                     SizedBox(height: 5),
                     Text(
-                      "Leadership, storytelling, empathy, prod dev, user experience, fundraising, creative direction",
+                      "Leadership, storytelling, empathy, product development / engineering, user experience, fundraising, creative direction, copywriting",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
