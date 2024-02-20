@@ -563,7 +563,7 @@ class _LandingScreenState extends State<LandingScreen> {
                     ),
                     const SizedBox(height: 5),
                     const Text(
-                      "ABC",
+                      "Started during Joyn when we had an overload of tasks, currently still refining my front-end skills",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
