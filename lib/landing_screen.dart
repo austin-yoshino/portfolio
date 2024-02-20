@@ -351,7 +351,7 @@ class _LandingScreenState extends State<LandingScreen> {
                     ),
                     SizedBox(height: 5),
                     Text(
-                      "- Strategy / Growth for aVenture: research platform for VC's",
+                      "- Strategy / Growth for aVenture (Techstars '23): research platform for VC's",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
