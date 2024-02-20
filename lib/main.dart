@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
-      title: 'Portfolio',
+      title: 'Austin Yoshino',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         fontFamily: 'Source Code Pro',
