@@ -509,7 +509,7 @@ class _LandingScreenState extends State<LandingScreen> {
                     ),
                     const SizedBox(height: 5),
                     const Text(
-                      "My brother embodies world-class reselience & relentless optimism, 2 superpowers I inherited from him",
+                      "My brother embodies world-class reselience & optimism, 2 superpowers I inherited",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
@@ -633,6 +633,213 @@ class _LandingScreenState extends State<LandingScreen> {
                   ],
                 ),
               ),
+              const Padding(
+                padding: EdgeInsets.symmetric(vertical: 20),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      "Skills",
+                      style: TextStyle(
+                        color: AppColors.gold,
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    SizedBox(height: 10),
+                    Text(
+                      "\"Superpowers\": resilient optimism + relentless drive to figure things out",
+                      style: TextStyle(
+                        color: AppColors.white,
+                        fontSize: 14,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    SizedBox(height: 10),
+                    Text(
+                      "Core Compentencies",
+                      style: TextStyle(
+                        color: AppColors.white,
+                        fontSize: 14,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    SizedBox(height: 5),
+                    Text(
+                      "Leadership, storytelling, empathy, prod dev, user experience, fundraising, creative direction",
+                      style: TextStyle(
+                        color: AppColors.white,
+                        fontSize: 14,
+                        fontWeight: FontWeight.w300,
+                      ),
+                    ),
+                    SizedBox(height: 10),
+                    Text(
+                      "Technical Toolkit:",
+                      style: TextStyle(
+                        color: AppColors.white,
+                        fontSize: 14,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    SizedBox(height: 5),
+                    Text(
+                      "openAI / chatGPT, Flutter, DALLE, Figma, Canva, Notion, Discord, Asana, Github / Github Priojects, Microsoft Office, Software Architecture, VS Code, 3-D Printing / Modeling, Zapier. Beehiiv, Squarespace, Apollo, Google Cloud",
+                      style: TextStyle(
+                        color: AppColors.white,
+                        fontSize: 14,
+                        fontWeight: FontWeight.w300,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(vertical: 20),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    const Text(
+                      "Media",
+                      style: TextStyle(
+                        color: AppColors.gold,
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    const SizedBox(height: 5),
+                    InkWell(
+                      onTap: () => _launchURL(
+                          'https://pace.shidler.hawaii.edu/faces-of-pace/austin-yoshino/'),
+                      child: const Text(
+                        '- Faces of PACE',
+                        style: TextStyle(
+                          decoration: TextDecoration.underline,
+                          decorationColor: AppColors.white,
+                          color: AppColors.white,
+                          fontSize: 14,
+                          fontWeight: FontWeight.w300,
+                        ),
+                      ),
+                    ),
+                    const SizedBox(height: 5),
+                    InkWell(
+                      onTap: () => _launchURL(
+                          'https://www.bluestartups.com/blog/cohort-13-founder-austin-yoshino-featured-in-inno-under-25/'),
+                      child: const Text(
+                        '- Innovators Under 25',
+                        style: TextStyle(
+                          decoration: TextDecoration.underline,
+                          decorationColor: AppColors.white,
+                          color: AppColors.white,
+                          fontSize: 14,
+                          fontWeight: FontWeight.w300,
+                        ),
+                      ),
+                    ),
+                    const SizedBox(height: 5),
+                    InkWell(
+                      onTap: () => _launchURL(
+                          'https://www.manoanow.org/kaleo/features/40-000-total-awarded-to-three-uh-student-startups/article_4049cff4-6277-11ea-869f-ff0ceb47af40.html'),
+                      child: const Text(
+                        '- \$40,000 total awarded to three UH student startups',
+                        style: TextStyle(
+                          decoration: TextDecoration.underline,
+                          decorationColor: AppColors.white,
+                          color: AppColors.white,
+                          fontSize: 14,
+                          fontWeight: FontWeight.w300,
+                        ),
+                      ),
+                    ),
+                    const SizedBox(height: 5),
+                    InkWell(
+                      onTap: () =>
+                          _launchURL('https://www.hawaiibusiness.com/gsea-19/'),
+                      child: const Text(
+                        '- Student Entrepreneurs Honored for Actual Businesses, Not Just Ideas',
+                        style: TextStyle(
+                          decoration: TextDecoration.underline,
+                          decorationColor: AppColors.white,
+                          color: AppColors.white,
+                          fontSize: 14,
+                          fontWeight: FontWeight.w300,
+                        ),
+                      ),
+                    ),
+                    const SizedBox(height: 5),
+                    InkWell(
+                      onTap: () =>
+                          _launchURL('https://www.eng.hawaii.edu/yoshino-eo/'),
+                      child: const Text(
+                        '- UH student wins fifth-annual Global Student Entrepreneur Awards statewide qualifier',
+                        style: TextStyle(
+                          decoration: TextDecoration.underline,
+                          decorationColor: AppColors.white,
+                          color: AppColors.white,
+                          fontSize: 14,
+                          fontWeight: FontWeight.w300,
+                        ),
+                      ),
+                    ),
+                    const SizedBox(height: 5),
+                    InkWell(
+                      onTap: () => _launchURL(
+                          'https://www.linkedin.com/feed/update/urn:li:activity:7096891531101433856?updateEntityUrn=urn:li:fs_feedUpdate:(V2,urn:li:activity:7096891531101433856)'),
+                      child: const Text(
+                        '- Austin Yoshino Building Social, AI x Social, Social Presence on the Blockchain',
+                        style: TextStyle(
+                          decoration: TextDecoration.underline,
+                          decorationColor: AppColors.white,
+                          color: AppColors.white,
+                          fontSize: 14,
+                          fontWeight: FontWeight.w300,
+                        ),
+                      ),
+                    ),
+                    const SizedBox(height: 5),
+                    InkWell(
+                      onTap: () => _launchURL(
+                          'https://www.manoanow.org/kaleo/features/an-innovative-invention/article_0d7d5af4-50d1-11e9-a6f3-43078fa71fd1.html'),
+                      child: const Text(
+                        '- An innovative invention, Austin Yoshino’s customizable gait trainer',
+                        style: TextStyle(
+                          decoration: TextDecoration.underline,
+                          decorationColor: AppColors.white,
+                          color: AppColors.white,
+                          fontSize: 14,
+                          fontWeight: FontWeight.w300,
+                        ),
+                      ),
+                    ),
+                    const SizedBox(height: 5),
+                    InkWell(
+                      onTap: () => _launchURL(
+                          'https://www.hawaii.edu/news/2018/12/05/2018-breakthrough-innovation-challenge/'),
+                      child: const Text(
+                        '- Customizable walking device wins innovation challenge',
+                        style: TextStyle(
+                          decoration: TextDecoration.underline,
+                          decorationColor: AppColors.white,
+                          color: AppColors.white,
+                          fontSize: 14,
+                          fontWeight: FontWeight.w300,
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              const SizedBox(height: 40),
+              const Text(
+                "www.austinyoshino.com",
+                style: TextStyle(
+                  color: AppColors.white,
+                  fontSize: 12,
+                  fontWeight: FontWeight.w100,
+                ),
+              ),
+              const SizedBox(height: 10),
             ],
           ),
         ),
@@ -640,8 +847,4 @@ class _LandingScreenState extends State<LandingScreen> {
     );
   }
 }
-
-//SECTIONS: SKILLS PERSONAL | CASE STUDIES | MEDIA
-//ADD RESUME TO LINKS
-
-//ADD DESIGN + PRODUCT + RESUME ASE STUDIES PORTFOLIO COULD CALL IT "SHOWROOMS"
+//ADD DESIGN + PRODUCT + RESUME + STUDIES PORTFOLIO COULD CALL IT "SHOWROOMS"
