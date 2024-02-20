@@ -1,13 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:picklerick/colors.dart';
+import 'package:portfolio/colors.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:firebase_analytics/firebase_analytics.dart';
 
 class LandingScreen extends StatefulWidget {
-  const LandingScreen({super.key, required this.analytics});
-
-  final FirebaseAnalytics analytics;
+  const LandingScreen({super.key});
 
   @override
   State<LandingScreen> createState() => _LandingScreenState();
@@ -91,10 +88,11 @@ class _LandingScreenState extends State<LandingScreen> {
                     ),
                     const SizedBox(height: 5),
                     const Text(
-                      "- Exited social x ai start up with 56% 28-day retention, 40/60% organic growth, and 99%+ crash-free rates",
+                      "- Exited social x ai start up with 56% 28-day retention, 40/60% organic growth, & 99%+ crash-free rates",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
+                        fontWeight: FontWeight.w300,
                       ),
                     ),
                     const SizedBox(height: 5),
@@ -103,6 +101,7 @@ class _LandingScreenState extends State<LandingScreen> {
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
+                        fontWeight: FontWeight.w300,
                       ),
                     ),
                     const SizedBox(height: 5),
@@ -111,6 +110,7 @@ class _LandingScreenState extends State<LandingScreen> {
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
+                        fontWeight: FontWeight.w300,
                       ),
                     ),
                     const SizedBox(height: 5),
@@ -119,6 +119,7 @@ class _LandingScreenState extends State<LandingScreen> {
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
+                        fontWeight: FontWeight.w300,
                       ),
                     ),
                     const SizedBox(height: 10),
@@ -136,6 +137,7 @@ class _LandingScreenState extends State<LandingScreen> {
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
+                        fontWeight: FontWeight.w300,
                       ),
                     ),
                     InkWell(
@@ -145,9 +147,10 @@ class _LandingScreenState extends State<LandingScreen> {
                         '- Github',
                         style: TextStyle(
                           decoration: TextDecoration.underline,
-                          decorationColor: AppColors.white, // Underline color
+                          decorationColor: AppColors.white,
                           color: AppColors.white,
                           fontSize: 14,
+                          fontWeight: FontWeight.w300,
                         ),
                       ),
                     ),
@@ -161,6 +164,7 @@ class _LandingScreenState extends State<LandingScreen> {
                           decorationColor: AppColors.white, // Underline color
                           color: AppColors.white,
                           fontSize: 14,
+                          fontWeight: FontWeight.w300,
                         ),
                       ),
                     ),
@@ -174,6 +178,7 @@ class _LandingScreenState extends State<LandingScreen> {
                           decorationColor: AppColors.white, // Underline color
                           color: AppColors.white,
                           fontSize: 14,
+                          fontWeight: FontWeight.w300,
                         ),
                       ),
                     ),
@@ -186,6 +191,7 @@ class _LandingScreenState extends State<LandingScreen> {
                           decorationColor: AppColors.white, // Underline color
                           color: AppColors.white,
                           fontSize: 14,
+                          fontWeight: FontWeight.w300,
                         ),
                       ),
                     ),
@@ -207,7 +213,7 @@ class _LandingScreenState extends State<LandingScreen> {
                     ),
                     SizedBox(height: 10),
                     Text(
-                      "Cofounder of Joyn (exited): social messaging platform designed to enrich 1:1 interactions and connections",
+                      "Cofounder of Joyn (exited): social messaging platform designed to enrich 1:1 interactions & connections",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
@@ -216,10 +222,11 @@ class _LandingScreenState extends State<LandingScreen> {
                     ),
                     SizedBox(height: 5),
                     Text(
-                      "- Launched full product available on iOS, Android, Mac, and Windows",
+                      "- Launched full product available on iOS, Android, Mac, & Windows",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
+                        fontWeight: FontWeight.w300,
                       ),
                     ),
                     SizedBox(height: 5),
@@ -228,19 +235,21 @@ class _LandingScreenState extends State<LandingScreen> {
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
+                        fontWeight: FontWeight.w300,
                       ),
                     ),
                     SizedBox(height: 5),
                     Text(
-                      "- 56% 28-day retention, 40/60% monthly growth, and 99%+ crash-free rates",
+                      "- 56% 28-day retention, 40/60% monthly growth, & 99%+ crash-free rates",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
+                        fontWeight: FontWeight.w300,
                       ),
                     ),
                     SizedBox(height: 10),
                     Text(
-                      "Cofounder of Phenom: marketplace that connected professional athletes and kids for coaching lessons",
+                      "Cofounder of Phenom: marketplace that connected professional athletes & kids for coaching lessons",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
@@ -253,14 +262,16 @@ class _LandingScreenState extends State<LandingScreen> {
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
+                        fontWeight: FontWeight.w300,
                       ),
                     ),
                     SizedBox(height: 5),
                     Text(
-                      "- Worked with sports agency in LA and MLB all-star athlete",
+                      "- Worked with sports agency in LA & MLB all-star athlete",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
+                        fontWeight: FontWeight.w300,
                       ),
                     ),
                     SizedBox(height: 5),
@@ -269,6 +280,7 @@ class _LandingScreenState extends State<LandingScreen> {
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
+                        fontWeight: FontWeight.w300,
                       ),
                     ),
                     SizedBox(height: 10),
@@ -286,6 +298,7 @@ class _LandingScreenState extends State<LandingScreen> {
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
+                        fontWeight: FontWeight.w300,
                       ),
                     ),
                     SizedBox(height: 5),
@@ -294,14 +307,16 @@ class _LandingScreenState extends State<LandingScreen> {
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
+                        fontWeight: FontWeight.w300,
                       ),
                     ),
                     SizedBox(height: 5),
                     Text(
-                      "- Broke monthly and daily sales records for 4/20 event",
+                      "- Broke monthly & daily sales records for 4/20 event",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
+                        fontWeight: FontWeight.w300,
                       ),
                     ),
                     SizedBox(height: 10),
@@ -315,18 +330,20 @@ class _LandingScreenState extends State<LandingScreen> {
                     ),
                     SizedBox(height: 5),
                     Text(
-                      "- Technical Product for Coincerge: venture studio building a crypto-native PoS, wallet, and currency",
+                      "- Technical Product for Coincerge: venture studio building a crypto-native PoS, wallet, & currency",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
+                        fontWeight: FontWeight.w300,
                       ),
                     ),
                     SizedBox(height: 5),
                     Text(
-                      "- Strategy and Growth for aVenture: research platform for VC's",
+                      "- Strategy / Growth for aVenture: research platform for VC's",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
+                        fontWeight: FontWeight.w300,
                       ),
                     ),
                     SizedBox(height: 10),
@@ -344,6 +361,7 @@ class _LandingScreenState extends State<LandingScreen> {
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
+                        fontWeight: FontWeight.w300,
                       ),
                     ),
                     SizedBox(height: 5),
@@ -352,6 +370,7 @@ class _LandingScreenState extends State<LandingScreen> {
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
+                        fontWeight: FontWeight.w300,
                       ),
                     ),
                     SizedBox(height: 5),
@@ -360,6 +379,7 @@ class _LandingScreenState extends State<LandingScreen> {
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
+                        fontWeight: FontWeight.w300,
                       ),
                     ),
                   ],
@@ -389,10 +409,11 @@ class _LandingScreenState extends State<LandingScreen> {
                     ),
                     SizedBox(height: 5),
                     Text(
-                      "- Built autonomous aerial and ground drone (senior project)",
+                      "- Built autonomous aerial & ground drone (senior project)",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
+                        fontWeight: FontWeight.w300,
                       ),
                     ),
                     SizedBox(height: 5),
@@ -401,6 +422,7 @@ class _LandingScreenState extends State<LandingScreen> {
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
+                        fontWeight: FontWeight.w300,
                       ),
                     ),
                     SizedBox(height: 5),
@@ -409,6 +431,7 @@ class _LandingScreenState extends State<LandingScreen> {
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
+                        fontWeight: FontWeight.w300,
                       ),
                     ),
                     SizedBox(height: 10),
@@ -422,10 +445,11 @@ class _LandingScreenState extends State<LandingScreen> {
                     ),
                     SizedBox(height: 5),
                     Text(
-                      "Online copywriting course covering cold emails, social media, pitching, headlines, landing pages, and company updates.\"Some write to express, some write to impress, power-writing gets results\"",
+                      "Online copywriting course covering cold emails, social media, pitching, headlines, landing pages, & company updates.\"Some write to express, some write to impress, power-writing gets results\"",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
+                        fontWeight: FontWeight.w300,
                       ),
                     ),
                     SizedBox(height: 10),
@@ -439,21 +463,22 @@ class _LandingScreenState extends State<LandingScreen> {
                     ),
                     SizedBox(height: 5),
                     Text(
-                      "Online UX course covering design essentials, user research, user personas, developing a UX concept, prototyping, UX feedback and evaluating usability",
+                      "Online UX course covering design essentials, user research, user personas, developing a UX concept, prototyping, UX feedback & evaluating usability",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
+                        fontWeight: FontWeight.w300,
                       ),
                     ),
                   ],
                 ),
               ),
-              const Padding(
-                padding: EdgeInsets.symmetric(vertical: 20),
+              Padding(
+                padding: const EdgeInsets.symmetric(vertical: 20),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(
+                    const Text(
                       "Extras",
                       style: TextStyle(
                         color: AppColors.gold,
@@ -461,25 +486,44 @@ class _LandingScreenState extends State<LandingScreen> {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    SizedBox(height: 10),
-                    Text(
-                      "Caregiver to little brother with cerebral palsy",
+                    const SizedBox(height: 10),
+                    const Text(
+                      "Caregiver to little brother diagnosed with cerebral palsy",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    SizedBox(height: 5),
-                    Text(
-                      "ABC",
+                    const SizedBox(height: 5),
+                    const Text(
+                      "My brother embodies world-class reselience & relentless optimism, 2 superpowers I inherited from him",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
+                        fontWeight: FontWeight.w300,
                       ),
                     ),
-                    SizedBox(height: 10),
-                    Text(
+                    const SizedBox(height: 10),
+                    const Text(
+                      "Ran marathon (5:36) in Dec 2023",
+                      style: TextStyle(
+                        color: AppColors.white,
+                        fontSize: 14,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    const SizedBox(height: 5),
+                    const Text(
+                      "When I committed running 26.2 miles sounded crazy, it was the ultimate test of mental fortitude, discipline, & consistency",
+                      style: TextStyle(
+                        color: AppColors.white,
+                        fontSize: 14,
+                        fontWeight: FontWeight.w300,
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                    const Text(
                       "Started non-profit helping individuals with special needs express their unique life prespectives through art",
                       style: TextStyle(
                         color: AppColors.white,
@@ -487,16 +531,17 @@ class _LandingScreenState extends State<LandingScreen> {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    SizedBox(height: 5),
-                    Text(
-                      "ABC",
+                    const SizedBox(height: 5),
+                    const Text(
+                      "Conducted pilot in summer 2023 with outstanding PMF heuristics",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
+                        fontWeight: FontWeight.w300,
                       ),
                     ),
-                    SizedBox(height: 10),
-                    Text(
+                    const SizedBox(height: 10),
+                    const Text(
                       "Learned how to code using chatGPT",
                       style: TextStyle(
                         color: AppColors.white,
@@ -504,50 +549,59 @@ class _LandingScreenState extends State<LandingScreen> {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    SizedBox(height: 5),
-                    Text(
+                    const SizedBox(height: 5),
+                    const Text(
                       "ABC",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
+                        fontWeight: FontWeight.w300,
                       ),
                     ),
-                    SizedBox(height: 10),
-                    Text(
-                      "Went viral on Twitter (294k impressions)",
+                    const SizedBox(height: 10),
+                    const Text(
+                      "Went viral on Twitter (294k impressions, 30k engagements)",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    SizedBox(height: 5),
-                    Text(
-                      "ABC",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
+                    const SizedBox(height: 5),
+                    InkWell(
+                      onTap: () => _launchURL(
+                          'https://x.com/geinyuhs/status/1447029262154825736?s=20'),
+                      child: const Text(
+                        'See Tweet',
+                        style: TextStyle(
+                          decoration: TextDecoration.underline,
+                          decorationColor: AppColors.white,
+                          color: AppColors.white,
+                          fontSize: 14,
+                          fontWeight: FontWeight.w300,
+                        ),
                       ),
                     ),
-                    SizedBox(height: 10),
-                    Text(
-                      "Lived nomadically between 2021 -> 2023",
+                    const SizedBox(height: 10),
+                    const Text(
+                      "Lived nomadically between 2021 -> 2023 (mostly NYC & LA)",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    SizedBox(height: 5),
-                    Text(
-                      "ABC",
+                    const SizedBox(height: 5),
+                    const Text(
+                      "For awhile, home was an airplane seat",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
+                        fontWeight: FontWeight.w300,
                       ),
                     ),
-                    SizedBox(height: 10),
-                    Text(
+                    const SizedBox(height: 10),
+                    const Text(
                       "Corresponded with Mark Cuban via cold email",
                       style: TextStyle(
                         color: AppColors.white,
@@ -555,12 +609,13 @@ class _LandingScreenState extends State<LandingScreen> {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    SizedBox(height: 5),
-                    Text(
-                      "ABC",
+                    const SizedBox(height: 5),
+                    const Text(
+                      "Researched that he often responds to customer complaints so I posed as an angry customer to get his attention",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
+                        fontWeight: FontWeight.w300,
                       ),
                     ),
                   ],
