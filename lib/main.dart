@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:portfolio/colors.dart';
+import 'package:portfolio/joyn.dart';
 import 'package:portfolio/landing_screen.dart';
 import 'package:flutter_web_plugins/url_strategy.dart';
+import 'package:portfolio/noa.dart';
+import 'package:portfolio/phenom.dart';
 
 void main() async {
   usePathUrlStrategy();
@@ -44,6 +47,27 @@ class MyApp extends StatelessWidget {
                     context: context,
                     state: state,
                     child: const LandingScreen(),
+                  )),
+          GoRoute(
+              path: '/joyn',
+              pageBuilder: (context, state) => buildPageWithDefaultTransition(
+                    context: context,
+                    state: state,
+                    child: const JoynScreen(),
+                  )),
+          GoRoute(
+              path: '/phenom',
+              pageBuilder: (context, state) => buildPageWithDefaultTransition(
+                    context: context,
+                    state: state,
+                    child: const PhenomScreen(),
+                  )),
+          GoRoute(
+              path: '/noa',
+              pageBuilder: (context, state) => buildPageWithDefaultTransition(
+                    context: context,
+                    state: state,
+                    child: const NoaScreen(),
                   )),
         ],
         errorBuilder: (context, state) => const LandingScreen(),

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
 import 'package:portfolio/colors.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -259,6 +258,20 @@ class _LandingScreenState extends State<LandingScreen> {
                         fontWeight: FontWeight.w300,
                       ),
                     ),
+                    // const SizedBox(height: 5),
+                    // InkWell(
+                    //   onTap: () => _launchURL('https://austinyoshino.com/joyn'),
+                    //   child: const Text(
+                    //     '- Learn more',
+                    //     style: TextStyle(
+                    //       decoration: TextDecoration.underline,
+                    //       decorationColor: AppColors.white,
+                    //       color: AppColors.white,
+                    //       fontSize: 14,
+                    //       fontWeight: FontWeight.w300,
+                    //     ),
+                    //   ),
+                    // ),
                     SizedBox(height: 10),
                     Text(
                       "Cofounder of Phenom: marketplace that connected professional athletes & kids for coaching lessons",
@@ -295,6 +308,21 @@ class _LandingScreenState extends State<LandingScreen> {
                         fontWeight: FontWeight.w300,
                       ),
                     ),
+                    // const SizedBox(height: 5),
+                    // InkWell(
+                    //   onTap: () =>
+                    //       _launchURL('https://austinyoshino.com/phenom'),
+                    //   child: const Text(
+                    //     '- Learn more',
+                    //     style: TextStyle(
+                    //       decoration: TextDecoration.underline,
+                    //       decorationColor: AppColors.white,
+                    //       color: AppColors.white,
+                    //       fontSize: 14,
+                    //       fontWeight: FontWeight.w300,
+                    //     ),
+                    //   ),
+                    // ),
                     SizedBox(height: 10),
                     Text(
                       "Special Projects at Noa Botanicals: seed to sale cannabis operation",
@@ -331,6 +359,20 @@ class _LandingScreenState extends State<LandingScreen> {
                         fontWeight: FontWeight.w300,
                       ),
                     ),
+                    // const SizedBox(height: 5),
+                    // InkWell(
+                    //   onTap: () => _launchURL('https://austinyoshino.com/noa'),
+                    //   child: const Text(
+                    //     '- Learn more',
+                    //     style: TextStyle(
+                    //       decoration: TextDecoration.underline,
+                    //       decorationColor: AppColors.white,
+                    //       color: AppColors.white,
+                    //       fontSize: 14,
+                    //       fontWeight: FontWeight.w300,
+                    //     ),
+                    //   ),
+                    // ),
                     SizedBox(height: 10),
                     Text(
                       "Advisor",
