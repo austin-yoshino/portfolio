@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
-      title: 'Boogy',
+      title: 'Portfolio',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         fontFamily: 'Source Code Pro',
