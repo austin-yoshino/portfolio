@@ -99,34 +99,7 @@ class _LandingScreenState extends State<LandingScreen> {
                     ),
                     const SizedBox(height: 5),
                     const Text(
-                      "- Exited social x ai start up with 56% 28-day retention, 40/60% organic growth, & 99%+ crash-free rates",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
-                    const SizedBox(height: 5),
-                    const Text(
-                      "- Accepted into accelerator backed by Tetris for sports-tech start up",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
-                    const SizedBox(height: 5),
-                    const Text(
-                      "- Helped launch 12 new products at seed to sale cannabis operation",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
-                    const SizedBox(height: 5),
-                    const Text(
-                      "- 10x'd fundraising for college fraternity",
+                      "- Exited social x ai start up with 56% 28-day retention, 40/60% organic growth, & 99%+ crash-free rates\n- Accepted into accelerator backed by Tetris for sports-tech start up\n- Helped launch 12 new products at seed to sale cannabis operation\n- 10x'd fundraising for college fraternity",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
@@ -233,25 +206,7 @@ class _LandingScreenState extends State<LandingScreen> {
                     ),
                     SizedBox(height: 5),
                     Text(
-                      "- Launched full product available on iOS, Android, Mac, & Windows",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
-                    SizedBox(height: 5),
-                    Text(
-                      "- Raised preseed round in Q1 2023",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
-                    SizedBox(height: 5),
-                    Text(
-                      "- 56% 28-day retention, 40/60% monthly growth, & 99%+ crash-free rates",
+                      "- Launched full product available on iOS, Android, Mac, & Windows\n- Raised preseed round in Q1 2023\n- 56% 28-day retention, 40/60% monthly growth, & 99%+ crash-free rates",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
@@ -283,25 +238,7 @@ class _LandingScreenState extends State<LandingScreen> {
                     ),
                     SizedBox(height: 5),
                     Text(
-                      "- Accepted into Blue Startups accelerator (backed by Tetris)",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
-                    SizedBox(height: 5),
-                    Text(
-                      "- Worked with sports agency in LA & MLB all-star athlete",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
-                    SizedBox(height: 5),
-                    Text(
-                      "- Conducted pilot validating \$250/hour price point for lessons",
+                      "- Accepted into Blue Startups accelerator (backed by Tetris)\n- Worked with sports agency in LA & MLB all-star athlete\n- Conducted pilot validating \$250/hour price point for lessons",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
@@ -334,25 +271,7 @@ class _LandingScreenState extends State<LandingScreen> {
                     ),
                     SizedBox(height: 5),
                     Text(
-                      "- Implemented new tech stack",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
-                    SizedBox(height: 5),
-                    Text(
-                      "- Helped launch 12 new products",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
-                    SizedBox(height: 5),
-                    Text(
-                      "- Broke monthly & daily sales records for 4/20 event",
+                      "- Implemented new tech stack\n- Helped launch 12 new products\n- Broke monthly & daily sales records for 4/20 event",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
@@ -384,22 +303,14 @@ class _LandingScreenState extends State<LandingScreen> {
                     ),
                     SizedBox(height: 5),
                     Text(
-                      "- Technical Product for Coincerge: venture studio building a crypto-native PoS, wallet, & currency",
+                      "- Technical Product for Coincerge: venture studio building a crypto-native PoS, wallet, & currency\n- Strategy / Growth for aVenture (Techstars '23): research platform for VC's",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
                         fontWeight: FontWeight.w300,
                       ),
                     ),
-                    SizedBox(height: 5),
-                    Text(
-                      "- Strategy / Growth for aVenture (Techstars '23): research platform for VC's",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
+
                     SizedBox(height: 10),
                     Text(
                       "Freelance",
@@ -411,25 +322,7 @@ class _LandingScreenState extends State<LandingScreen> {
                     ),
                     SizedBox(height: 5),
                     Text(
-                      "- Dilligence for Pono Capital (SPAC) = deal announced in Aug 2023",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
-                    SizedBox(height: 5),
-                    Text(
-                      "- Marketing campaigns for aVenture Investment Funds = 7-figures in waitlist commitments",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
-                    SizedBox(height: 5),
-                    Text(
-                      "- Engineering for SeeRescue Corporation = 3-D printed prototype of patented device",
+                      "- Dilligence for Pono Capital (SPAC) = deal announced in Aug 2023\n- Marketing campaigns for aVenture Investment Funds = 7-figures in waitlist commitments\n- Engineering for SeeRescue Corporation = 3-D printed prototype of patented device",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
@@ -463,25 +356,7 @@ class _LandingScreenState extends State<LandingScreen> {
                     ),
                     SizedBox(height: 5),
                     Text(
-                      "- Built autonomous aerial & ground drone (senior project)",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
-                    SizedBox(height: 5),
-                    Text(
-                      "- Won \$50k in grant funding for medical device start up = 3-D printed prototype of gyroscopically stabalized walking assistive device",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
-                    SizedBox(height: 5),
-                    Text(
-                      "- Grand Treasurer / Social Chair for Kappa Sigma Fraternity = 10x'd fundraising",
+                      "- Built autonomous aerial & ground drone (senior project)\n- Won \$50k in grant funding for medical device start up = 3-D printed prototype of gyroscopically stabalized gait trainer\n- Grand Treasurer / Social Chair for Kappa Sigma Fraternity = 10x'd fundraising",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
