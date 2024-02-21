@@ -145,7 +145,7 @@ class _LandingScreenState extends State<LandingScreen> {
                         '- LinkedIn',
                         style: TextStyle(
                           decoration: TextDecoration.underline,
-                          decorationColor: AppColors.white, // Underline color
+                          decorationColor: AppColors.white,
                           color: AppColors.white,
                           fontSize: 14,
                           fontWeight: FontWeight.w300,
@@ -159,7 +159,7 @@ class _LandingScreenState extends State<LandingScreen> {
                         '- Instagram',
                         style: TextStyle(
                           decoration: TextDecoration.underline,
-                          decorationColor: AppColors.white, // Underline color
+                          decorationColor: AppColors.white,
                           color: AppColors.white,
                           fontSize: 14,
                           fontWeight: FontWeight.w300,
@@ -172,13 +172,78 @@ class _LandingScreenState extends State<LandingScreen> {
                         '- Twitter / X',
                         style: TextStyle(
                           decoration: TextDecoration.underline,
-                          decorationColor: AppColors.white, // Underline color
+                          decorationColor: AppColors.white,
                           color: AppColors.white,
                           fontSize: 14,
                           fontWeight: FontWeight.w300,
                         ),
                       ),
                     ),
+                    // const SizedBox(height: 10),
+                    // const Text(
+                    //   "Showcase:",
+                    //   style: TextStyle(
+                    //     color: AppColors.white,
+                    //     fontWeight: FontWeight.bold,
+                    //     fontSize: 14,
+                    //   ),
+                    // ),
+                    // InkWell(
+                    //   onTap: () =>
+                    //       _launchURL('https://austinyoshino.com/pitch-decks'),
+                    //   child: const Text(
+                    //     '- Pitch Decks',
+                    //     style: TextStyle(
+                    //       decoration: TextDecoration.underline,
+                    //       decorationColor: AppColors.white,
+                    //       color: AppColors.white,
+                    //       fontSize: 14,
+                    //       fontWeight: FontWeight.w300,
+                    //     ),
+                    //   ),
+                    // ),
+                    // InkWell(
+                    //   onTap: () => _launchURL(
+                    //       'https://austinyoshino.com/product-designs'),
+                    //   child: const Text(
+                    //     '- Product Designs',
+                    //     style: TextStyle(
+                    //       decoration: TextDecoration.underline,
+                    //       decorationColor: AppColors.white,
+                    //       color: AppColors.white,
+                    //       fontSize: 14,
+                    //       fontWeight: FontWeight.w300,
+                    //     ),
+                    //   ),
+                    // ),
+                    // InkWell(
+                    //   onTap: () =>
+                    //       _launchURL('https://austinyoshino.com/photographs'),
+                    //   child: const Text(
+                    //     '- Photographs',
+                    //     style: TextStyle(
+                    //       decoration: TextDecoration.underline,
+                    //       decorationColor: AppColors.white,
+                    //       color: AppColors.white,
+                    //       fontSize: 14,
+                    //       fontWeight: FontWeight.w300,
+                    //     ),
+                    //   ),
+                    // ),
+                    // InkWell(
+                    //   onTap: () =>
+                    //       _launchURL('https://austinyoshino.com/resume'),
+                    //   child: const Text(
+                    //     '- Resume',
+                    //     style: TextStyle(
+                    //       decoration: TextDecoration.underline,
+                    //       decorationColor: AppColors.white,
+                    //       color: AppColors.white,
+                    //       fontSize: 14,
+                    //       fontWeight: FontWeight.w300,
+                    //     ),
+                    //   ),
+                    // ),
                   ],
                 ),
               ),
@@ -764,4 +829,6 @@ class _LandingScreenState extends State<LandingScreen> {
     );
   }
 }
-//ADD DESIGN + PRODUCT + RESUME + STUDIES PORTFOLIO COULD CALL IT "SHOWROOMS" + PITCH DECKS + APP DESIGNS + PHOTOGRAPHS + WRITINGS
+
+//Writings should be a separate page
+//Case studies should also be a separate page

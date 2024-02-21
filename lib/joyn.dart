@@ -851,6 +851,7 @@ class _JoynScreenState extends State<JoynScreen> {
   }
 }
 
+//Add the little details to product: haptic feedback for AI generated things, onboarding, education, 
 
                                 // Padding(
                                 //   padding: EdgeInsets.symmetric(vertical: 20),

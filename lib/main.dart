@@ -6,6 +6,7 @@ import 'package:portfolio/landing_screen.dart';
 import 'package:flutter_web_plugins/url_strategy.dart';
 import 'package:portfolio/noa.dart';
 import 'package:portfolio/phenom.dart';
+import 'package:portfolio/resume.dart';
 
 void main() async {
   usePathUrlStrategy();
@@ -68,6 +69,13 @@ class MyApp extends StatelessWidget {
                     context: context,
                     state: state,
                     child: const NoaScreen(),
+                  )),
+          GoRoute(
+              path: '/resume',
+              pageBuilder: (context, state) => buildPageWithDefaultTransition(
+                    context: context,
+                    state: state,
+                    child: const ResumeScreen(),
                   )),
         ],
         errorBuilder: (context, state) => const LandingScreen(),

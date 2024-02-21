@@ -32,10 +32,34 @@
       "languageVersion": "2.18"
     },
     {
+      "name": "convert",
+      "rootUri": "file:///Users/austinyoshino/.pub-cache/hosted/pub.dev/convert-3.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "crypto",
+      "rootUri": "file:///Users/austinyoshino/.pub-cache/hosted/pub.dev/crypto-3.0.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
       "name": "cupertino_icons",
       "rootUri": "file:///Users/austinyoshino/.pub-cache/hosted/pub.dev/cupertino_icons-1.0.6",
       "packageUri": "lib/",
       "languageVersion": "2.19"
+    },
+    {
+      "name": "device_info_plus",
+      "rootUri": "file:///Users/austinyoshino/.pub-cache/hosted/pub.dev/device_info_plus-9.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "device_info_plus_platform_interface",
+      "rootUri": "file:///Users/austinyoshino/.pub-cache/hosted/pub.dev/device_info_plus_platform_interface-7.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "fake_async",
@@ -44,10 +68,34 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "ffi",
+      "rootUri": "file:///Users/austinyoshino/.pub-cache/hosted/pub.dev/ffi-2.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "file",
+      "rootUri": "file:///Users/austinyoshino/.pub-cache/hosted/pub.dev/file-7.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "fixnum",
+      "rootUri": "file:///Users/austinyoshino/.pub-cache/hosted/pub.dev/fixnum-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
       "name": "flutter",
       "rootUri": "file:///Users/austinyoshino/Documents/flutter/packages/flutter",
       "packageUri": "lib/",
       "languageVersion": "3.2"
+    },
+    {
+      "name": "flutter_full_pdf_viewer_null_safe",
+      "rootUri": "file:///Users/austinyoshino/.pub-cache/hosted/pub.dev/flutter_full_pdf_viewer_null_safe-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.15"
     },
     {
       "name": "flutter_lints",
@@ -72,6 +120,30 @@
       "rootUri": "file:///Users/austinyoshino/.pub-cache/hosted/pub.dev/go_router-13.2.0",
       "packageUri": "lib/",
       "languageVersion": "3.1"
+    },
+    {
+      "name": "http",
+      "rootUri": "file:///Users/austinyoshino/.pub-cache/hosted/pub.dev/http-1.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "http_parser",
+      "rootUri": "file:///Users/austinyoshino/.pub-cache/hosted/pub.dev/http_parser-4.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "intl",
+      "rootUri": "file:///Users/austinyoshino/.pub-cache/hosted/pub.dev/intl-0.19.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "js",
+      "rootUri": "file:///Users/austinyoshino/.pub-cache/hosted/pub.dev/js-0.6.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
     },
     {
       "name": "leak_tracker",
@@ -128,6 +200,12 @@
       "languageVersion": "3.0"
     },
     {
+      "name": "petitparser",
+      "rootUri": "file:///Users/austinyoshino/.pub-cache/hosted/pub.dev/petitparser-6.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
       "name": "plugin_platform_interface",
       "rootUri": "file:///Users/austinyoshino/.pub-cache/hosted/pub.dev/plugin_platform_interface-2.1.8",
       "packageUri": "lib/",
@@ -144,6 +222,12 @@
       "rootUri": "file:///Users/austinyoshino/.pub-cache/hosted/pub.dev/source_span-1.10.0",
       "packageUri": "lib/",
       "languageVersion": "2.18"
+    },
+    {
+      "name": "sprintf",
+      "rootUri": "file:///Users/austinyoshino/.pub-cache/hosted/pub.dev/sprintf-7.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "stack_trace",
@@ -164,6 +248,54 @@
       "languageVersion": "2.18"
     },
     {
+      "name": "syncfusion_flutter_core",
+      "rootUri": "file:///Users/austinyoshino/.pub-cache/hosted/pub.dev/syncfusion_flutter_core-24.2.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "syncfusion_flutter_pdf",
+      "rootUri": "file:///Users/austinyoshino/.pub-cache/hosted/pub.dev/syncfusion_flutter_pdf-24.2.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "syncfusion_flutter_pdfviewer",
+      "rootUri": "file:///Users/austinyoshino/.pub-cache/hosted/pub.dev/syncfusion_flutter_pdfviewer-24.2.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "syncfusion_flutter_signaturepad",
+      "rootUri": "file:///Users/austinyoshino/.pub-cache/hosted/pub.dev/syncfusion_flutter_signaturepad-24.2.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "syncfusion_pdfviewer_macos",
+      "rootUri": "file:///Users/austinyoshino/.pub-cache/hosted/pub.dev/syncfusion_pdfviewer_macos-24.2.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "syncfusion_pdfviewer_platform_interface",
+      "rootUri": "file:///Users/austinyoshino/.pub-cache/hosted/pub.dev/syncfusion_pdfviewer_platform_interface-24.2.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "syncfusion_pdfviewer_web",
+      "rootUri": "file:///Users/austinyoshino/.pub-cache/hosted/pub.dev/syncfusion_pdfviewer_web-24.2.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "syncfusion_pdfviewer_windows",
+      "rootUri": "file:///Users/austinyoshino/.pub-cache/hosted/pub.dev/syncfusion_pdfviewer_windows-24.2.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
       "name": "term_glyph",
       "rootUri": "file:///Users/austinyoshino/.pub-cache/hosted/pub.dev/term_glyph-1.2.1",
       "packageUri": "lib/",
@@ -174,6 +306,12 @@
       "rootUri": "file:///Users/austinyoshino/.pub-cache/hosted/pub.dev/test_api-0.6.1",
       "packageUri": "lib/",
       "languageVersion": "3.0"
+    },
+    {
+      "name": "typed_data",
+      "rootUri": "file:///Users/austinyoshino/.pub-cache/hosted/pub.dev/typed_data-1.3.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
     },
     {
       "name": "url_launcher",
@@ -224,6 +362,12 @@
       "languageVersion": "3.0"
     },
     {
+      "name": "uuid",
+      "rootUri": "file:///Users/austinyoshino/.pub-cache/hosted/pub.dev/uuid-4.3.3",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "vector_math",
       "rootUri": "file:///Users/austinyoshino/.pub-cache/hosted/pub.dev/vector_math-2.1.4",
       "packageUri": "lib/",
@@ -242,13 +386,31 @@
       "languageVersion": "3.2"
     },
     {
+      "name": "win32",
+      "rootUri": "file:///Users/austinyoshino/.pub-cache/hosted/pub.dev/win32-5.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "win32_registry",
+      "rootUri": "file:///Users/austinyoshino/.pub-cache/hosted/pub.dev/win32_registry-1.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
+    },
+    {
+      "name": "xml",
+      "rootUri": "file:///Users/austinyoshino/.pub-cache/hosted/pub.dev/xml-6.5.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
       "name": "portfolio",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     }
   ],
-  "generated": "2024-02-20T20:30:13.818546Z",
+  "generated": "2024-02-21T17:25:45.885528Z",
   "generator": "pub",
   "generatorVersion": "3.3.0"
 }
