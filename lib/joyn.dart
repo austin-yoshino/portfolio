@@ -198,6 +198,54 @@ class _JoynScreenState extends State<JoynScreen> {
                               ),
                             ),
                           ),
+                          const SizedBox(height: 5),
+                          InkWell(
+                            onTap: () => _launchURL(
+                                'https://apps.apple.com/us/app/joyn-chat/id6444626347'),
+                            child: const Text(
+                              '- Apple Store',
+                              style: TextStyle(
+                                decoration: TextDecoration.underline,
+                                decorationColor: AppColors.white,
+                                color: AppColors.white,
+                                fontSize: 14,
+                                fontWeight: FontWeight.w300,
+                                fontFamily: "Satoshi-Black.otf",
+                              ),
+                            ),
+                          ),
+                          const SizedBox(height: 5),
+                          InkWell(
+                            onTap: () => _launchURL(
+                                'https://play.google.com/store/apps/details?id=app.joyn.app&hl=en_US'),
+                            child: const Text(
+                              '- Google Play',
+                              style: TextStyle(
+                                decoration: TextDecoration.underline,
+                                decorationColor: AppColors.white,
+                                color: AppColors.white,
+                                fontSize: 14,
+                                fontWeight: FontWeight.w300,
+                                fontFamily: "Satoshi-Black.otf",
+                              ),
+                            ),
+                          ),
+                          const SizedBox(height: 5),
+                          InkWell(
+                            onTap: () => _launchURL(
+                                'https://apps.microsoft.com/detail/9NLQP8C3FTR3?hl=en-US&gl=US'),
+                            child: const Text(
+                              '- Microsoft Store',
+                              style: TextStyle(
+                                decoration: TextDecoration.underline,
+                                decorationColor: AppColors.white,
+                                color: AppColors.white,
+                                fontSize: 14,
+                                fontWeight: FontWeight.w300,
+                                fontFamily: "Satoshi-Black.otf",
+                              ),
+                            ),
+                          ),
                           const Padding(
                             padding: EdgeInsets.symmetric(vertical: 20),
                             child: Column(
@@ -315,7 +363,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                             ),
                                             SizedBox(height: 5),
                                             Text(
-                                              "Chat:",
+                                              "Chat: better everyday communication",
                                               style: TextStyle(
                                                 color: AppColors.white,
                                                 fontSize: 14,
@@ -325,7 +373,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                             ),
                                             SizedBox(height: 5),
                                             Text(
-                                              "- End to end encryption\n- Message pre-sending, failed-send, & re-send states\n- Local cacheing\n- Audio, photo / videos, files, & gif messages\n- Message channels\n- Auto-translate\n- Voice / audio calls\n- Group chats\n- Message reactions\n- Edit, delete, reply, & move messages across channels\n- AI-generated messages with prev context",
+                                              "- End to end encryption\n- Message pre-sending, failed-send, & re-send states\n- Local cacheing\n- Audio, photo / videos, files, & gif messages\n- Message channels\n- Auto-translate\n- Voice / audio calls\n- Group chats\n- Message reactions\n- Edit, delete, reply, & move messages across channels\n- AI-generated messages with context",
                                               style: TextStyle(
                                                 color: AppColors.white,
                                                 fontSize: 14,
@@ -335,7 +383,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                             ),
                                             SizedBox(height: 5),
                                             Text(
-                                              "Calendars:",
+                                              "Calendars: seamlessly find & schedule time",
                                               style: TextStyle(
                                                 color: AppColors.white,
                                                 fontSize: 14,
@@ -345,7 +393,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                             ),
                                             SizedBox(height: 5),
                                             Text(
-                                              "",
+                                              "- Link Google, Outlook, & iCloud calendars to sync events\n- Share schedules & create / accept / decline events directly in chat\n- Set default avaiabilities (personal, work, custom)\n- Link Zoom / Google Meet for videoconferencing",
                                               style: TextStyle(
                                                 color: AppColors.white,
                                                 fontSize: 14,
@@ -355,7 +403,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                             ),
                                             SizedBox(height: 5),
                                             Text(
-                                              "Social:",
+                                              "Social: enhancing old & fostering new quality connections",
                                               style: TextStyle(
                                                 color: AppColors.white,
                                                 fontSize: 14,
@@ -365,7 +413,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                             ),
                                             SizedBox(height: 5),
                                             Text(
-                                              "",
+                                              "- Facilitated introductions using algorithmic + AI analysis to determine match quality\n- Q&A social feed with AI-generated questions for sharing thoughtful insights\n- Nominations (superlatives) for hand-picked invites\n- Advanced profile charachteristics, dynamic prompts, gamified star rankings, & verification",
                                               style: TextStyle(
                                                 color: AppColors.white,
                                                 fontSize: 14,
@@ -385,7 +433,27 @@ class _JoynScreenState extends State<JoynScreen> {
                                             ),
                                             SizedBox(height: 5),
                                             Text(
-                                              "",
+                                              "Languages: Flutter / NodeJS / Golang",
+                                              style: TextStyle(
+                                                color: AppColors.white,
+                                                fontSize: 14,
+                                                fontFamily: "Satoshi-Black.otf",
+                                                fontWeight: FontWeight.w300,
+                                              ),
+                                            ),
+                                            SizedBox(height: 5),
+                                            Text(
+                                              "API's: Twilio, DeepL, openAI, Revenue Cat, AppsFlyer, Stripe",
+                                              style: TextStyle(
+                                                color: AppColors.white,
+                                                fontSize: 14,
+                                                fontFamily: "Satoshi-Black.otf",
+                                                fontWeight: FontWeight.w300,
+                                              ),
+                                            ),
+                                            SizedBox(height: 5),
+                                            Text(
+                                              "Infrastructure: AWS, CodeMagic(CI/CD deployment), Grafana, MixPanel, Sentry, Swagger",
                                               style: TextStyle(
                                                 color: AppColors.white,
                                                 fontSize: 14,
@@ -405,7 +473,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                             ),
                                             SizedBox(height: 5),
                                             Text(
-                                              "",
+                                              "- Cordi 2.0",
                                               style: TextStyle(
                                                 color: AppColors.white,
                                                 fontSize: 14,
@@ -434,7 +502,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                             ),
                                             SizedBox(height: 10),
                                             Text(
-                                              "Joyn is intentionally desisnged for 1:1 interactions & connections",
+                                              "Branding",
                                               style: TextStyle(
                                                 color: AppColors.white,
                                                 fontSize: 14,
@@ -444,7 +512,27 @@ class _JoynScreenState extends State<JoynScreen> {
                                             ),
                                             SizedBox(height: 5),
                                             Text(
-                                              "- Built around real conversations, not posts (with best in class chat features)",
+                                              "ABC",
+                                              style: TextStyle(
+                                                color: AppColors.white,
+                                                fontSize: 14,
+                                                fontFamily: "Satoshi-Black.otf",
+                                                fontWeight: FontWeight.w300,
+                                              ),
+                                            ),
+                                            SizedBox(height: 10),
+                                            Text(
+                                              "We had no marketing budget so I growth hacked a newsletter to 30k subscribers to drive downloads",
+                                              style: TextStyle(
+                                                color: AppColors.white,
+                                                fontSize: 14,
+                                                fontWeight: FontWeight.bold,
+                                                fontFamily: "Satoshi-Black.otf",
+                                              ),
+                                            ),
+                                            SizedBox(height: 5),
+                                            Text(
+                                              "ABC",
                                               style: TextStyle(
                                                 color: AppColors.white,
                                                 fontSize: 14,
@@ -472,19 +560,103 @@ class _JoynScreenState extends State<JoynScreen> {
                                                   ),
                                                   SizedBox(height: 10),
                                                   Text(
-                                                    "Joyn is intentionally desisnged for 1:1 interactions & connections",
+                                                    "I recruited this team...",
                                                     style: TextStyle(
                                                       color: AppColors.white,
                                                       fontSize: 14,
                                                       fontWeight:
-                                                          FontWeight.bold,
+                                                          FontWeight.w300,
                                                       fontFamily:
                                                           "Satoshi-Black.otf",
                                                     ),
                                                   ),
                                                   SizedBox(height: 5),
                                                   Text(
-                                                    "- Built around real conversations, not posts (with best in class chat features)",
+                                                    "Dustin Shindo, Chairman: \$2b+ in financing deals & 4 IPO's",
+                                                    style: TextStyle(
+                                                      color: AppColors.white,
+                                                      fontSize: 14,
+                                                      fontFamily:
+                                                          "Satoshi-Black.otf",
+                                                      fontWeight:
+                                                          FontWeight.bold,
+                                                    ),
+                                                  ),
+                                                  SizedBox(height: 5),
+                                                  Text(
+                                                    "We met through a professor who said; \"you remind me of Dustin, go meet him\". After meeting, I offered to work for free just to stay in his orbit. Weekly meetings led to start-up talk which eveuntally resulted in us Cofounding 2 companies together (Joyn + Phenom)",
+                                                    style: TextStyle(
+                                                      color: AppColors.white,
+                                                      fontSize: 14,
+                                                      fontFamily:
+                                                          "Satoshi-Black.otf",
+                                                      fontWeight:
+                                                          FontWeight.w300,
+                                                    ),
+                                                  ),
+                                                  SizedBox(height: 10),
+                                                  Text(
+                                                    "Rishab Nayak, CTO: M.S. Computer Science from Boston University & 2x Founder",
+                                                    style: TextStyle(
+                                                      color: AppColors.white,
+                                                      fontSize: 14,
+                                                      fontFamily:
+                                                          "Satoshi-Black.otf",
+                                                      fontWeight:
+                                                          FontWeight.bold,
+                                                    ),
+                                                  ),
+                                                  SizedBox(height: 5),
+                                                  Text(
+                                                    "We met during Blue Start-ups & were working on different companies at the time but, stayed in touch as we overlapped during our travels through NYC, LA, Boston, SF, & Hawaii. Rishab was back in Hawaii when he mentioned his exit in the prev start-up & I recruited him to Joyn.",
+                                                    style: TextStyle(
+                                                      color: AppColors.white,
+                                                      fontSize: 14,
+                                                      fontFamily:
+                                                          "Satoshi-Black.otf",
+                                                      fontWeight:
+                                                          FontWeight.w300,
+                                                    ),
+                                                  ),
+                                                  SizedBox(height: 10),
+                                                  Text(
+                                                    "Engineering Team: 5-15 members",
+                                                    style: TextStyle(
+                                                      color: AppColors.white,
+                                                      fontSize: 14,
+                                                      fontFamily:
+                                                          "Satoshi-Black.otf",
+                                                      fontWeight:
+                                                          FontWeight.bold,
+                                                    ),
+                                                  ),
+                                                  SizedBox(height: 5),
+                                                  Text(
+                                                    "To stay remain cost-efficient we hired developers internationally.",
+                                                    style: TextStyle(
+                                                      color: AppColors.white,
+                                                      fontSize: 14,
+                                                      fontFamily:
+                                                          "Satoshi-Black.otf",
+                                                      fontWeight:
+                                                          FontWeight.w300,
+                                                    ),
+                                                  ),
+                                                  SizedBox(height: 10),
+                                                  Text(
+                                                    "Product Designer: Dominique Calaguas",
+                                                    style: TextStyle(
+                                                      color: AppColors.white,
+                                                      fontSize: 14,
+                                                      fontFamily:
+                                                          "Satoshi-Black.otf",
+                                                      fontWeight:
+                                                          FontWeight.bold,
+                                                    ),
+                                                  ),
+                                                  SizedBox(height: 5),
+                                                  Text(
+                                                    "She was my first hire & was with us since day 1. She was specfically choosen because of her background in graphic design, psychology & gaming.",
                                                     style: TextStyle(
                                                       color: AppColors.white,
                                                       fontSize: 14,
@@ -517,26 +689,14 @@ class _JoynScreenState extends State<JoynScreen> {
                                                   ),
                                                   SizedBox(height: 10),
                                                   Text(
-                                                    "Joyn is intentionally desisnged for 1:1 interactions & connections",
+                                                    "Dustin intially invested \$50k for development costs. In Q1 2023 we raised a preseed round of \$200k on a uncapped SAFE. I also executed stock warrant deals at a \$10m valuation.",
                                                     style: TextStyle(
                                                       color: AppColors.white,
                                                       fontSize: 14,
                                                       fontWeight:
-                                                          FontWeight.bold,
+                                                          FontWeight.normal,
                                                       fontFamily:
                                                           "Satoshi-Black.otf",
-                                                    ),
-                                                  ),
-                                                  SizedBox(height: 5),
-                                                  Text(
-                                                    "- Built around real conversations, not posts (with best in class chat features)",
-                                                    style: TextStyle(
-                                                      color: AppColors.white,
-                                                      fontSize: 14,
-                                                      fontFamily:
-                                                          "Satoshi-Black.otf",
-                                                      fontWeight:
-                                                          FontWeight.w300,
                                                     ),
                                                   ),
                                                 ],
@@ -562,19 +722,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                                   ),
                                                   SizedBox(height: 10),
                                                   Text(
-                                                    "Joyn is intentionally desisnged for 1:1 interactions & connections",
-                                                    style: TextStyle(
-                                                      color: AppColors.white,
-                                                      fontSize: 14,
-                                                      fontWeight:
-                                                          FontWeight.bold,
-                                                      fontFamily:
-                                                          "Satoshi-Black.otf",
-                                                    ),
-                                                  ),
-                                                  SizedBox(height: 5),
-                                                  Text(
-                                                    "- Built around real conversations, not posts (with best in class chat features)",
+                                                    "In Q4 2023 Dustin & I were preparing to raise the next round, but noticed a unfortunate difference in vision. To articulate it, he wants to build a international Whats App & wanted to take down LinkedIn. We mutually & cordially decided that the best path forward for everyone involved was for me to exit via a share sale. I helped with the leadership transition & am still avaialble for advisory calls.",
                                                     style: TextStyle(
                                                       color: AppColors.white,
                                                       fontSize: 14,
@@ -607,7 +755,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                                   ),
                                                   SizedBox(height: 10),
                                                   Text(
-                                                    "Joyn is intentionally desisnged for 1:1 interactions & connections",
+                                                    "There is such a thing as moving too fast",
                                                     style: TextStyle(
                                                       color: AppColors.white,
                                                       fontSize: 14,
@@ -619,7 +767,55 @@ class _JoynScreenState extends State<JoynScreen> {
                                                   ),
                                                   SizedBox(height: 5),
                                                   Text(
-                                                    "- Built around real conversations, not posts (with best in class chat features)",
+                                                    "Our ambition was to take Joyn public in 2024 & conducted company operations as if that we're going to be the case. In order to pull this off we we're going to have to raise at a minimum \$30m valuation in Q4 2023 for a SPAC to even be in consideration. **While this was a great goal, I think it forced us to move too fast & skip steps especially in the user research stage.",
+                                                    style: TextStyle(
+                                                      color: AppColors.white,
+                                                      fontSize: 14,
+                                                      fontFamily:
+                                                          "Satoshi-Black.otf",
+                                                      fontWeight:
+                                                          FontWeight.w300,
+                                                    ),
+                                                  ),
+                                                  SizedBox(height: 10),
+                                                  Text(
+                                                    "Product & distribution are a yin yang balance",
+                                                    style: TextStyle(
+                                                      color: AppColors.white,
+                                                      fontSize: 14,
+                                                      fontWeight:
+                                                          FontWeight.bold,
+                                                      fontFamily:
+                                                          "Satoshi-Black.otf",
+                                                    ),
+                                                  ),
+                                                  SizedBox(height: 5),
+                                                  Text(
+                                                    "ABC",
+                                                    style: TextStyle(
+                                                      color: AppColors.white,
+                                                      fontSize: 14,
+                                                      fontFamily:
+                                                          "Satoshi-Black.otf",
+                                                      fontWeight:
+                                                          FontWeight.w300,
+                                                    ),
+                                                  ),
+                                                  SizedBox(height: 10),
+                                                  Text(
+                                                    "Pick your target market based on needs, not access",
+                                                    style: TextStyle(
+                                                      color: AppColors.white,
+                                                      fontSize: 14,
+                                                      fontWeight:
+                                                          FontWeight.bold,
+                                                      fontFamily:
+                                                          "Satoshi-Black.otf",
+                                                    ),
+                                                  ),
+                                                  SizedBox(height: 5),
+                                                  Text(
+                                                    "ABC",
                                                     style: TextStyle(
                                                       color: AppColors.white,
                                                       fontSize: 14,
@@ -694,6 +890,3 @@ class _JoynScreenState extends State<JoynScreen> {
                                 //     ],
                                 //   ),
                                 // ),
-
-
-//Add Deck + link to apps
