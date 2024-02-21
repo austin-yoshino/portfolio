@@ -767,7 +767,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                                   ),
                                                   SizedBox(height: 5),
                                                   Text(
-                                                    "Our ambition was to take Joyn public in 2024 & conducted company operations as if that we're going to be the case. In order to pull this off we we're going to have to raise at a minimum \$30m valuation in Q4 2023 for a SPAC to even be in consideration. **While this was a great goal, I think it forced us to move too fast & skip steps especially in the user research stage.",
+                                                    "Our ambition was to take Joyn public in 2024. To even be considered for a SPAC deal we needed a minimum \$30m valuation by the end of 2023 & conducted company operations accordingly. While this was a great opportunity, it forced us to skip some steps especially in the product & market validation cycle. A refined approach for next time would be to let momentum dictate the pace…crawling towards PMF so we have the capacity to sprint when the time is right.",
                                                     style: TextStyle(
                                                       color: AppColors.white,
                                                       fontSize: 14,
@@ -791,7 +791,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                                   ),
                                                   SizedBox(height: 5),
                                                   Text(
-                                                    "ABC",
+                                                    "“First time founders focus on product, second time founders focus on distribution” is a well known quote in the start-up community. After attempting both & seeing the pros / cons of each approach I believe, that like most cases, it’s a symbiotic balance. One can’t exist without the other & should be built in tandem.",
                                                     style: TextStyle(
                                                       color: AppColors.white,
                                                       fontSize: 14,
@@ -850,44 +850,3 @@ class _JoynScreenState extends State<JoynScreen> {
     );
   }
 }
-
-//Add the little details to product: haptic feedback for AI generated things, onboarding, education, 
-
-                                // Padding(
-                                //   padding: EdgeInsets.symmetric(vertical: 20),
-                                //   child: Column(
-                                //     crossAxisAlignment:
-                                //         CrossAxisAlignment.start,
-                                //     children: [
-                                //       Text(
-                                //         "Solution",
-                                //         style: TextStyle(
-                                //           color: AppColors.joynblue,
-                                //           fontSize: 18,
-                                //           fontWeight: FontWeight.bold,
-                                //           fontFamily: "Satoshi-Black.otf",
-                                //         ),
-                                //       ),
-                                //       SizedBox(height: 10),
-                                //       Text(
-                                //         "Joyn is intentionally desisnged for 1:1 interactions & connections",
-                                //         style: TextStyle(
-                                //           color: AppColors.white,
-                                //           fontSize: 14,
-                                //           fontWeight: FontWeight.bold,
-                                //           fontFamily: "Satoshi-Black.otf",
-                                //         ),
-                                //       ),
-                                //            SizedBox(height: 5),
-                                //       Text(
-                                //         "- Built around real conversations, not posts (with best in class chat features)",
-                                //         style: TextStyle(
-                                //           color: AppColors.white,
-                                //           fontSize: 14,
-                                //           fontFamily: "Satoshi-Black.otf",
-                                //           fontWeight: FontWeight.w300,
-                                //         ),
-                                //       ),
-                                //     ],
-                                //   ),
-                                // ),
