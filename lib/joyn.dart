@@ -548,7 +548,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                                     CrossAxisAlignment.start,
                                                 children: [
                                                   Text(
-                                                    "Team",
+                                                    "Leadership",
                                                     style: TextStyle(
                                                       color: AppColors.joynblue,
                                                       fontSize: 18,
@@ -584,7 +584,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                                   ),
                                                   SizedBox(height: 5),
                                                   Text(
-                                                    "We met through a professor who said; \"you remind me of Dustin, go meet him\". After meeting, I offered to work for free just to stay in his orbit. Weekly meetings led to start-up talk which eveuntally resulted in us Cofounding 2 companies together (Joyn + Phenom)",
+                                                    "We met through a professor who said; \"you remind me of Dustin, go meet him\". After meeting, I offered to work for free just to stay in his orbit. Weekly meetings led to start-up talk which eveuntally resulted in us Cofounding 2 companies together (Joyn + Phenom).",
                                                     style: TextStyle(
                                                       color: AppColors.white,
                                                       fontSize: 14,
@@ -755,7 +755,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                                   ),
                                                   SizedBox(height: 10),
                                                   Text(
-                                                    "There is such a thing as moving too fast",
+                                                    "1) There is such a thing as moving too fast",
                                                     style: TextStyle(
                                                       color: AppColors.white,
                                                       fontSize: 14,
@@ -767,7 +767,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                                   ),
                                                   SizedBox(height: 5),
                                                   Text(
-                                                    "Our ambition was to take Joyn public in 2024. To even be considered for a SPAC deal we needed a minimum \$30m valuation by the end of 2023 & conducted company operations accordingly. While this was a great opportunity, it forced us to skip some steps especially in the product & market validation cycle. A refined approach for next time would be to let momentum dictate the pace…crawling towards PMF so we have the capacity to sprint when the time is right.",
+                                                    "Our ambition was to take Joyn public in 2024. To even be considered for a SPAC deal we needed a minimum \$30m valuation by the end of 2023 & conducted company operations accordingly. I believe this forced us to try to do to much in too little time, next time I would prefer to let momentum dictate the pace…crawling towards PMF so we have the capacity to sprint when the time is right.",
                                                     style: TextStyle(
                                                       color: AppColors.white,
                                                       fontSize: 14,
@@ -779,7 +779,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                                   ),
                                                   SizedBox(height: 10),
                                                   Text(
-                                                    "Product & distribution are a yin yang balance",
+                                                    "2) Product & distribution are yin & yang",
                                                     style: TextStyle(
                                                       color: AppColors.white,
                                                       fontSize: 14,
@@ -791,7 +791,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                                   ),
                                                   SizedBox(height: 5),
                                                   Text(
-                                                    "“First time founders focus on product, second time founders focus on distribution” is a well known quote in the start-up community. After attempting both & seeing the pros / cons of each approach I believe, that like most cases, it’s a symbiotic balance. One can’t exist without the other & should be built in tandem.",
+                                                    "“First time founders focus on product, second time founders focus on distribution” is a well known philosophy in start-ups. After attempting both & seeing the pros / cons of each I believe, that like most cases it’s a neither one or the other, but a symbiotic balance. One can’t exist without the other & should be built in tandem.",
                                                     style: TextStyle(
                                                       color: AppColors.white,
                                                       fontSize: 14,
@@ -803,7 +803,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                                   ),
                                                   SizedBox(height: 10),
                                                   Text(
-                                                    "Pick your target market based on needs, not access",
+                                                    "3) Target market based on needs > access",
                                                     style: TextStyle(
                                                       color: AppColors.white,
                                                       fontSize: 14,
@@ -815,7 +815,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                                   ),
                                                   SizedBox(height: 5),
                                                   Text(
-                                                    "ABC",
+                                                    "We had an unfair distribution advantage in Japan thanks to my Cofounders status. While this was a great opportunity, we overlooked a major aspect in this customer segment: Japan has a higher quality standard than the US. In order to reach their standard of excellence we pushed to develop fully-flushed features, make Joyn available on all platforms / devices, & bug bash our way to 99%+ crash-free rates ultimately producing a great product. However, this intense focus on product pushed back our launch considerably. A refined approach would be to select a customer segment where the product need outweighs the tolerance for minor initial product inconveniences.",
                                                     style: TextStyle(
                                                       color: AppColors.white,
                                                       fontSize: 14,
@@ -850,3 +850,5 @@ class _JoynScreenState extends State<JoynScreen> {
     );
   }
 }
+
+//Add management practices to Product
