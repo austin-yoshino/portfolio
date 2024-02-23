@@ -92,7 +92,7 @@ class _JoynScreenState extends State<JoynScreen> {
                     ),
                     const SizedBox(height: 5),
                     const Text(
-                      "Oct 2022 -> Nov 2023",
+                      "Oct 2022 to Nov 2023",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
@@ -353,7 +353,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                             ),
                                             SizedBox(height: 10),
                                             Text(
-                                              "The Joyn product was built..add private & spam-free platform",
+                                              "Great social products have 3 pillars:\n1) Novel way to communicate\n2) Platform-specific interaction layer\n3) Introductions to people you wouldn’t otherwise meet\n\nFor example Instagram:\n1) Introduced new communication channels through replies, likes, & comments\n2) Curated specific interactions through story replies & posts which provided proprietary information for users to base interactions of of\n3) Showed you new people through discovery, mutual follows, suggested posts, & tags\n\nJoyn was building a social product rooted in quality instead of quantity, envisioning a sanctuary for real connection by:\n1) Making communication private (no unsolicited DM’s) & frictionless (no tedious transactions)\n2) Fostering deeper interactions through thoughtful & inspirational content\n3) Curating introductions that were high-filtered\n\nLaunching a rich variety of features required intense agile management practices, roadmapping prioritization, & efficient management practices. A couple months before our launch I noticed a backlog overload of tasks, so along with re-prioritization I taught myself to code leveraging chatGPT to make direct contributions allowing us to launch on-time. Ultimately, we achieved 56% 28-day retention through the craftsmanship of the following features;",
                                               style: TextStyle(
                                                 color: AppColors.white,
                                                 fontSize: 14,
@@ -361,9 +361,123 @@ class _JoynScreenState extends State<JoynScreen> {
                                                 fontFamily: "Satoshi-Black.otf",
                                               ),
                                             ),
+                                            SizedBox(height: 10),
+                                            Text(
+                                              "Privacy:",
+                                              style: TextStyle(
+                                                color: AppColors.white,
+                                                fontSize: 14,
+                                                fontFamily: "Satoshi-Black.otf",
+                                                fontWeight: FontWeight.bold,
+                                              ),
+                                            ),
+                                            Text(
+                                              "- Both people had to accept connections to interact\n- No public search access, connections could only be added via QR code, unique link, from contacts, or secret phrase\n- Nominations (superlatives) for hand-picked invites",
+                                              style: TextStyle(
+                                                color: AppColors.white,
+                                                fontSize: 14,
+                                                fontFamily: "Satoshi-Black.otf",
+                                                fontWeight: FontWeight.w300,
+                                              ),
+                                            ),
                                             SizedBox(height: 5),
                                             Text(
-                                              "Chat: better everyday communication",
+                                              "Chat:",
+                                              style: TextStyle(
+                                                color: AppColors.white,
+                                                fontSize: 14,
+                                                fontFamily: "Satoshi-Black.otf",
+                                                fontWeight: FontWeight.bold,
+                                              ),
+                                            ),
+                                            Text(
+                                              "- End to end encryption\n- Pre, failed, & re sending states\n- Audio, photo, video, file, & gifs\n- Conversation channels\n- Auto-translate\n- Audio & video calls\n- Group chats\n- Custom reactions + typing indicator\n- Edit, delete, reply, & move (across channels) messages\n- AI-generated messages with context ",
+                                              style: TextStyle(
+                                                color: AppColors.white,
+                                                fontSize: 14,
+                                                fontFamily: "Satoshi-Black.otf",
+                                                fontWeight: FontWeight.w300,
+                                              ),
+                                            ),
+                                            SizedBox(height: 5),
+                                            Text(
+                                              "Calendar:",
+                                              style: TextStyle(
+                                                color: AppColors.white,
+                                                fontSize: 14,
+                                                fontFamily: "Satoshi-Black.otf",
+                                                fontWeight: FontWeight.bold,
+                                              ),
+                                            ),
+                                            Text(
+                                              "- Connect Google, Outlook, & iCloud calendars to sync events\n- Share schedules with option to set availability preferences (personal, work, or custom)\n- In-chat event creation with Zoom, Google Meet, or in-person location options",
+                                              style: TextStyle(
+                                                color: AppColors.white,
+                                                fontSize: 14,
+                                                fontFamily: "Satoshi-Black.otf",
+                                                fontWeight: FontWeight.w300,
+                                              ),
+                                            ),
+                                            SizedBox(height: 5),
+                                            Text(
+                                              "Social:",
+                                              style: TextStyle(
+                                                color: AppColors.white,
+                                                fontSize: 14,
+                                                fontFamily: "Satoshi-Black.otf",
+                                                fontWeight: FontWeight.bold,
+                                              ),
+                                            ),
+                                            Text(
+                                              "- Q&A feed of AI-generated, thought provoking questions\n- Used series of prompts for varying topics",
+                                              style: TextStyle(
+                                                color: AppColors.white,
+                                                fontSize: 14,
+                                                fontFamily: "Satoshi-Black.otf",
+                                                fontWeight: FontWeight.w300,
+                                              ),
+                                            ),
+                                            SizedBox(height: 5),
+                                            Text(
+                                              "Introductions:",
+                                              style: TextStyle(
+                                                color: AppColors.white,
+                                                fontSize: 14,
+                                                fontFamily: "Satoshi-Black.otf",
+                                                fontWeight: FontWeight.bold,
+                                              ),
+                                            ),
+                                            Text(
+                                              "- Algorithmic + AI analysis of user profiles to suggestion relevant connections\n- Mechanism to facilitated introduction after double-opt in is approved",
+                                              style: TextStyle(
+                                                color: AppColors.white,
+                                                fontSize: 14,
+                                                fontFamily: "Satoshi-Black.otf",
+                                                fontWeight: FontWeight.w300,
+                                              ),
+                                            ),
+                                            SizedBox(height: 5),
+                                            Text(
+                                              "Profiles:",
+                                              style: TextStyle(
+                                                color: AppColors.white,
+                                                fontSize: 14,
+                                                fontFamily: "Satoshi-Black.otf",
+                                                fontWeight: FontWeight.bold,
+                                              ),
+                                            ),
+                                            Text(
+                                              "- Blue check verification\n- Photo carousel with dynamic prompts\n- Gamified star rankings for power users",
+                                              style: TextStyle(
+                                                color: AppColors.white,
+                                                fontSize: 14,
+                                                fontFamily: "Satoshi-Black.otf",
+                                                fontWeight: FontWeight.w300,
+                                              ),
+                                            ),
+                                            SizedBox(height: 10),
+                                            Text(
+                                              "“Devils in the details”, getting from 0->80% is easy…80-90% is difficult, but 90-99% is grueling. Here are some specific examples of how we optimized Joyn to deliver the best experience possible;",
                                               style: TextStyle(
                                                 color: AppColors.white,
                                                 fontSize: 14,
@@ -373,107 +487,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                             ),
                                             SizedBox(height: 5),
                                             Text(
-                                              "- End to end encryption\n- Message pre-sending, failed-send, & re-send states\n- Local cacheing\n- Audio, photo / videos, files, & gif messages\n- Message channels\n- Auto-translate\n- Voice / audio calls\n- Group chats\n- Message reactions\n- Edit, delete, reply, & move messages across channels\n- AI-generated messages with context",
-                                              style: TextStyle(
-                                                color: AppColors.white,
-                                                fontSize: 14,
-                                                fontFamily: "Satoshi-Black.otf",
-                                                fontWeight: FontWeight.w300,
-                                              ),
-                                            ),
-                                            SizedBox(height: 5),
-                                            Text(
-                                              "Calendars: seamlessly find & schedule time",
-                                              style: TextStyle(
-                                                color: AppColors.white,
-                                                fontSize: 14,
-                                                fontFamily: "Satoshi-Black.otf",
-                                                fontWeight: FontWeight.bold,
-                                              ),
-                                            ),
-                                            SizedBox(height: 5),
-                                            Text(
-                                              "- Link Google, Outlook, & iCloud calendars to sync events\n- Share schedules & create / accept / decline events directly in chat\n- Set default avaiabilities (personal, work, custom)\n- Link Zoom / Google Meet for videoconferencing",
-                                              style: TextStyle(
-                                                color: AppColors.white,
-                                                fontSize: 14,
-                                                fontFamily: "Satoshi-Black.otf",
-                                                fontWeight: FontWeight.w300,
-                                              ),
-                                            ),
-                                            SizedBox(height: 5),
-                                            Text(
-                                              "Social: enhancing old & fostering new quality connections",
-                                              style: TextStyle(
-                                                color: AppColors.white,
-                                                fontSize: 14,
-                                                fontFamily: "Satoshi-Black.otf",
-                                                fontWeight: FontWeight.bold,
-                                              ),
-                                            ),
-                                            SizedBox(height: 5),
-                                            Text(
-                                              "- Facilitated introductions using algorithmic + AI analysis to determine match quality\n- Q&A social feed with AI-generated questions for sharing thoughtful insights\n- Nominations (superlatives) for hand-picked invites\n- Advanced profile charachteristics, dynamic prompts, gamified star rankings, & verification",
-                                              style: TextStyle(
-                                                color: AppColors.white,
-                                                fontSize: 14,
-                                                fontFamily: "Satoshi-Black.otf",
-                                                fontWeight: FontWeight.w300,
-                                              ),
-                                            ),
-                                            SizedBox(height: 5),
-                                            Text(
-                                              "Tech Stack:",
-                                              style: TextStyle(
-                                                color: AppColors.white,
-                                                fontSize: 14,
-                                                fontFamily: "Satoshi-Black.otf",
-                                                fontWeight: FontWeight.bold,
-                                              ),
-                                            ),
-                                            SizedBox(height: 5),
-                                            Text(
-                                              "Languages: Flutter / NodeJS / Golang",
-                                              style: TextStyle(
-                                                color: AppColors.white,
-                                                fontSize: 14,
-                                                fontFamily: "Satoshi-Black.otf",
-                                                fontWeight: FontWeight.w300,
-                                              ),
-                                            ),
-                                            SizedBox(height: 5),
-                                            Text(
-                                              "API's: Twilio, DeepL, openAI, Revenue Cat, AppsFlyer, Stripe",
-                                              style: TextStyle(
-                                                color: AppColors.white,
-                                                fontSize: 14,
-                                                fontFamily: "Satoshi-Black.otf",
-                                                fontWeight: FontWeight.w300,
-                                              ),
-                                            ),
-                                            SizedBox(height: 5),
-                                            Text(
-                                              "Infrastructure: AWS, CodeMagic(CI/CD deployment), Grafana, MixPanel, Sentry, Swagger",
-                                              style: TextStyle(
-                                                color: AppColors.white,
-                                                fontSize: 14,
-                                                fontFamily: "Satoshi-Black.otf",
-                                                fontWeight: FontWeight.w300,
-                                              ),
-                                            ),
-                                            SizedBox(height: 5),
-                                            Text(
-                                              "Future Roadmap:",
-                                              style: TextStyle(
-                                                color: AppColors.white,
-                                                fontSize: 14,
-                                                fontFamily: "Satoshi-Black.otf",
-                                                fontWeight: FontWeight.bold,
-                                              ),
-                                            ),
-                                            SizedBox(height: 5),
-                                            Text(
-                                              "- Cordi 2.0",
+                                              "We used a tech stack that aligned with our primary goals of scalability, development speed, & reliability. This included;\n- Languages: Flutter, NodeJS, & Golang\n- API’s: Twilio, DeepL, openAI, Revenue Cat, AppsFlyer, Stripe\n- Infrastructure: AWS, CodeMagic(CI/CD deployment), Grafana, MixPanel, Sentry, Swagger, Github + Github Projects",
                                               style: TextStyle(
                                                 color: AppColors.white,
                                                 fontSize: 14,
@@ -502,7 +516,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                             ),
                                             SizedBox(height: 10),
                                             Text(
-                                              "Branding",
+                                              "Branding + Messaging",
                                               style: TextStyle(
                                                 color: AppColors.white,
                                                 fontSize: 14,
@@ -512,7 +526,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                             ),
                                             SizedBox(height: 5),
                                             Text(
-                                              "ABC",
+                                              "The Joyn brand needed to ride the line of social / professional. We crafted a logo that was simple yet distinct using a dark mode-based color palette with simple yet defining contrasting colors. The most important decision was making our messages purple with a slight gradient to differentiate from iMessage (blue) & Android (green).\nI believe one the most important (yet severely underrated) parts of bringing something new into the world is the “one-liner” - a short sentence that incites to learn more. My philosophy is hate it or love it as long as you can’t ignore it we win. The stronger the emotional response the better. One day, after sending a survey to gauge our audiences perception of networking, someone responded “f*ck networking”. From that day on, Joyn’s one-liner was the “anti-networking, networking app”.",
                                               style: TextStyle(
                                                 color: AppColors.white,
                                                 fontSize: 14,
@@ -522,7 +536,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                             ),
                                             SizedBox(height: 10),
                                             Text(
-                                              "We had no marketing budget so I growth hacked a newsletter to 30k subscribers to drive downloads",
+                                              "User Acquisition: growth-hacking a newsletter to 30k subs in 2 months",
                                               style: TextStyle(
                                                 color: AppColors.white,
                                                 fontSize: 14,
@@ -532,7 +546,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                             ),
                                             SizedBox(height: 5),
                                             Text(
-                                              "ABC",
+                                              "Due to our commitment of building a social super-app, we allocated majority of funds to product. This presented our biggest challenge: acquiring users with no budget. Aside from distributing through our personal networks, I growth-hacked our newsletter to 30k subscribers in 2 months via a cold email -> Beehiiv funnel. This allowed us to test messaging & conduct market research while enabling re-targeting for app downloads. Despite mostly being cold leads we boasted an averaged a 33.92% open + 4.89% click through rates with a modest 1.33% unsubscribe rate. When I left, Joyn had around a 1k downloads & was growing monthly at 60%.",
                                               style: TextStyle(
                                                 color: AppColors.white,
                                                 fontSize: 14,
@@ -560,7 +574,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                                   ),
                                                   SizedBox(height: 10),
                                                   Text(
-                                                    "I recruited this team...",
+                                                    "Our team was intentionally crafted on unique insights, experience, & talent positioning ourselves to both innovate & execute;",
                                                     style: TextStyle(
                                                       color: AppColors.white,
                                                       fontSize: 14,
@@ -572,7 +586,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                                   ),
                                                   SizedBox(height: 5),
                                                   Text(
-                                                    "Dustin Shindo, Chairman: \$2b+ in financing deals & 4 IPO's",
+                                                    "Dustin Shindo, CoFounder & Chairman: \$2b+ in financing deals + 4 IPO's",
                                                     style: TextStyle(
                                                       color: AppColors.white,
                                                       fontSize: 14,
@@ -596,7 +610,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                                   ),
                                                   SizedBox(height: 10),
                                                   Text(
-                                                    "Rishab Nayak, CTO: M.S. Computer Science from Boston University & 2x Founder",
+                                                    "Rishab Nayak, CoFounder & CTO: M.S. Computer Science from Boston University + 2x Tech Founder",
                                                     style: TextStyle(
                                                       color: AppColors.white,
                                                       fontSize: 14,
@@ -620,6 +634,30 @@ class _JoynScreenState extends State<JoynScreen> {
                                                   ),
                                                   SizedBox(height: 10),
                                                   Text(
+                                                    "Dominique Calaguas, Product Designer",
+                                                    style: TextStyle(
+                                                      color: AppColors.white,
+                                                      fontSize: 14,
+                                                      fontFamily:
+                                                          "Satoshi-Black.otf",
+                                                      fontWeight:
+                                                          FontWeight.bold,
+                                                    ),
+                                                  ),
+                                                  SizedBox(height: 5),
+                                                  Text(
+                                                    "She was my first hire & was specifically chosen by her background in graphic design, psychology, & gaming. She was with the team since day 1 & was crucial in helping bring my vision to life; tgether we produced over 400 mockups, 100 custom graphics, & 200 prototypes.",
+                                                    style: TextStyle(
+                                                      color: AppColors.white,
+                                                      fontSize: 14,
+                                                      fontFamily:
+                                                          "Satoshi-Black.otf",
+                                                      fontWeight:
+                                                          FontWeight.w300,
+                                                    ),
+                                                  ),
+                                                  SizedBox(height: 10),
+                                                  Text(
                                                     "Engineering Team: 5-15 members",
                                                     style: TextStyle(
                                                       color: AppColors.white,
@@ -632,31 +670,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                                   ),
                                                   SizedBox(height: 5),
                                                   Text(
-                                                    "To stay remain cost-efficient we hired developers internationally.",
-                                                    style: TextStyle(
-                                                      color: AppColors.white,
-                                                      fontSize: 14,
-                                                      fontFamily:
-                                                          "Satoshi-Black.otf",
-                                                      fontWeight:
-                                                          FontWeight.w300,
-                                                    ),
-                                                  ),
-                                                  SizedBox(height: 10),
-                                                  Text(
-                                                    "Product Designer: Dominique Calaguas",
-                                                    style: TextStyle(
-                                                      color: AppColors.white,
-                                                      fontSize: 14,
-                                                      fontFamily:
-                                                          "Satoshi-Black.otf",
-                                                      fontWeight:
-                                                          FontWeight.bold,
-                                                    ),
-                                                  ),
-                                                  SizedBox(height: 5),
-                                                  Text(
-                                                    "She was my first hire & was with us since day 1. She was specfically choosen because of her background in graphic design, psychology & gaming.",
+                                                    "To remain cost efficient we built our dev team internationally. At the beginning, we worked with 2 agencies operating with a team of 15 to quickly build a proof of concept. After the POC, we internalized the best developers focusing our team to 5; improving moral, productivity, & quality. In order to mitigate inefficiencies of working across timezones + language barriers we wrote detailed documentation of tasks, implemented asynchronous communication practices, & integrated logging tools like Sentry.io.",
                                                     style: TextStyle(
                                                       color: AppColors.white,
                                                       fontSize: 14,
@@ -803,7 +817,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                                   ),
                                                   SizedBox(height: 10),
                                                   Text(
-                                                    "3) Target market based on needs > access",
+                                                    "3) When choosing target market: needs > access",
                                                     style: TextStyle(
                                                       color: AppColors.white,
                                                       fontSize: 14,
