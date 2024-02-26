@@ -477,7 +477,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                             ),
                                             SizedBox(height: 10),
                                             Text(
-                                              "“Devils in the details”, getting from 0->80% is easy…80-90% is difficult, but 90-99% is grueling. Here are some specific examples of how we optimized Joyn to deliver the best experience possible;",
+                                              "“Devils in the details”...getting from 0->80% was easy, 80-90% was hard, but 90-99% was grueling. Here are some specific examples of how we optimized Joyn to deliver the best experience possible;",
                                               style: TextStyle(
                                                 color: AppColors.white,
                                                 fontSize: 14,
@@ -487,7 +487,168 @@ class _JoynScreenState extends State<JoynScreen> {
                                             ),
                                             SizedBox(height: 5),
                                             Text(
+                                              "Onboarding:",
+                                              style: TextStyle(
+                                                color: AppColors.white,
+                                                fontSize: 14,
+                                                fontFamily: "Satoshi-Black.otf",
+                                                fontWeight: FontWeight.bold,
+                                              ),
+                                            ),
+                                            Text(
+                                              "The biggest design decision here was the tradeoff of friction vs information. For the best user experience we only allowed phone number sign-ups, no emails or SSO’s which often lead to multiple account creations spurring frustration & confusion. Initially, during on-boarding we just asked a couple basic questions to get people in the app as fast as possible. While this was great for conversions, interactions were low because we didn’t gather enough user data or provide enough education to properly motivate new users.\nOur final iteration, featured a mix of education & information gathering so users understood the benefits of completing onboarding + guiding action steps to incentivize first interactions. Since the process became longer we added a few small, yet pivotal features to reducing friction including; auto-progression after filling in all the fields, accounting for keyboards when displaying the next button, and auto-fills based on device information. ",
+                                              style: TextStyle(
+                                                color: AppColors.white,
+                                                fontSize: 14,
+                                                fontFamily: "Satoshi-Black.otf",
+                                                fontWeight: FontWeight.w300,
+                                              ),
+                                            ),
+                                            SizedBox(height: 5),
+                                            Text(
+                                              "Messaging Loading / Sending Speed:",
+                                              style: TextStyle(
+                                                color: AppColors.white,
+                                                fontSize: 14,
+                                                fontFamily: "Satoshi-Black.otf",
+                                                fontWeight: FontWeight.bold,
+                                              ),
+                                            ),
+                                            Text(
+                                              "In order for Joyn to garner enough trust to be used for everyday communication we prioritized message speed. When we first launched, loading was slow if cellular connection was bad & required an occasional refresh for messages to show. While this was something we noticed in other messaging platforms (like Discord) we knew we needed to solve it & implemented a few measures including; local data cacheing, pre/fail/re-send sates, manual swipe refreshes, & automatic background refreshes for low internet cases. Ultimately, we conquered the technical challenges where this became an afterthought.",
+                                              style: TextStyle(
+                                                color: AppColors.white,
+                                                fontSize: 14,
+                                                fontFamily: "Satoshi-Black.otf",
+                                                fontWeight: FontWeight.w300,
+                                              ),
+                                            ),
+                                            SizedBox(height: 5),
+                                            Text(
+                                              "Color Palette:",
+                                              style: TextStyle(
+                                                color: AppColors.white,
+                                                fontSize: 14,
+                                                fontFamily: "Satoshi-Black.otf",
+                                                fontWeight: FontWeight.bold,
+                                              ),
+                                            ),
+                                            Text(
+                                              "Our first set of feedback told us that while our color choices were great, the overall app was too colorful resulting in confusion. We switched our philosophy to only coloring things that we wanted users to focus on, simplifying the experience while keeping Joyn aesthetically pleasing.",
+                                              style: TextStyle(
+                                                color: AppColors.white,
+                                                fontSize: 14,
+                                                fontFamily: "Satoshi-Black.otf",
+                                                fontWeight: FontWeight.w300,
+                                              ),
+                                            ),
+                                            SizedBox(height: 5),
+                                            Text(
+                                              "Finding & Adding People on Joyn:",
+                                              style: TextStyle(
+                                                color: AppColors.white,
+                                                fontSize: 14,
+                                                fontFamily: "Satoshi-Black.otf",
+                                                fontWeight: FontWeight.bold,
+                                              ),
+                                            ),
+                                            Text(
+                                              "We made the platform private but only allowing interactions when people are mutually connected; eliminating public searches, spam, & unsolicited DM’s. While privacy was a major value prop, this made adding / finding people on Joyn difficult. We implemented typical practices like finding phone contacts, sharing unique connection links, & scanning QR codes, but knew we also had to innovate to overcome this barrier. We pondered on adding usernames, but didn’t want to encourage anon’s...after a few iterations we released “secret phrases” - a custom expression that allowed people to remain private, yet easily findable to privileged individuals.",
+                                              style: TextStyle(
+                                                color: AppColors.white,
+                                                fontSize: 14,
+                                                fontFamily: "Satoshi-Black.otf",
+                                                fontWeight: FontWeight.w300,
+                                              ),
+                                            ),
+                                            SizedBox(height: 5),
+                                            Text(
+                                              "99%+ Crash-Free Rates",
+                                              style: TextStyle(
+                                                color: AppColors.white,
+                                                fontSize: 14,
+                                                fontFamily: "Satoshi-Black.otf",
+                                                fontWeight: FontWeight.bold,
+                                              ),
+                                            ),
+                                            Text(
+                                              "We upheld a standard of excellence for product quality. To achieve this, we implemented extensive logging tools like Sentry.io which allowed us to easily find, replicate, & fix bugs. Over the course of 2 months we optimized Joyn from 92 - 99%+ crash-free rates.",
+                                              style: TextStyle(
+                                                color: AppColors.white,
+                                                fontSize: 14,
+                                                fontFamily: "Satoshi-Black.otf",
+                                                fontWeight: FontWeight.w300,
+                                              ),
+                                            ),
+                                            SizedBox(height: 5),
+                                            Text(
+                                              "Avaialble on all Platforms / Devices",
+                                              style: TextStyle(
+                                                color: AppColors.white,
+                                                fontSize: 14,
+                                                fontFamily: "Satoshi-Black.otf",
+                                                fontWeight: FontWeight.bold,
+                                              ),
+                                            ),
+                                            Text(
+                                              "Joyn was available on iOS, Android, MacOS, & Windows with mobile + tablet specific layouts to ensure that we were usable for everyday communication across all user types.",
+                                              style: TextStyle(
+                                                color: AppColors.white,
+                                                fontSize: 14,
+                                                fontFamily: "Satoshi-Black.otf",
+                                                fontWeight: FontWeight.w300,
+                                              ),
+                                            ),
+                                            SizedBox(height: 5),
+                                            Text(
+                                              "Haptic + Audio Feedback",
+                                              style: TextStyle(
+                                                color: AppColors.white,
+                                                fontSize: 14,
+                                                fontFamily: "Satoshi-Black.otf",
+                                                fontWeight: FontWeight.bold,
+                                              ),
+                                            ),
+                                            Text(
+                                              "We added haptic & audio feedback to enhance the experience of popularly used features like; generating AI-messages, pulling to refresh messages, switching message channels, or reacting to a message. The idea was to provide physical & auditory signals making the actions addicting.",
+                                              style: TextStyle(
+                                                color: AppColors.white,
+                                                fontSize: 14,
+                                                fontFamily: "Satoshi-Black.otf",
+                                                fontWeight: FontWeight.w300,
+                                              ),
+                                            ),
+                                            SizedBox(height: 5),
+                                            Text(
+                                              "Tech Stack",
+                                              style: TextStyle(
+                                                color: AppColors.white,
+                                                fontSize: 14,
+                                                fontFamily: "Satoshi-Black.otf",
+                                                fontWeight: FontWeight.bold,
+                                              ),
+                                            ),
+                                            Text(
                                               "We used a tech stack that aligned with our primary goals of scalability, development speed, & reliability. This included;\n- Languages: Flutter, NodeJS, & Golang\n- API’s: Twilio, DeepL, openAI, Revenue Cat, AppsFlyer, Stripe\n- Infrastructure: AWS, CodeMagic(CI/CD deployment), Grafana, MixPanel, Sentry, Swagger, Github + Github Projects",
+                                              style: TextStyle(
+                                                color: AppColors.white,
+                                                fontSize: 14,
+                                                fontFamily: "Satoshi-Black.otf",
+                                                fontWeight: FontWeight.w300,
+                                              ),
+                                            ),
+                                            SizedBox(height: 10),
+                                            Text(
+                                              "Future Roadmap",
+                                              style: TextStyle(
+                                                color: AppColors.white,
+                                                fontSize: 14,
+                                                fontFamily: "Satoshi-Black.otf",
+                                                fontWeight: FontWeight.bold,
+                                              ),
+                                            ),
+                                            Text(
+                                              "Our plans for Joyn’s future included an ai-powered personal relationship manager, more data points for connection suggestions, and leveraging ai to execute actions (ie: scheduling).",
                                               style: TextStyle(
                                                 color: AppColors.white,
                                                 fontSize: 14,
@@ -849,6 +1010,22 @@ class _JoynScreenState extends State<JoynScreen> {
                                   ),
                                 ),
                               ],
+                            ),
+                          ),
+                          const SizedBox(height: 5),
+                          InkWell(
+                            onTap: () =>
+                                _launchURL('https://austinyoshino.com'),
+                            child: const Text(
+                              'Back to Portfolio',
+                              style: TextStyle(
+                                decoration: TextDecoration.underline,
+                                decorationColor: AppColors.white,
+                                color: AppColors.white,
+                                fontSize: 14,
+                                fontWeight: FontWeight.w300,
+                                fontFamily: "Satoshi-Black.otf",
+                              ),
                             ),
                           ),
                         ],

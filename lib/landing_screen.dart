@@ -247,12 +247,12 @@ class _LandingScreenState extends State<LandingScreen> {
                   ],
                 ),
               ),
-              const Padding(
-                padding: EdgeInsets.symmetric(vertical: 20),
+              Padding(
+                padding: const EdgeInsets.symmetric(vertical: 20),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(
+                    const Text(
                       "Work",
                       style: TextStyle(
                         color: AppColors.gold,
@@ -260,8 +260,8 @@ class _LandingScreenState extends State<LandingScreen> {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    SizedBox(height: 10),
-                    Text(
+                    const SizedBox(height: 10),
+                    const Text(
                       "Cofounder of Joyn (exited): social messaging platform designed to enrich 1:1 interactions & connections",
                       style: TextStyle(
                         color: AppColors.white,
@@ -269,8 +269,8 @@ class _LandingScreenState extends State<LandingScreen> {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    SizedBox(height: 5),
-                    Text(
+                    const SizedBox(height: 5),
+                    const Text(
                       "- Launched full product available on iOS, Android, Mac, & Windows\n- Raised preseed round in Q1 2023\n- 56% 28-day retention, 40/60% monthly growth, & 99%+ crash-free rates",
                       style: TextStyle(
                         color: AppColors.white,
@@ -278,22 +278,22 @@ class _LandingScreenState extends State<LandingScreen> {
                         fontWeight: FontWeight.w300,
                       ),
                     ),
-                    // const SizedBox(height: 5),
-                    // InkWell(
-                    //   onTap: () => _launchURL('https://austinyoshino.com/joyn'),
-                    //   child: const Text(
-                    //     '- Learn more',
-                    //     style: TextStyle(
-                    //       decoration: TextDecoration.underline,
-                    //       decorationColor: AppColors.white,
-                    //       color: AppColors.white,
-                    //       fontSize: 14,
-                    //       fontWeight: FontWeight.w300,
-                    //     ),
-                    //   ),
-                    // ),
-                    SizedBox(height: 10),
-                    Text(
+                    const SizedBox(height: 5),
+                    InkWell(
+                      onTap: () => _launchURL('https://austinyoshino.com/joyn'),
+                      child: const Text(
+                        '- Learn more',
+                        style: TextStyle(
+                          decoration: TextDecoration.underline,
+                          decorationColor: AppColors.white,
+                          color: AppColors.white,
+                          fontSize: 14,
+                          fontWeight: FontWeight.w300,
+                        ),
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                    const Text(
                       "Cofounder of Phenom: marketplace that connected professional athletes & kids for coaching lessons",
                       style: TextStyle(
                         color: AppColors.white,
@@ -301,8 +301,8 @@ class _LandingScreenState extends State<LandingScreen> {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    SizedBox(height: 5),
-                    Text(
+                    const SizedBox(height: 5),
+                    const Text(
                       "- Accepted into Blue Startups accelerator (backed by Tetris)\n- Worked with sports agency in LA & MLB all-star athlete\n- Conducted pilot validating \$250/hour price point for lessons",
                       style: TextStyle(
                         color: AppColors.white,
@@ -325,8 +325,8 @@ class _LandingScreenState extends State<LandingScreen> {
                     //     ),
                     //   ),
                     // ),
-                    SizedBox(height: 10),
-                    Text(
+                    const SizedBox(height: 10),
+                    const Text(
                       "Special Projects at Noa Botanicals: seed to sale cannabis operation",
                       style: TextStyle(
                         color: AppColors.white,
@@ -334,8 +334,8 @@ class _LandingScreenState extends State<LandingScreen> {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    SizedBox(height: 5),
-                    Text(
+                    const SizedBox(height: 5),
+                    const Text(
                       "- Implemented new tech stack\n- Helped launch 12 new products\n- Broke monthly & daily sales records for 4/20 event",
                       style: TextStyle(
                         color: AppColors.white,
@@ -357,8 +357,8 @@ class _LandingScreenState extends State<LandingScreen> {
                     //     ),
                     //   ),
                     // ),
-                    SizedBox(height: 10),
-                    Text(
+                    const SizedBox(height: 10),
+                    const Text(
                       "Advisor",
                       style: TextStyle(
                         color: AppColors.white,
@@ -366,8 +366,8 @@ class _LandingScreenState extends State<LandingScreen> {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    SizedBox(height: 5),
-                    Text(
+                    const SizedBox(height: 5),
+                    const Text(
                       "- Technical Product for Coincerge: venture studio building a crypto-native PoS, wallet, & currency\n- Strategy / Growth for aVenture (Techstars '23): research platform for VC's",
                       style: TextStyle(
                         color: AppColors.white,
@@ -376,8 +376,8 @@ class _LandingScreenState extends State<LandingScreen> {
                       ),
                     ),
 
-                    SizedBox(height: 10),
-                    Text(
+                    const SizedBox(height: 10),
+                    const Text(
                       "Freelance",
                       style: TextStyle(
                         color: AppColors.white,
@@ -385,8 +385,8 @@ class _LandingScreenState extends State<LandingScreen> {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    SizedBox(height: 5),
-                    Text(
+                    const SizedBox(height: 5),
+                    const Text(
                       "- Dilligence for Pono Capital (SPAC) = deal announced in Aug 2023\n- Marketing campaigns for aVenture Investment Funds = 7-figures in waitlist commitments\n- Engineering for SeeRescue Corporation = 3-D printed prototype of patented device",
                       style: TextStyle(
                         color: AppColors.white,
