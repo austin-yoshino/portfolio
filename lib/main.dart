@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:portfolio/colors.dart';
-import 'package:portfolio/joyn.dart';
+import 'package:portfolio/case%20studies/joyn.dart';
 import 'package:portfolio/landing_screen.dart';
 import 'package:flutter_web_plugins/url_strategy.dart';
-import 'package:portfolio/noa.dart';
-import 'package:portfolio/phenom.dart';
-import 'package:portfolio/resume.dart';
+import 'package:portfolio/case%20studies/noa.dart';
+import 'package:portfolio/case%20studies/phenom.dart';
+import 'package:portfolio/show%20room/resume.dart';
 
 void main() async {
   usePathUrlStrategy();
