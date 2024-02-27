@@ -82,7 +82,7 @@ class _LandingScreenState extends State<LandingScreen> {
                     ),
                     const SizedBox(height: 10),
                     const Text(
-                      "Product builder, growth hacker, & business operator currently looking for whats next",
+                      "5 years of experience in \"figure it out\" roles across product, growth, & business ops",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
@@ -116,68 +116,74 @@ class _LandingScreenState extends State<LandingScreen> {
                       ),
                     ),
                     const SizedBox(height: 5),
-                    const Text(
-                      "- ay@austinyoshino.com",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
-                    InkWell(
-                      onTap: () =>
-                          _launchURL('https://github.com/austin-yoshino'),
-                      child: const Text(
-                        '- Github',
-                        style: TextStyle(
-                          decoration: TextDecoration.underline,
-                          decorationColor: AppColors.white,
-                          color: AppColors.white,
-                          fontSize: 14,
-                          fontWeight: FontWeight.w300,
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      children: [
+                        GestureDetector(
+                          onTap: () =>
+                              _launchURL('mailto:ay@austinyoshino.com'),
+                          child: ClipRRect(
+                            borderRadius: BorderRadius.circular(5),
+                            child: Image.asset(
+                              'assets/images/emailIcon.png',
+                              width: 24,
+                              height: 24,
+                            ),
+                          ),
                         ),
-                      ),
-                    ),
-                    InkWell(
-                      onTap: () => _launchURL(
-                          'https://www.linkedin.com/in/austin-yoshino/'),
-                      child: const Text(
-                        '- LinkedIn',
-                        style: TextStyle(
-                          decoration: TextDecoration.underline,
-                          decorationColor: AppColors.white,
-                          color: AppColors.white,
-                          fontSize: 14,
-                          fontWeight: FontWeight.w300,
+                        const SizedBox(width: 10),
+                        GestureDetector(
+                          onTap: () =>
+                              _launchURL('https://github.com/austin-yoshino'),
+                          child: ClipRRect(
+                            borderRadius: BorderRadius.circular(5),
+                            child: Image.asset(
+                              'assets/images/gitIcon.png',
+                              width: 24,
+                              height: 24,
+                            ),
+                          ),
                         ),
-                      ),
-                    ),
-                    InkWell(
-                      onTap: () =>
-                          _launchURL('https://www.instagram.com/geinyuhs/'),
-                      child: const Text(
-                        '- Instagram',
-                        style: TextStyle(
-                          decoration: TextDecoration.underline,
-                          decorationColor: AppColors.white,
-                          color: AppColors.white,
-                          fontSize: 14,
-                          fontWeight: FontWeight.w300,
+                        const SizedBox(width: 10),
+                        GestureDetector(
+                          onTap: () => _launchURL(
+                              'https://www.linkedin.com/in/austin-yoshino/'),
+                          child: ClipRRect(
+                            borderRadius: BorderRadius.circular(5),
+                            child: Image.asset(
+                              'assets/images/liIcon.png',
+                              width: 24,
+                              height: 24,
+                            ),
+                          ),
                         ),
-                      ),
-                    ),
-                    InkWell(
-                      onTap: () => _launchURL('https://twitter.com/geinyuhs'),
-                      child: const Text(
-                        '- Twitter / X',
-                        style: TextStyle(
-                          decoration: TextDecoration.underline,
-                          decorationColor: AppColors.white,
-                          color: AppColors.white,
-                          fontSize: 14,
-                          fontWeight: FontWeight.w300,
+                        const SizedBox(width: 10),
+                        GestureDetector(
+                          onTap: () =>
+                              _launchURL('https://www.instagram.com/geinyuhs/'),
+                          child: ClipRRect(
+                            borderRadius: BorderRadius.circular(5),
+                            child: Image.asset(
+                              'assets/images/igIcon.png',
+                              width: 24,
+                              height: 24,
+                            ),
+                          ),
                         ),
-                      ),
+                        const SizedBox(width: 10),
+                        GestureDetector(
+                          onTap: () =>
+                              _launchURL('https://twitter.com/geinyuhs'),
+                          child: ClipRRect(
+                            borderRadius: BorderRadius.circular(5),
+                            child: Image.asset(
+                              'assets/images/xIcon.png',
+                              width: 24,
+                              height: 24,
+                            ),
+                          ),
+                        ),
+                      ],
                     ),
                     const SizedBox(height: 10),
                     const Text(
@@ -336,7 +342,7 @@ class _LandingScreenState extends State<LandingScreen> {
                     ),
                     const SizedBox(height: 5),
                     const Text(
-                      "- Implemented new tech stack\n- Helped launch 12 new products\n- Broke monthly & daily sales records for 4/20 event",
+                      "- Implemented new tech stack(ERP, POS, & CRM)\n- Helped launch 12 new products\n- Broke monthly & daily sales records for 4/20 event",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
@@ -368,7 +374,7 @@ class _LandingScreenState extends State<LandingScreen> {
                     ),
                     const SizedBox(height: 5),
                     const Text(
-                      "- Technical Product for Coincerge: venture studio building a crypto-native PoS, wallet, & currency\n- Strategy / Growth for aVenture (Techstars '23): research platform for VC's",
+                      "- Technical Product for Coincerge: crypto-native POS, wallet, & currency(\$CCC)\n- Strategy / Growth for aVenture (Techstars '23): research platform for VC's",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
@@ -387,7 +393,7 @@ class _LandingScreenState extends State<LandingScreen> {
                     ),
                     const SizedBox(height: 5),
                     const Text(
-                      "- Dilligence for Pono Capital (SPAC) = deal announced in Aug 2023\n- Marketing campaigns for aVenture Investment Funds = 7-figures in waitlist commitments\n- Engineering for SeeRescue Corporation = 3-D printed prototype of patented device",
+                      "- Dilligence for Pono Capital (SPAC) = deal announced in Aug 2023\n- Marketing campaigns for aVenture = 7-figures in waitlist commitments\n- Engineering for SeeRescue Corporation = 3-D printed prototype of patented device",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
@@ -421,7 +427,7 @@ class _LandingScreenState extends State<LandingScreen> {
                     ),
                     SizedBox(height: 5),
                     Text(
-                      "- Built autonomous aerial & ground drone (senior project)\n- Won \$50k in grant funding for medical device start up = 3-D printed prototype of gyroscopically stabalized gait trainer\n- Grand Treasurer / Social Chair for Kappa Sigma Fraternity = 10x'd fundraising",
+                      "- Built autonomous aerial & ground drone (senior project)\n- Won \$50k in grant funding for medical device start up: 3-D printed prototype of gyroscopically stabalized gait trainer\n- Grand Treasurer / Social Chair for Kappa Sigma Fraternity: 10x'd fundraising",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
@@ -439,7 +445,7 @@ class _LandingScreenState extends State<LandingScreen> {
                     ),
                     SizedBox(height: 5),
                     Text(
-                      "Online copywriting course covering cold emails, social media, pitching, headlines, landing pages, & company updates.\"Some write to express, some write to impress, power-writing gets results\"",
+                      "Online copywriting course covering; cold emails, social media, pitching, headlines, landing pages, & company updates.\"Some write to express, some write to impress, power-writing gets results\"",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
@@ -457,7 +463,7 @@ class _LandingScreenState extends State<LandingScreen> {
                     ),
                     SizedBox(height: 5),
                     Text(
-                      "Online UX course covering design essentials, user research, user personas, developing a UX concept, prototyping, UX feedback & evaluating usability",
+                      "Online UX course covering; design essentials, user research, user personas, developing a UX concept, prototyping, UX feedback & evaluating usability",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
@@ -509,7 +515,7 @@ class _LandingScreenState extends State<LandingScreen> {
                     ),
                     const SizedBox(height: 5),
                     const Text(
-                      "When I committed running 26.2 miles sounded crazy, it was the ultimate test of mental fortitude, discipline, & consistency",
+                      "When I committed, running 26.2 miles sounded crazy. It was the ultimate test of mental fortitude, discipline, & consistency",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
@@ -545,7 +551,7 @@ class _LandingScreenState extends State<LandingScreen> {
                     ),
                     const SizedBox(height: 5),
                     const Text(
-                      "Started during Joyn when we had an overload of tasks, currently still refining my front-end skills",
+                      "During Joyn when we had an overload of tasks so I learned how to code to contribute & launch on time, currently still working on my front-end skills",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
@@ -639,7 +645,7 @@ class _LandingScreenState extends State<LandingScreen> {
                     ),
                     SizedBox(height: 10),
                     Text(
-                      "Core Compentencies:",
+                      "Compentencies:",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
@@ -648,7 +654,7 @@ class _LandingScreenState extends State<LandingScreen> {
                     ),
                     SizedBox(height: 5),
                     Text(
-                      "Leadership, storytelling, empathy, product development / engineering, user experience, fundraising, creative direction, copywriting",
+                      "Leadership, storytelling, empathy, product development / engineering, user experience, fundraising, creative direction, copywriting, growth hacking, operations",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
