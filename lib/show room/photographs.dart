@@ -89,7 +89,7 @@ class _photographsScreenState extends State<photographsScreen> {
                           padding: const EdgeInsets.symmetric(horizontal: 16.0),
                           child: InkWell(
                             onTap: () =>
-                                _launchURL('https://austin-yoshino.com'),
+                                _launchURL('https://austinyoshino.com'),
                             child: const Text(
                               'Back to Portfolio',
                               style: TextStyle(

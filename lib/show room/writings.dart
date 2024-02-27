@@ -43,7 +43,7 @@ class _writingsScreenState extends State<writingsScreen> {
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16.0),
               child: InkWell(
-                onTap: () => _launchURL('https://austin-yoshino.com'),
+                onTap: () => _launchURL('https://austinyoshino.com'),
                 child: const Text(
                   'Back to Portfolio',
                   style: TextStyle(
