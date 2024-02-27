@@ -184,67 +184,60 @@ class _JoynScreenState extends State<JoynScreen> {
                             ),
                           ),
                           const SizedBox(height: 5),
-                          InkWell(
-                            onTap: () => _launchURL('https://joynchat.com'),
-                            child: const Text(
-                              '- Website',
-                              style: TextStyle(
-                                decoration: TextDecoration.underline,
-                                decorationColor: AppColors.white,
-                                color: AppColors.white,
-                                fontSize: 14,
-                                fontWeight: FontWeight.w300,
-                                fontFamily: "Satoshi-Black.otf",
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.start,
+                            children: [
+                              GestureDetector(
+                                onTap: () => _launchURL('https://joynchat.com'),
+                                child: ClipRRect(
+                                  borderRadius: BorderRadius.circular(5),
+                                  child: Image.asset(
+                                    'assets/images/websiteIcon.png',
+                                    width: 24,
+                                    height: 24,
+                                  ),
+                                ),
                               ),
-                            ),
-                          ),
-                          const SizedBox(height: 5),
-                          InkWell(
-                            onTap: () => _launchURL(
-                                'https://apps.apple.com/us/app/joyn-chat/id6444626347'),
-                            child: const Text(
-                              '- Apple Store',
-                              style: TextStyle(
-                                decoration: TextDecoration.underline,
-                                decorationColor: AppColors.white,
-                                color: AppColors.white,
-                                fontSize: 14,
-                                fontWeight: FontWeight.w300,
-                                fontFamily: "Satoshi-Black.otf",
+                              const SizedBox(width: 10),
+                              GestureDetector(
+                                onTap: () => _launchURL(
+                                    'https://apps.apple.com/us/app/joyn-chat/id6444626347'),
+                                child: ClipRRect(
+                                  borderRadius: BorderRadius.circular(5),
+                                  child: Image.asset(
+                                    'assets/images/appleStoreIcon.png',
+                                    width: 24,
+                                    height: 24,
+                                  ),
+                                ),
                               ),
-                            ),
-                          ),
-                          const SizedBox(height: 5),
-                          InkWell(
-                            onTap: () => _launchURL(
-                                'https://play.google.com/store/apps/details?id=app.joyn.app&hl=en_US'),
-                            child: const Text(
-                              '- Google Play',
-                              style: TextStyle(
-                                decoration: TextDecoration.underline,
-                                decorationColor: AppColors.white,
-                                color: AppColors.white,
-                                fontSize: 14,
-                                fontWeight: FontWeight.w300,
-                                fontFamily: "Satoshi-Black.otf",
+                              const SizedBox(width: 10),
+                              GestureDetector(
+                                onTap: () => _launchURL(
+                                    'https://play.google.com/store/apps/details?id=app.joyn.app&hl=en_US'),
+                                child: ClipRRect(
+                                  borderRadius: BorderRadius.circular(5),
+                                  child: Image.asset(
+                                    'assets/images/playStoreIcon.png',
+                                    width: 24,
+                                    height: 24,
+                                  ),
+                                ),
                               ),
-                            ),
-                          ),
-                          const SizedBox(height: 5),
-                          InkWell(
-                            onTap: () => _launchURL(
-                                'https://apps.microsoft.com/detail/9NLQP8C3FTR3?hl=en-US&gl=US'),
-                            child: const Text(
-                              '- Microsoft Store',
-                              style: TextStyle(
-                                decoration: TextDecoration.underline,
-                                decorationColor: AppColors.white,
-                                color: AppColors.white,
-                                fontSize: 14,
-                                fontWeight: FontWeight.w300,
-                                fontFamily: "Satoshi-Black.otf",
+                              const SizedBox(width: 10),
+                              GestureDetector(
+                                onTap: () => _launchURL(
+                                    'https://apps.microsoft.com/detail/9NLQP8C3FTR3?hl=en-US&gl=US'),
+                                child: ClipRRect(
+                                  borderRadius: BorderRadius.circular(5),
+                                  child: Image.asset(
+                                    'assets/images/microsoftStoreIcon.png',
+                                    width: 24,
+                                    height: 24,
+                                  ),
+                                ),
                               ),
-                            ),
+                            ],
                           ),
                           const Padding(
                             padding: EdgeInsets.symmetric(vertical: 20),
@@ -353,7 +346,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                             ),
                                             SizedBox(height: 10),
                                             Text(
-                                              "Great social products have 3 pillars:\n1) Novel way to communicate\n2) Platform-specific interaction layer\n3) Introductions to people you wouldn’t otherwise meet\n\nFor example Instagram:\n1) Introduced new communication channels through replies, likes, & comments\n2) Curated specific interactions through story replies & posts which provided proprietary information for users to base interactions of of\n3) Showed you new people through discovery, mutual follows, suggested posts, & tags\n\nJoyn was building a social product rooted in quality instead of quantity, envisioning a sanctuary for real connection by:\n1) Making communication private (no unsolicited DM’s) & frictionless (no tedious transactions)\n2) Fostering deeper interactions through thoughtful & inspirational content\n3) Curating introductions that were high-filtered\n\nLaunching a rich variety of features required intense agile management practices, roadmapping prioritization, & efficient management practices. A couple months before our launch I noticed a backlog overload of tasks, so along with re-prioritization I taught myself to code leveraging chatGPT to make direct contributions allowing us to launch on-time. Ultimately, we achieved 56% 28-day retention through the craftsmanship of the following features;",
+                                              "Great social products have 3 pillars;\n1) Novel way to communicate\n2) Platform-specific interaction layer\n3) Introductions to people you wouldn’t otherwise meet\n\nFor example Instagram;\n1) Introduced new communication channels through replies, likes, & comments\n2) Fostered interactions through story replies & posts providing platform-specific information\n3) Showed you new people through discovery, mutual follows, suggested posts, & tags\n\nJoyn is a social product rooted in quality instead of quantity, envisioning a sanctuary for real connection by:\n1) Making communication private (no unsolicited DM’s) & frictionless (no tedious transactions)\n2) Fostering deeper interactions through thoughtful & inspirational content\n3) Curating highly-filtered introductions\n\nLaunching a rich variety of features required intense agile management practices & roadmapping prioritization. A couple months before our launch I noticed a backlog of tasks, so along with re-prioritization I taught myself to code leveraging chatGPT to make direct contributions allowing us to launch on-time. Ultimately, we achieved 56% 28-day retention through the craftsmanship of the following features;",
                                               style: TextStyle(
                                                 color: AppColors.white,
                                                 fontSize: 14,
@@ -496,7 +489,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                               ),
                                             ),
                                             Text(
-                                              "The biggest design decision here was the tradeoff of friction vs information. For the best user experience we only allowed phone number sign-ups, no emails or SSO’s which often lead to multiple account creations spurring frustration & confusion. Initially, during on-boarding we just asked a couple basic questions to get people in the app as fast as possible. While this was great for conversions, interactions were low because we didn’t gather enough user data or provide enough education to properly motivate new users.\nOur final iteration, featured a mix of education & information gathering so users understood the benefits of completing onboarding + guiding action steps to incentivize first interactions. Since the process became longer we added a few small, yet pivotal features to reducing friction including; auto-progression after filling in all the fields, accounting for keyboards when displaying the next button, and auto-fills based on device information. ",
+                                              "The biggest design decision was the tradeoff of friction vs information. For the best user experience we only allowed phone number sign-ups: no emails or SSO’s which often lead to multiple account creations spurring frustration & confusion. Initially, during on-boarding we only asked basic questions to get people in the app as fast as possible. While this was great for conversions, interactions were low because we didn’t gather enough user data or provide education to properly motivate new users.\nOur final iteration, featured a mix of education & information gathering so users understood the benefits of completing onboarding with guiding action steps to incentivize first interactions. Since the process became longer we added a few small, yet pivotal features to reducing friction including; auto-progression after filling out fields, accounting for keyboards when displaying the next button, and auto-fills based on device information. ",
                                               style: TextStyle(
                                                 color: AppColors.white,
                                                 fontSize: 14,
@@ -515,7 +508,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                               ),
                                             ),
                                             Text(
-                                              "In order for Joyn to garner enough trust to be used for everyday communication we prioritized message speed. When we first launched, loading was slow if cellular connection was bad & required an occasional refresh for messages to show. While this was something we noticed in other messaging platforms (like Discord) we knew we needed to solve it & implemented a few measures including; local data cacheing, pre/fail/re-send sates, manual swipe refreshes, & automatic background refreshes for low internet cases. Ultimately, we conquered the technical challenges where this became an afterthought.",
+                                              "Message speed was a huge component in Joyn garnering the necessary trust for everyday communication. When we first launched, loading was slow if cellular connection was bad & required an occasional refresh for messages to show. While this was something we noticed in other messaging platforms (like Discord) we knew we needed to solve it & implemented a few measures including; local data cacheing, pre/fail/re-send sates, manual swipe refreshes, & automatic background refreshes for low internet cases. Ultimately, we conquered the technical challenges where this became an afterthought.",
                                               style: TextStyle(
                                                 color: AppColors.white,
                                                 fontSize: 14,
@@ -534,7 +527,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                               ),
                                             ),
                                             Text(
-                                              "Our first set of feedback told us that while our color choices were great, the overall app was too colorful resulting in confusion. We switched our philosophy to only coloring things that we wanted users to focus on, simplifying the experience while keeping Joyn aesthetically pleasing.",
+                                              "Initial feedback told us that while our color choices were great, the overall app was too colorful resulting in confusion. We switched our philosophy to only coloring things that we wanted users to focus on, simplifying the experience while keeping Joyn aesthetically pleasing.",
                                               style: TextStyle(
                                                 color: AppColors.white,
                                                 fontSize: 14,
@@ -553,7 +546,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                               ),
                                             ),
                                             Text(
-                                              "We made the platform private but only allowing interactions when people are mutually connected; eliminating public searches, spam, & unsolicited DM’s. While privacy was a major value prop, this made adding / finding people on Joyn difficult. We implemented typical practices like finding phone contacts, sharing unique connection links, & scanning QR codes, but knew we also had to innovate to overcome this barrier. We pondered on adding usernames, but didn’t want to encourage anon’s...after a few iterations we released “secret phrases” - a custom expression that allowed people to remain private, yet easily findable to privileged individuals.",
+                                              "We made the platform private but only allowing interactions when people are mutually connected; eliminating public searches, spam, & unsolicited DM’s. While privacy was a major value prop, this made adding / finding people on Joyn difficult. We implemented typical practices like finding phone contacts, sharing unique connection links, & scanning QR codes, but knew we also needed to innovate. We pondered adding usernames, but didn’t want to encourage anon’s...after a few iterations we released “secret phrases” - a custom expression that allowed people to remain private, yet easily findable to privileged individuals.",
                                               style: TextStyle(
                                                 color: AppColors.white,
                                                 fontSize: 14,
@@ -572,7 +565,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                               ),
                                             ),
                                             Text(
-                                              "We upheld a standard of excellence for product quality. To achieve this, we implemented extensive logging tools like Sentry.io which allowed us to easily find, replicate, & fix bugs. Over the course of 2 months we optimized Joyn from 92 - 99%+ crash-free rates.",
+                                              "We prided ourselves on our standard of excellence for product quality. To achieve this, we implemented extensive logging tools like Sentry.io which allowed us to easily find, replicate, & fix bugs. Over the course of 2 months we optimized Joyn from 92 - 99%+ crash-free rates.",
                                               style: TextStyle(
                                                 color: AppColors.white,
                                                 fontSize: 14,
@@ -591,7 +584,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                               ),
                                             ),
                                             Text(
-                                              "Joyn was available on iOS, Android, MacOS, & Windows with mobile + tablet specific layouts to ensure that we were usable for everyday communication across all user types.",
+                                              "Joyn was available on iOS, Android, MacOS, & Windows platforms with mobile + tablet specific layouts to ensure that we were usable for everyday communication across all user types.",
                                               style: TextStyle(
                                                 color: AppColors.white,
                                                 fontSize: 14,
@@ -610,7 +603,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                               ),
                                             ),
                                             Text(
-                                              "We added haptic & audio feedback to enhance the experience of popularly used features like; generating AI-messages, pulling to refresh messages, switching message channels, or reacting to a message. The idea was to provide physical & auditory signals making the actions addicting.",
+                                              "We added haptic & audio feedback to enhance the experience of fequent interactins like; generating AI-messages, pulling to refresh messages, switching message channels, or reacting to a message. The idea was to provide physical & auditory signals making Joyn stickier.",
                                               style: TextStyle(
                                                 color: AppColors.white,
                                                 fontSize: 14,
@@ -629,7 +622,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                               ),
                                             ),
                                             Text(
-                                              "We used a tech stack that aligned with our primary goals of scalability, development speed, & reliability. This included;\n- Languages: Flutter, NodeJS, & Golang\n- API’s: Twilio, DeepL, openAI, Revenue Cat, AppsFlyer, Stripe\n- Infrastructure: AWS, CodeMagic(CI/CD deployment), Grafana, MixPanel, Sentry, Swagger, Github + Github Projects",
+                                              "We choose a tech stack to account for scalability, development speed, & reliability. This included;\n- Languages: Flutter, NodeJS, & Golang\n- API’s: Twilio, DeepL, openAI, Revenue Cat, AppsFlyer, Stripe\n- Infrastructure: AWS, CodeMagic(CI/CD deployment), Grafana, MixPanel, Sentry, Swagger, Github + Github Projects",
                                               style: TextStyle(
                                                 color: AppColors.white,
                                                 fontSize: 14,
@@ -648,7 +641,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                               ),
                                             ),
                                             Text(
-                                              "Our plans for Joyn’s future included an ai-powered personal relationship manager, more data points for connection suggestions, and leveraging ai to execute actions (ie: scheduling).",
+                                              "Ai-powered personal relationship manager, more data points for connection suggestions, and leveraging ai to execute actions (ie: scheduling).",
                                               style: TextStyle(
                                                 color: AppColors.white,
                                                 fontSize: 14,
@@ -687,7 +680,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                             ),
                                             SizedBox(height: 5),
                                             Text(
-                                              "The Joyn brand needed to ride the line of social / professional. We crafted a logo that was simple yet distinct using a dark mode-based color palette with simple yet defining contrasting colors. The most important decision was making our messages purple with a slight gradient to differentiate from iMessage (blue) & Android (green).\nI believe one the most important (yet severely underrated) parts of bringing something new into the world is the “one-liner” - a short sentence that incites to learn more. My philosophy is hate it or love it as long as you can’t ignore it we win. The stronger the emotional response the better. One day, after sending a survey to gauge our audiences perception of networking, someone responded “f*ck networking”. From that day on, Joyn’s one-liner was the “anti-networking, networking app”.",
+                                              "The Joyn brand needed to ride the line of social & professional. We crafted a logo that was simple yet distinct using a dark mode-based color palette with contrasting colors. The most important decision was making the messages purple with a slight gradient to differentiate from iMessage (blue) & Android (green).\nI believe one the most important (yet severely underrated) parts of bringing something new into the world is the “one-liner” - a short sentence that incites people to learn more. My philosophy is hate it or love it as long as you can’t ignore it we win. One day, after sending a survey to gauge our audiences perception of networking, someone responded “f*ck networking”...from that day on, Joyn’s one-liner was the “anti-networking, networking app”.",
                                               style: TextStyle(
                                                 color: AppColors.white,
                                                 fontSize: 14,
@@ -707,7 +700,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                             ),
                                             SizedBox(height: 5),
                                             Text(
-                                              "Due to our commitment of building a social super-app, we allocated majority of funds to product. This presented our biggest challenge: acquiring users with no budget. Aside from distributing through our personal networks, I growth-hacked our newsletter to 30k subscribers in 2 months via a cold email -> Beehiiv funnel. This allowed us to test messaging & conduct market research while enabling re-targeting for app downloads. Despite mostly being cold leads we boasted an averaged a 33.92% open + 4.89% click through rates with a modest 1.33% unsubscribe rate. When I left, Joyn had around a 1k downloads & was growing monthly at 60%.",
+                                              "Due to our vision of building a social super-app, we allocated majority of funds to product. This presented our biggest challenge: acquiring users with no budget. Aside from distributing through personal networks, I growth-hacked our newsletter to 30k subscribers in 2 months via a cold email -> Beehiiv funnel. This allowed us to test messaging, conduct market research, & re-target app download campaigns. Despite mostly being cold leads we boasted an averaged a 33.92% open & 4.89% click through rates with a modest 1.33% unsubscribe rate. When I left, Joyn had around a 1k downloads & was growing monthly at 60%.",
                                               style: TextStyle(
                                                 color: AppColors.white,
                                                 fontSize: 14,
@@ -759,7 +752,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                                   ),
                                                   SizedBox(height: 5),
                                                   Text(
-                                                    "We met through a professor who said; \"you remind me of Dustin, go meet him\". After meeting, I offered to work for free just to stay in his orbit. Weekly meetings led to start-up talk which eveuntally resulted in us Cofounding 2 companies together (Joyn + Phenom).",
+                                                    "We met through a professor who said; \"you remind me of Dustin\". After meeting, I offered to work for free just to stay in his orbit. Weekly meetings led to start-up talk which eveuntally resulted in us Cofounding 2 companies together (Joyn + Phenom).",
                                                     style: TextStyle(
                                                       color: AppColors.white,
                                                       fontSize: 14,
@@ -807,7 +800,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                                   ),
                                                   SizedBox(height: 5),
                                                   Text(
-                                                    "She was my first hire & was specifically chosen by her background in graphic design, psychology, & gaming. She was with the team since day 1 & was crucial in helping bring my vision to life; tgether we produced over 400 mockups, 100 custom graphics, & 200 prototypes.",
+                                                    "She was our first hire & was specifically chosen by her background in graphic design, psychology, & gaming. She was with the team since day 1 & was crucial in helping bring our vision to life; tgether we produced over 400 mockups, 100 custom graphics, & 200 prototypes.",
                                                     style: TextStyle(
                                                       color: AppColors.white,
                                                       fontSize: 14,
@@ -831,7 +824,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                                   ),
                                                   SizedBox(height: 5),
                                                   Text(
-                                                    "To remain cost efficient we built our dev team internationally. At the beginning, we worked with 2 agencies operating with a team of 15 to quickly build a proof of concept. After the POC, we internalized the best developers focusing our team to 5; improving moral, productivity, & quality. In order to mitigate inefficiencies of working across timezones + language barriers we wrote detailed documentation of tasks, implemented asynchronous communication practices, & integrated logging tools like Sentry.io.",
+                                                    "To remain cost efficient we built our dev team internationally. At the beginning, we worked with 2 agencies operating with a team of 15 to quickly build a proof of concept. After the POC, we internalized the best developers focusing our team to 5; improving moral, productivity, & quality. In order to mitigate inefficiencies of working across timezones & language barriers we wrote detailed documentation of tasks, implemented asynchronous communication practices, & integrated logging tools.",
                                                     style: TextStyle(
                                                       color: AppColors.white,
                                                       fontSize: 14,
@@ -897,7 +890,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                                   ),
                                                   SizedBox(height: 10),
                                                   Text(
-                                                    "In Q4 2023 Dustin & I were preparing to raise the next round, but noticed a unfortunate difference in vision. To articulate it, he wants to build a international Whats App & wanted to take down LinkedIn. We mutually & cordially decided that the best path forward for everyone involved was for me to exit via a share sale. I helped with the leadership transition & am still avaialble for advisory calls.",
+                                                    "In Q4 2023 Dustin & I were preparing to raise the next round, but noticed a unfortunate difference in vision. To articulate it, he wants to build a international Whats App & wanted to take down LinkedIn. We mutually & cordially decided that the best decision for everyone involved was for me to exit via a share sale. I helped with the leadership transition & am still avaialble for advisory calls.",
                                                     style: TextStyle(
                                                       color: AppColors.white,
                                                       fontSize: 14,
@@ -942,7 +935,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                                   ),
                                                   SizedBox(height: 5),
                                                   Text(
-                                                    "Our ambition was to take Joyn public in 2024. To even be considered for a SPAC deal we needed a minimum \$30m valuation by the end of 2023 & conducted company operations accordingly. I believe this forced us to try to do to much in too little time, next time I would prefer to let momentum dictate the pace…crawling towards PMF so we have the capacity to sprint when the time is right.",
+                                                    "Our ambition was to take Joyn public in 2024. To even be considered for a SPAC deal we needed a minimum \$30m valuation by the end of 2023 & conducted company operations accordingly. I believe this forced us to try to do to much in too little time, I learned to let momentum dictate the pace…crawling towards PMF so we have the capacity to sprint when the time is right.",
                                                     style: TextStyle(
                                                       color: AppColors.white,
                                                       fontSize: 14,
@@ -966,7 +959,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                                   ),
                                                   SizedBox(height: 5),
                                                   Text(
-                                                    "“First time founders focus on product, second time founders focus on distribution” is a well known philosophy in start-ups. After attempting both & seeing the pros / cons of each I believe, that like most cases it’s a neither one or the other, but a symbiotic balance. One can’t exist without the other & should be built in tandem.",
+                                                    "“First time founders focus on product, second time founders focus on distribution” is a well known philosophy in start-ups. After attempting both & seeing the pros / cons I believe, that like most cases it’s a neither one or the other, but a symbiotic balance. One can’t exist without the other & should be built in tandem.",
                                                     style: TextStyle(
                                                       color: AppColors.white,
                                                       fontSize: 14,
@@ -990,7 +983,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                                   ),
                                                   SizedBox(height: 5),
                                                   Text(
-                                                    "We had an unfair distribution advantage in Japan thanks to my Cofounders status. While this was a great opportunity, we overlooked a major aspect in this customer segment: Japan has a higher quality standard than the US. In order to reach their standard of excellence we pushed to develop fully-flushed features, make Joyn available on all platforms / devices, & bug bash our way to 99%+ crash-free rates ultimately producing a great product. However, this intense focus on product pushed back our launch considerably. A refined approach would be to select a customer segment where the product need outweighs the tolerance for minor initial product inconveniences.",
+                                                    "We had an unfair distribution advantage in Japan thanks to my Cofounders status. While this was a great opportunity, we overlooked a major aspect in this customer segment: Japan has a higher quality standard than the US. In order to reach their standard of excellence we pushed to develop fully-flushed features, make Joyn available on all platforms / devices, & bug bash our way to 99%+ crash-free rates ultimately producing a great product. However, this required intense focus & pushed back our launch considerably. A refined approach would be to select a customer segment where the product need outweighs the tolerance for minor initial product inconveniences so product & market validation can be built in tandem.",
                                                     style: TextStyle(
                                                       color: AppColors.white,
                                                       fontSize: 14,
