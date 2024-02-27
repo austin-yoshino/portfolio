@@ -236,20 +236,20 @@ class _LandingScreenState extends State<LandingScreen> {
                     //     ),
                     //   ),
                     // ),
-                    // InkWell(
-                    //   onTap: () =>
-                    //       _launchURL('https://austinyoshino.com/photographs'),
-                    //   child: const Text(
-                    //     '- Photographs',
-                    //     style: TextStyle(
-                    //       decoration: TextDecoration.underline,
-                    //       decorationColor: AppColors.white,
-                    //       color: AppColors.white,
-                    //       fontSize: 14,
-                    //       fontWeight: FontWeight.w300,
-                    //     ),
-                    //   ),
-                    // ),
+                    InkWell(
+                      onTap: () =>
+                          _launchURL('https://austinyoshino.com/photographs'),
+                      child: const Text(
+                        '- Photographs',
+                        style: TextStyle(
+                          decoration: TextDecoration.underline,
+                          decorationColor: AppColors.white,
+                          color: AppColors.white,
+                          fontSize: 14,
+                          fontWeight: FontWeight.w300,
+                        ),
+                      ),
+                    ),
                     InkWell(
                       onTap: () =>
                           _launchURL('https://austinyoshino.com/resume'),

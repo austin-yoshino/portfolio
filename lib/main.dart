@@ -7,7 +7,7 @@ import 'package:flutter_web_plugins/url_strategy.dart';
 import 'package:portfolio/case%20studies/noa.dart';
 import 'package:portfolio/case%20studies/phenom.dart';
 import 'package:portfolio/show%20room/decks.dart';
-import 'package:portfolio/show%20room/photography.dart';
+import 'package:portfolio/show%20room/photographs.dart';
 import 'package:portfolio/show%20room/writings.dart';
 import 'package:portfolio/show%20room/resume.dart';
 
@@ -95,11 +95,11 @@ class MyApp extends StatelessWidget {
                     child: const writingsScreen(),
                   )),
           GoRoute(
-              path: '/photography',
+              path: '/photographs',
               pageBuilder: (context, state) => buildPageWithDefaultTransition(
                     context: context,
                     state: state,
-                    child: const photographyScreen(),
+                    child: const photographsScreen(),
                   )),
         ],
         errorBuilder: (context, state) => const LandingScreen(),
