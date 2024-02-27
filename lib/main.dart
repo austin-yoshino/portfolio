@@ -7,6 +7,7 @@ import 'package:flutter_web_plugins/url_strategy.dart';
 import 'package:portfolio/case%20studies/noa.dart';
 import 'package:portfolio/case%20studies/phenom.dart';
 import 'package:portfolio/show%20room/decks.dart';
+import 'package:portfolio/show%20room/writings.dart';
 import 'package:portfolio/show%20room/resume.dart';
 
 void main() async {
@@ -85,8 +86,15 @@ class MyApp extends StatelessWidget {
                     state: state,
                     child: const DecksScreen(),
                   )),
+          GoRoute(
+              path: '/writings',
+              pageBuilder: (context, state) => buildPageWithDefaultTransition(
+                    context: context,
+                    state: state,
+                    child: const writingsScreen(),
+                  )),
         ],
-        errorBuilder: (context, state) => const LandingScreen(),
+        errorBuilder: (context, state) => const writingsScreen(),
       ),
     );
   }
