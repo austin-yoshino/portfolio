@@ -32,60 +32,62 @@ class _ResumeScreenState extends State<ResumeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          const SizedBox(height: 10),
-          const Padding(
-            padding: EdgeInsets.symmetric(horizontal: 16.0),
-            child: Text(
-              'Resume',
-              style: TextStyle(
-                color: AppColors.darkGrey,
-                fontSize: 18,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-          ),
-          const Padding(
-            padding: EdgeInsets.symmetric(horizontal: 16.0),
-            child: Text(
-              'Last updated: Feb 13, 2024',
-              style: TextStyle(
-                color: AppColors.darkGrey,
-                fontSize: 14,
-                fontWeight: FontWeight.w300,
-              ),
-            ),
-          ),
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 16.0),
-            child: InkWell(
-              onTap: () => _launchURL('https://austin-yoshino.com'),
-              child: const Text(
-                'Back to Portfolio',
+      body: SingleChildScrollView(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            const SizedBox(height: 10),
+            const Padding(
+              padding: EdgeInsets.symmetric(horizontal: 16.0),
+              child: Text(
+                'Resume',
                 style: TextStyle(
-                  decoration: TextDecoration.underline,
+                  color: AppColors.darkGrey,
+                  fontSize: 18,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            const Padding(
+              padding: EdgeInsets.symmetric(horizontal: 16.0),
+              child: Text(
+                'Last updated: Feb 13, 2024',
+                style: TextStyle(
                   color: AppColors.darkGrey,
                   fontSize: 14,
                   fontWeight: FontWeight.w300,
                 ),
               ),
             ),
-          ),
-          const SizedBox(height: 10),
-          Expanded(
-            child: PdfViewer.openAsset(
-              'assets/pdfs/austinResume.pdf',
-              viewerController: _pdfController,
-              params: const PdfViewerParams(
-                padding: 10,
-                minScale: 1.0,
-                // scrollDirection: Axis.horizontal,
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16.0),
+              child: InkWell(
+                onTap: () => _launchURL('https://austin-yoshino.com'),
+                child: const Text(
+                  'Back to Portfolio',
+                  style: TextStyle(
+                    decoration: TextDecoration.underline,
+                    color: AppColors.darkGrey,
+                    fontSize: 14,
+                    fontWeight: FontWeight.w300,
+                  ),
+                ),
               ),
             ),
-          ),
-        ],
+            const SizedBox(height: 10),
+            Expanded(
+              child: PdfViewer.openAsset(
+                'assets/pdfs/austinResume.pdf',
+                viewerController: _pdfController,
+                params: const PdfViewerParams(
+                  padding: 10,
+                  minScale: 1.0,
+                  // scrollDirection: Axis.horizontal,
+                ),
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }

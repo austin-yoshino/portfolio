@@ -194,20 +194,20 @@ class _LandingScreenState extends State<LandingScreen> {
                         fontSize: 14,
                       ),
                     ),
-                    // InkWell(
-                    //   onTap: () =>
-                    //       _launchURL('https://austinyoshino.com/pitch-decks'),
-                    //   child: const Text(
-                    //     '- Pitch Decks',
-                    //     style: TextStyle(
-                    //       decoration: TextDecoration.underline,
-                    //       decorationColor: AppColors.white,
-                    //       color: AppColors.white,
-                    //       fontSize: 14,
-                    //       fontWeight: FontWeight.w300,
-                    //     ),
-                    //   ),
-                    // ),
+                    InkWell(
+                      onTap: () =>
+                          _launchURL('https://austinyoshino.com/decks'),
+                      child: const Text(
+                        '- Pitch Decks',
+                        style: TextStyle(
+                          decoration: TextDecoration.underline,
+                          decorationColor: AppColors.white,
+                          color: AppColors.white,
+                          fontSize: 14,
+                          fontWeight: FontWeight.w300,
+                        ),
+                      ),
+                    ),
                     // InkWell(
                     //   onTap: () => _launchURL(
                     //       'https://austinyoshino.com/product-designs'),
