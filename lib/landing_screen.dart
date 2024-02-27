@@ -179,15 +179,15 @@ class _LandingScreenState extends State<LandingScreen> {
                         ),
                       ),
                     ),
-                    // const SizedBox(height: 10),
-                    // const Text(
-                    //   "Showcase:",
-                    //   style: TextStyle(
-                    //     color: AppColors.white,
-                    //     fontWeight: FontWeight.bold,
-                    //     fontSize: 14,
-                    //   ),
-                    // ),
+                    const SizedBox(height: 10),
+                    const Text(
+                      "Showcase:",
+                      style: TextStyle(
+                        color: AppColors.white,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 14,
+                      ),
+                    ),
                     // InkWell(
                     //   onTap: () =>
                     //       _launchURL('https://austinyoshino.com/pitch-decks'),
@@ -230,20 +230,20 @@ class _LandingScreenState extends State<LandingScreen> {
                     //     ),
                     //   ),
                     // ),
-                    // InkWell(
-                    //   onTap: () =>
-                    //       _launchURL('https://austinyoshino.com/resume'),
-                    //   child: const Text(
-                    //     '- Resume',
-                    //     style: TextStyle(
-                    //       decoration: TextDecoration.underline,
-                    //       decorationColor: AppColors.white,
-                    //       color: AppColors.white,
-                    //       fontSize: 14,
-                    //       fontWeight: FontWeight.w300,
-                    //     ),
-                    //   ),
-                    // ),
+                    InkWell(
+                      onTap: () =>
+                          _launchURL('https://austinyoshino.com/resume'),
+                      child: const Text(
+                        '- Resume',
+                        style: TextStyle(
+                          decoration: TextDecoration.underline,
+                          decorationColor: AppColors.white,
+                          color: AppColors.white,
+                          fontSize: 14,
+                          fontWeight: FontWeight.w300,
+                        ),
+                      ),
+                    ),
                   ],
                 ),
               ),

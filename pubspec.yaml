@@ -39,6 +39,10 @@ dependencies:
   go_router: ^13.1.0
   syncfusion_flutter_pdfviewer: ^24.2.7
   flutter_full_pdf_viewer_null_safe: ^1.0.0
+  path_provider: ^2.1.2
+  http: ^1.2.1
+  pdfx: ^2.6.0
+  pdf_render_scroll: ^1.4.10
 
 dev_dependencies:
   flutter_test:

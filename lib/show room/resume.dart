@@ -1,17 +1,19 @@
 import 'package:flutter/material.dart';
+import 'package:pdf_render_scroll/pdf_render_widgets.dart';
 import 'package:portfolio/colors.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:flutter_full_pdf_viewer_null_safe/flutter_full_pdf_viewer.dart';
-import 'package:flutter_full_pdf_viewer_null_safe/full_pdf_viewer_scaffold.dart';
 
 class ResumeScreen extends StatefulWidget {
   const ResumeScreen({super.key});
 
   @override
-  State<ResumeScreen> createState() => _ResumeScreenState();
+  // ignore: library_private_types_in_public_api
+  _ResumeScreenState createState() => _ResumeScreenState();
 }
 
 class _ResumeScreenState extends State<ResumeScreen> {
+  final PdfViewerController _pdfController = PdfViewerController();
+
   Future<void> _launchURL(String urlString) async {
     final Uri url = Uri.parse(urlString);
     if (await canLaunchUrl(url)) {
@@ -22,55 +24,68 @@ class _ResumeScreenState extends State<ResumeScreen> {
   }
 
   @override
+  void dispose() {
+    _pdfController.dispose();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      backgroundColor: AppColors.white,
-      body: SingleChildScrollView(
-        child: Padding(
-          padding: EdgeInsets.only(left: 16, right: 16),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Padding(
-                padding: EdgeInsets.only(top: 16),
-                child: Row(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: <Widget>[
-                    SizedBox(width: 10),
-                    Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          "Resume",
-                          style: TextStyle(
-                            color: AppColors.darkGrey,
-                            fontSize: 30,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                        Text(
-                          "Last Updated: Feb 13, 2024",
-                          style: TextStyle(
-                            color: AppColors.darkGrey,
-                            fontSize: 16,
-                            fontWeight: FontWeight.normal,
-                          ),
-                        ),
-                      ],
-                    ),
-                  ],
+    return Scaffold(
+      body: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const SizedBox(height: 10),
+          const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 16.0),
+            child: Text(
+              'Resume',
+              style: TextStyle(
+                color: AppColors.darkGrey,
+                fontSize: 18,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          ),
+          const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 16.0),
+            child: Text(
+              'Last updated: Feb 13, 2024',
+              style: TextStyle(
+                color: AppColors.darkGrey,
+                fontSize: 14,
+                fontWeight: FontWeight.w300,
+              ),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16.0),
+            child: InkWell(
+              onTap: () => _launchURL('https://austin-yoshino.com'),
+              child: const Text(
+                'Back to Portfolio',
+                style: TextStyle(
+                  decoration: TextDecoration.underline,
+                  color: AppColors.darkGrey,
+                  fontSize: 14,
+                  fontWeight: FontWeight.w300,
                 ),
               ),
-              SizedBox(height: 10),
-              SizedBox(
-                height: 800,
-                child: PDFViewerScaffold(
-                  path: 'assets/pdfs/austinResume.pdf',
-                ),
-              )
-            ],
+            ),
           ),
-        ),
+          const SizedBox(height: 10),
+          Expanded(
+            child: PdfViewer.openAsset(
+              'assets/pdfs/austinResume.pdf',
+              viewerController: _pdfController,
+              params: const PdfViewerParams(
+                padding: 10,
+                minScale: 1.0,
+                // scrollDirection: Axis.horizontal,
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }
