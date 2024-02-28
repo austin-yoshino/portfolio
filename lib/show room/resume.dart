@@ -76,7 +76,7 @@ class _ResumeScreenState extends State<ResumeScreen> {
             ),
             Container(
               height:
-                  600, // Specify a fixed height or use MediaQuery to make it responsive
+                  1000, // Specify a fixed height or use MediaQuery to make it responsive
               padding: const EdgeInsets.symmetric(horizontal: 16.0),
               child: PdfViewer.openAsset(
                 'assets/pdfs/austinResume.pdf',

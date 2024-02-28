@@ -123,7 +123,7 @@ class _DecksScreenState extends State<DecksScreen> {
                 ),
               ),
             ),
-            SizedBox(
+            Container(
               height: 300,
               child: PdfViewer.openAsset(
                 'assets/pdfs/joynDeck.pdf',
