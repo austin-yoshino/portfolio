@@ -97,7 +97,6 @@ class _LandingScreenState extends State<LandingScreen> {
                         fontSize: 14,
                       ),
                     ),
-                    const SizedBox(height: 5),
                     const Text(
                       "- Exited social x ai start up with 56% 28-day retention, 40/60% organic growth, & 99%+ crash-free rates\n- Accepted into accelerator backed by Tetris for sports-tech start up\n- Helped launch 12 new products at seed to sale cannabis operation\n- 10x'd fundraising for college fraternity",
                       style: TextStyle(
@@ -115,7 +114,6 @@ class _LandingScreenState extends State<LandingScreen> {
                         fontSize: 14,
                       ),
                     ),
-                    const SizedBox(height: 5),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: [
@@ -289,7 +287,6 @@ class _LandingScreenState extends State<LandingScreen> {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    const SizedBox(height: 5),
                     const Text(
                       "- Launched full product available on iOS, Android, Mac, & Windows\n- Raised preseed round in Q1 2023\n- 56% 28-day retention, 40/60% monthly growth, & 99%+ crash-free rates",
                       style: TextStyle(
@@ -298,7 +295,6 @@ class _LandingScreenState extends State<LandingScreen> {
                         fontWeight: FontWeight.w300,
                       ),
                     ),
-                    const SizedBox(height: 5),
                     InkWell(
                       onTap: () => _launchURL('https://austinyoshino.com/joyn'),
                       child: const Text(
@@ -321,7 +317,6 @@ class _LandingScreenState extends State<LandingScreen> {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    const SizedBox(height: 5),
                     const Text(
                       "- Accepted into Blue Startups accelerator (backed by Tetris)\n- Worked with sports agency in LA & MLB all-star athlete\n- Conducted pilot validating \$250/hour price point for lessons",
                       style: TextStyle(
@@ -354,7 +349,6 @@ class _LandingScreenState extends State<LandingScreen> {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    const SizedBox(height: 5),
                     const Text(
                       "- Implemented new tech stack(ERP, POS, & CRM)\n- Helped launch 12 new products\n- Broke monthly & daily sales records for 4/20 event",
                       style: TextStyle(
@@ -386,7 +380,6 @@ class _LandingScreenState extends State<LandingScreen> {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    const SizedBox(height: 5),
                     const Text(
                       "- Technical Product for Coincerge: crypto-native POS, wallet, & currency(\$CCC)\n- Strategy / Growth for aVenture (Techstars '23): research platform for VC's",
                       style: TextStyle(
@@ -405,7 +398,6 @@ class _LandingScreenState extends State<LandingScreen> {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    const SizedBox(height: 5),
                     const Text(
                       "- Dilligence for Pono Capital (SPAC) = deal announced in Aug 2023\n- Marketing campaigns for aVenture = 7-figures in waitlist commitments\n- Engineering for SeeRescue Corporation = 3-D printed prototype of patented device",
                       style: TextStyle(
@@ -439,7 +431,6 @@ class _LandingScreenState extends State<LandingScreen> {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    SizedBox(height: 5),
                     Text(
                       "- Built autonomous aerial & ground drone (senior project)\n- Won \$50k in grant funding for medical device start up: 3-D printed prototype of gyroscopically stabalized gait trainer\n- Grand Treasurer / Social Chair for Kappa Sigma Fraternity: 10x'd fundraising",
                       style: TextStyle(
@@ -457,7 +448,6 @@ class _LandingScreenState extends State<LandingScreen> {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    SizedBox(height: 5),
                     Text(
                       "Online copywriting course covering; cold emails, social media, pitching, headlines, landing pages, & company updates.\"Some write to express, some write to impress, power-writing gets results\"",
                       style: TextStyle(
@@ -475,7 +465,6 @@ class _LandingScreenState extends State<LandingScreen> {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    SizedBox(height: 5),
                     Text(
                       "Online UX course covering; design essentials, user research, user personas, developing a UX concept, prototyping, UX feedback & evaluating usability",
                       style: TextStyle(
@@ -509,7 +498,6 @@ class _LandingScreenState extends State<LandingScreen> {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    const SizedBox(height: 5),
                     const Text(
                       "My brother embodies world-class reselience & optimism, 2 superpowers I inherited",
                       style: TextStyle(
@@ -527,7 +515,6 @@ class _LandingScreenState extends State<LandingScreen> {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    const SizedBox(height: 5),
                     const Text(
                       "When I committed, running 26.2 miles sounded crazy. It was the ultimate test of mental fortitude, discipline, & consistency",
                       style: TextStyle(
@@ -545,7 +532,6 @@ class _LandingScreenState extends State<LandingScreen> {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    const SizedBox(height: 5),
                     const Text(
                       "Conducted pilot in summer 2023 with outstanding PMF heuristics",
                       style: TextStyle(
@@ -563,7 +549,6 @@ class _LandingScreenState extends State<LandingScreen> {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    const SizedBox(height: 5),
                     const Text(
                       "During Joyn when we had an overload of tasks so I learned how to code to contribute & launch on time, currently still working on my front-end skills",
                       style: TextStyle(
@@ -581,7 +566,6 @@ class _LandingScreenState extends State<LandingScreen> {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    const SizedBox(height: 5),
                     InkWell(
                       onTap: () => _launchURL(
                           'https://x.com/geinyuhs/status/1447029262154825736?s=20'),
@@ -605,7 +589,6 @@ class _LandingScreenState extends State<LandingScreen> {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    const SizedBox(height: 5),
                     const Text(
                       "For awhile, home was an airplane seat",
                       style: TextStyle(
@@ -623,7 +606,6 @@ class _LandingScreenState extends State<LandingScreen> {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    const SizedBox(height: 5),
                     const Text(
                       "Researched that he often responds to customer complaints so I posed as an angry customer to get his attention",
                       style: TextStyle(
@@ -666,7 +648,6 @@ class _LandingScreenState extends State<LandingScreen> {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    SizedBox(height: 5),
                     Text(
                       "Leadership, storytelling, empathy, product development / engineering, user experience, fundraising, creative direction, copywriting, growth hacking, operations",
                       style: TextStyle(
@@ -684,7 +665,6 @@ class _LandingScreenState extends State<LandingScreen> {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    SizedBox(height: 5),
                     Text(
                       "openAI / chatGPT, Flutter, DALLE, Figma, Canva, Notion, Discord, Asana, Github / Github Priojects, Microsoft Office, Software Architecture, VS Code, 3-D Printing / Modeling, Zapier. Beehiiv, Squarespace, Apollo, Google Cloud",
                       style: TextStyle(
