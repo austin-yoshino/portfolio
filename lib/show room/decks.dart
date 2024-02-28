@@ -76,7 +76,7 @@ class _DecksScreenState extends State<DecksScreen> {
               ),
             ),
             SizedBox(
-              height: 300,
+              height: 250,
               child: PdfViewer.openAsset(
                 'assets/pdfs/boogyPitch.pdf',
                 viewerController: _pdfController,
@@ -100,7 +100,7 @@ class _DecksScreenState extends State<DecksScreen> {
               ),
             ),
             SizedBox(
-              height: 300,
+              height: 250,
               child: PdfViewer.openAsset(
                 'assets/pdfs/boogyCommunities.pdf',
                 viewerController: _pdfController,
@@ -124,7 +124,7 @@ class _DecksScreenState extends State<DecksScreen> {
               ),
             ),
             SizedBox(
-              height: 300,
+              height: 250,
               child: PdfViewer.openAsset(
                 'assets/pdfs/joynDeck.pdf',
                 viewerController: _pdfController,
@@ -148,7 +148,7 @@ class _DecksScreenState extends State<DecksScreen> {
               ),
             ),
             SizedBox(
-              height: 300,
+              height: 250,
               child: PdfViewer.openAsset(
                 'assets/pdfs/synodicDeck.pdf',
                 viewerController: _pdfController,
@@ -172,7 +172,7 @@ class _DecksScreenState extends State<DecksScreen> {
               ),
             ),
             SizedBox(
-              height: 300,
+              height: 250,
               child: PdfViewer.openAsset(
                 'assets/pdfs/phenomBrand.pdf',
                 viewerController: _pdfController,
