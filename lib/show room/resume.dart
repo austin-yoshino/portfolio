@@ -74,18 +74,17 @@ class _ResumeScreenState extends State<ResumeScreen> {
                 ),
               ),
             ),
-            const SizedBox(height: 10),
-            Expanded(
+            Container(
+              height: 1000, // Specify the height you want
               child: PdfViewer.openAsset(
                 'assets/pdfs/austinResume.pdf',
                 viewerController: _pdfController,
                 params: const PdfViewerParams(
                   padding: 10,
                   minScale: 1.0,
-                  // scrollDirection: Axis.horizontal,
                 ),
               ),
-            ),
+            )
           ],
         ),
       ),
