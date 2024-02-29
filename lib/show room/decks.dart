@@ -102,7 +102,7 @@ class _DecksScreenState extends State<DecksScreen> {
             SizedBox(
               height: 250,
               child: PdfViewer.openAsset(
-                'assets/pdfs/synodicDeck.pdf',
+                'assets/pdfs/joynDeck.pdf',
                 viewerController: _pdfController,
                 params: const PdfViewerParams(
                   padding: 10,
