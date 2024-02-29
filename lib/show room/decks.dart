@@ -67,30 +67,6 @@ class _DecksScreenState extends State<DecksScreen> {
             const Padding(
               padding: EdgeInsets.symmetric(horizontal: 16.0),
               child: Text(
-                'Boogy Fundraising Pitch:',
-                style: TextStyle(
-                  color: AppColors.darkGrey,
-                  fontSize: 16,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-            ),
-            SizedBox(
-              height: 250,
-              child: PdfViewer.openAsset(
-                'assets/pdfs/boogyPitch.pdf',
-                viewerController: _pdfController,
-                params: const PdfViewerParams(
-                  padding: 10,
-                  minScale: 1.0,
-                  scrollDirection: Axis.horizontal,
-                ),
-              ),
-            ),
-            const SizedBox(height: 20),
-            const Padding(
-              padding: EdgeInsets.symmetric(horizontal: 16.0),
-              child: Text(
                 'Boogy Sales Pitch:',
                 style: TextStyle(
                   color: AppColors.darkGrey,
