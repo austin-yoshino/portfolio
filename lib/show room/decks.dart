@@ -82,7 +82,7 @@ class _DecksScreenState extends State<DecksScreen> {
                 viewerController: _pdfController,
                 params: const PdfViewerParams(
                   padding: 10,
-                  minScale: 1.0,
+                  // minScale: 1.0,
                   scrollDirection: Axis.horizontal,
                 ),
               ),
@@ -106,7 +106,7 @@ class _DecksScreenState extends State<DecksScreen> {
                 viewerController: _pdfController,
                 params: const PdfViewerParams(
                   padding: 10,
-                  minScale: 1.0,
+                  // minScale: 1.0,
                   scrollDirection: Axis.horizontal,
                 ),
               ),
@@ -130,7 +130,7 @@ class _DecksScreenState extends State<DecksScreen> {
                 viewerController: _pdfController,
                 params: const PdfViewerParams(
                   padding: 10,
-                  minScale: 1.0,
+                  // minScale: 1.0,
                   scrollDirection: Axis.horizontal,
                 ),
               ),
@@ -154,7 +154,7 @@ class _DecksScreenState extends State<DecksScreen> {
                 viewerController: _pdfController,
                 params: const PdfViewerParams(
                   padding: 10,
-                  minScale: 1.0,
+                  // minScale: 1.0,
                   scrollDirection: Axis.horizontal,
                 ),
               ),
