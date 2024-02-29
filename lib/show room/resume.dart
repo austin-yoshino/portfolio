@@ -83,6 +83,7 @@ class _ResumeScreenState extends State<ResumeScreen> {
                 params: const PdfViewerParams(
                   padding: 10,
                   minScale: 1.0,
+                  scrollDirection: Axis.vertical,
                 ),
               ),
             ),
