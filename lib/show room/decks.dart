@@ -123,7 +123,7 @@ class _DecksScreenState extends State<DecksScreen> {
                 ),
               ),
             ),
-            SizedBox(
+            Container(
               height: MediaQuery.of(context).size.height * 0.25,
               child: PdfViewer.openAsset(
                 'assets/pdfs/synodicDeck.pdf',
