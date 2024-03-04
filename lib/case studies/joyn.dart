@@ -662,7 +662,7 @@ class _JoynScreenState extends State<JoynScreen> {
                                             Text(
                                               "G2M",
                                               style: TextStyle(
-                                                color: AppColors.joynblue,
+                                                color: AppColors.joynBlue,
                                                 fontSize: 18,
                                                 fontWeight: FontWeight.bold,
                                                 fontFamily: "Satoshi-Black.otf",
