@@ -47,7 +47,7 @@ class _PhenomScreenState extends State<PhenomScreen> {
                         Text(
                           "Phenom Inc",
                           style: TextStyle(
-                              color: AppColors.joynblue,
+                              color: AppColors.joynBlue,
                               fontSize: 30,
                               fontWeight: FontWeight.bold,
                               fontFamily: "Satoshi-Black.otf"),
@@ -74,7 +74,7 @@ class _PhenomScreenState extends State<PhenomScreen> {
                     const Text(
                       "Case Study",
                       style: TextStyle(
-                        color: AppColors.joynblue,
+                        color: AppColors.joynBlue,
                         fontSize: 18,
                         fontWeight: FontWeight.bold,
                         fontFamily: "Satoshi-Black.otf",
@@ -108,7 +108,7 @@ class _PhenomScreenState extends State<PhenomScreen> {
                           const Text(
                             "About",
                             style: TextStyle(
-                              color: AppColors.joynblue,
+                              color: AppColors.joynBlue,
                               fontSize: 18,
                               fontWeight: FontWeight.bold,
                               fontFamily: "Satoshi-Black.otf",
@@ -247,7 +247,7 @@ class _PhenomScreenState extends State<PhenomScreen> {
                                 Text(
                                   "Problem",
                                   style: TextStyle(
-                                    color: AppColors.joynblue,
+                                    color: AppColors.joynBlue,
                                     fontSize: 18,
                                     fontWeight: FontWeight.bold,
                                     fontFamily: "Satoshi-Black.otf",
@@ -292,7 +292,7 @@ class _PhenomScreenState extends State<PhenomScreen> {
                                       Text(
                                         "Solution",
                                         style: TextStyle(
-                                          color: AppColors.joynblue,
+                                          color: AppColors.joynBlue,
                                           fontSize: 18,
                                           fontWeight: FontWeight.bold,
                                           fontFamily: "Satoshi-Black.otf",
@@ -338,7 +338,7 @@ class _PhenomScreenState extends State<PhenomScreen> {
                                             Text(
                                               "Product",
                                               style: TextStyle(
-                                                color: AppColors.joynblue,
+                                                color: AppColors.joynBlue,
                                                 fontSize: 18,
                                                 fontWeight: FontWeight.bold,
                                                 fontFamily: "Satoshi-Black.otf",
@@ -662,7 +662,7 @@ class _PhenomScreenState extends State<PhenomScreen> {
                                             Text(
                                               "G2M",
                                               style: TextStyle(
-                                                color: AppColors.joynblue,
+                                                color: AppColors.joynBlue,
                                                 fontSize: 18,
                                                 fontWeight: FontWeight.bold,
                                                 fontFamily: "Satoshi-Black.otf",
@@ -718,7 +718,7 @@ class _PhenomScreenState extends State<PhenomScreen> {
                                                   Text(
                                                     "Leadership",
                                                     style: TextStyle(
-                                                      color: AppColors.joynblue,
+                                                      color: AppColors.joynBlue,
                                                       fontSize: 18,
                                                       fontWeight:
                                                           FontWeight.bold,
@@ -847,7 +847,7 @@ class _PhenomScreenState extends State<PhenomScreen> {
                                                   Text(
                                                     "Fundraising",
                                                     style: TextStyle(
-                                                      color: AppColors.joynblue,
+                                                      color: AppColors.joynBlue,
                                                       fontSize: 18,
                                                       fontWeight:
                                                           FontWeight.bold,
@@ -880,7 +880,7 @@ class _PhenomScreenState extends State<PhenomScreen> {
                                                   Text(
                                                     "Exit",
                                                     style: TextStyle(
-                                                      color: AppColors.joynblue,
+                                                      color: AppColors.joynBlue,
                                                       fontSize: 18,
                                                       fontWeight:
                                                           FontWeight.bold,
@@ -913,7 +913,7 @@ class _PhenomScreenState extends State<PhenomScreen> {
                                                   Text(
                                                     "Lessons",
                                                     style: TextStyle(
-                                                      color: AppColors.joynblue,
+                                                      color: AppColors.joynBlue,
                                                       fontSize: 18,
                                                       fontWeight:
                                                           FontWeight.bold,
