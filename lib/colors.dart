@@ -6,6 +6,6 @@ class AppColors {
   static const Color gold = Color(0xFFe5d57e);
   static const Color joynBlue = Color(0xFF2798ff);
   static const Color phenomBlue = Color(0xff900aff0);
-  static const Color phenomBlacj = Color(0xFF231F20);
+  static const Color phenomBlack = Color(0xFF231F20);
   static const Color phenomGreen = Color(0xFFA4FD02);
 }

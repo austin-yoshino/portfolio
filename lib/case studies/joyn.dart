@@ -80,7 +80,6 @@ class _JoynScreenState extends State<JoynScreen> {
                         fontFamily: "Satoshi-Black.otf",
                       ),
                     ),
-                    const SizedBox(height: 10),
                     const Text(
                       "By: Austin Yoshino, Cofounder & CEO",
                       style: TextStyle(
@@ -90,7 +89,6 @@ class _JoynScreenState extends State<JoynScreen> {
                         fontFamily: "Satoshi-Black.otf",
                       ),
                     ),
-                    const SizedBox(height: 5),
                     const Text(
                       "Oct 2022 to Nov 2023",
                       style: TextStyle(
@@ -114,7 +112,6 @@ class _JoynScreenState extends State<JoynScreen> {
                               fontFamily: "Satoshi-Black.otf",
                             ),
                           ),
-                          const SizedBox(height: 10),
                           const Text(
                             "Re-defining connection with a communication platform leveraging AI to create new social experiences and enable the next generation of advertising",
                             style: TextStyle(
@@ -123,7 +120,7 @@ class _JoynScreenState extends State<JoynScreen> {
                               fontFamily: "Satoshi-Black.otf",
                             ),
                           ),
-                          const SizedBox(height: 10),
+                          const SizedBox(height: 5),
                           const Text(
                             "Highlights:",
                             style: TextStyle(
@@ -133,7 +130,6 @@ class _JoynScreenState extends State<JoynScreen> {
                               fontFamily: "Satoshi-Black.otf",
                             ),
                           ),
-                          const SizedBox(height: 5),
                           const Text(
                             "- 56% 28-day retention, 40/60% organic growth, & 99%+ crash-free rates",
                             style: TextStyle(
@@ -143,7 +139,6 @@ class _JoynScreenState extends State<JoynScreen> {
                               fontFamily: "Satoshi-Black.otf",
                             ),
                           ),
-                          const SizedBox(height: 5),
                           const Text(
                             "- Launched full product avaialble on iOS, Android, tablet, MacOS, & Windows devices",
                             style: TextStyle(
@@ -153,7 +148,6 @@ class _JoynScreenState extends State<JoynScreen> {
                               fontFamily: "Satoshi-Black.otf",
                             ),
                           ),
-                          const SizedBox(height: 5),
                           const Text(
                             "- Raised preseed round in Q1 2023 (\$200k on uncapped SAFE)",
                             style: TextStyle(
@@ -163,7 +157,6 @@ class _JoynScreenState extends State<JoynScreen> {
                               fontFamily: "Satoshi-Black.otf",
                             ),
                           ),
-                          const SizedBox(height: 5),
                           const Text(
                             "- Exited via share sale to Cofounder",
                             style: TextStyle(
@@ -173,7 +166,7 @@ class _JoynScreenState extends State<JoynScreen> {
                               fontFamily: "Satoshi-Black.otf",
                             ),
                           ),
-                          const SizedBox(height: 10),
+                          const SizedBox(height: 5),
                           const Text(
                             "Links:",
                             style: TextStyle(
@@ -183,7 +176,6 @@ class _JoynScreenState extends State<JoynScreen> {
                               fontFamily: "Satoshi-Black.otf",
                             ),
                           ),
-                          const SizedBox(height: 5),
                           Row(
                             mainAxisAlignment: MainAxisAlignment.start,
                             children: [
@@ -253,7 +245,6 @@ class _JoynScreenState extends State<JoynScreen> {
                                     fontFamily: "Satoshi-Black.otf",
                                   ),
                                 ),
-                                SizedBox(height: 10),
                                 Text(
                                   "In a explosive era of \"connections\" we're paradoxically isolated",
                                   style: TextStyle(
@@ -263,7 +254,6 @@ class _JoynScreenState extends State<JoynScreen> {
                                     fontFamily: "Satoshi-Black.otf",
                                   ),
                                 ),
-                                SizedBox(height: 5),
                                 Text(
                                   "- Social platforms emphasize numerical popularity over quality leaving us surrounded, yet alone",
                                   style: TextStyle(
@@ -273,7 +263,6 @@ class _JoynScreenState extends State<JoynScreen> {
                                     fontWeight: FontWeight.w300,
                                   ),
                                 ),
-                                SizedBox(height: 5),
                                 Text(
                                   "- Simple communication apps don't help us stay in touch",
                                   style: TextStyle(
@@ -298,7 +287,6 @@ class _JoynScreenState extends State<JoynScreen> {
                                           fontFamily: "Satoshi-Black.otf",
                                         ),
                                       ),
-                                      SizedBox(height: 10),
                                       Text(
                                         "Joyn is intentionally desisnged for 1:1 interactions & connections",
                                         style: TextStyle(
@@ -308,7 +296,6 @@ class _JoynScreenState extends State<JoynScreen> {
                                           fontFamily: "Satoshi-Black.otf",
                                         ),
                                       ),
-                                      SizedBox(height: 5),
                                       Text(
                                         "- Built around real conversations, not posts (with best in class chat features)",
                                         style: TextStyle(
@@ -318,7 +305,6 @@ class _JoynScreenState extends State<JoynScreen> {
                                           fontWeight: FontWeight.w300,
                                         ),
                                       ),
-                                      SizedBox(height: 5),
                                       Text(
                                         "- Supercharged by Cordi, a personal AI that prompts thoughtful insights & connections",
                                         style: TextStyle(
@@ -344,7 +330,6 @@ class _JoynScreenState extends State<JoynScreen> {
                                                 fontFamily: "Satoshi-Black.otf",
                                               ),
                                             ),
-                                            SizedBox(height: 10),
                                             Text(
                                               "Great social products have 3 pillars;\n1) Novel way to communicate\n2) Platform-specific interaction layer\n3) Introductions to people you wouldn’t otherwise meet\n\nFor example Instagram;\n1) Introduced new communication channels through replies, likes, & comments\n2) Fostered interactions through story replies & posts providing platform-specific information\n3) Showed you new people through discovery, mutual follows, suggested posts, & tags\n\nJoyn is a social product rooted in quality instead of quantity, envisioning a sanctuary for real connection by:\n1) Making communication private (no unsolicited DM’s) & frictionless (no tedious transactions)\n2) Fostering deeper interactions through thoughtful & inspirational content\n3) Curating highly-filtered introductions\n\nLaunching a rich variety of features required intense agile management practices & roadmapping prioritization. A couple months before our launch I noticed a backlog of tasks, so along with re-prioritization I taught myself to code leveraging chatGPT to make direct contributions allowing us to launch on-time. Ultimately, we achieved 56% 28-day retention through the craftsmanship of the following features;",
                                               style: TextStyle(
@@ -392,7 +377,6 @@ class _JoynScreenState extends State<JoynScreen> {
                                                 fontWeight: FontWeight.w300,
                                               ),
                                             ),
-                                            SizedBox(height: 5),
                                             Text(
                                               "Calendar:",
                                               style: TextStyle(
@@ -411,7 +395,6 @@ class _JoynScreenState extends State<JoynScreen> {
                                                 fontWeight: FontWeight.w300,
                                               ),
                                             ),
-                                            SizedBox(height: 5),
                                             Text(
                                               "Social:",
                                               style: TextStyle(
@@ -430,7 +413,6 @@ class _JoynScreenState extends State<JoynScreen> {
                                                 fontWeight: FontWeight.w300,
                                               ),
                                             ),
-                                            SizedBox(height: 5),
                                             Text(
                                               "Introductions:",
                                               style: TextStyle(
@@ -449,7 +431,6 @@ class _JoynScreenState extends State<JoynScreen> {
                                                 fontWeight: FontWeight.w300,
                                               ),
                                             ),
-                                            SizedBox(height: 5),
                                             Text(
                                               "Profiles:",
                                               style: TextStyle(
@@ -668,7 +649,6 @@ class _JoynScreenState extends State<JoynScreen> {
                                                 fontFamily: "Satoshi-Black.otf",
                                               ),
                                             ),
-                                            SizedBox(height: 10),
                                             Text(
                                               "Branding + Messaging",
                                               style: TextStyle(
@@ -678,7 +658,6 @@ class _JoynScreenState extends State<JoynScreen> {
                                                 fontFamily: "Satoshi-Black.otf",
                                               ),
                                             ),
-                                            SizedBox(height: 5),
                                             Text(
                                               "The Joyn brand needed to ride the line of social & professional. We crafted a logo that was simple yet distinct using a dark mode-based color palette with contrasting colors. The most important decision was making the messages purple with a slight gradient to differentiate from iMessage (blue) & Android (green).\nI believe one the most important (yet severely underrated) parts of bringing something new into the world is the “one-liner” - a short sentence that incites people to learn more. My philosophy is hate it or love it as long as you can’t ignore it we win. One day, after sending a survey to gauge our audiences perception of networking, someone responded “f*ck networking”...from that day on, Joyn’s one-liner was the “anti-networking, networking app”.",
                                               style: TextStyle(
@@ -698,7 +677,6 @@ class _JoynScreenState extends State<JoynScreen> {
                                                 fontFamily: "Satoshi-Black.otf",
                                               ),
                                             ),
-                                            SizedBox(height: 5),
                                             Text(
                                               "Due to our vision of building a social super-app, we allocated majority of funds to product. This presented our biggest challenge: acquiring users with no budget. Aside from distributing through personal networks, I growth-hacked our newsletter to 30k subscribers in 2 months via a cold email -> Beehiiv funnel. This allowed us to test messaging, conduct market research, & re-target app download campaigns. Despite mostly being cold leads we boasted an averaged a 33.92% open & 4.89% click through rates with a modest 1.33% unsubscribe rate. When I left, Joyn had around a 1k downloads & was growing monthly at 60%.",
                                               style: TextStyle(
@@ -726,7 +704,6 @@ class _JoynScreenState extends State<JoynScreen> {
                                                           "Satoshi-Black.otf",
                                                     ),
                                                   ),
-                                                  SizedBox(height: 10),
                                                   Text(
                                                     "Our team was intentionally crafted on unique insights, experience, & talent positioning ourselves to both innovate & execute;",
                                                     style: TextStyle(
@@ -750,7 +727,6 @@ class _JoynScreenState extends State<JoynScreen> {
                                                           FontWeight.bold,
                                                     ),
                                                   ),
-                                                  SizedBox(height: 5),
                                                   Text(
                                                     "We met through a professor who said; \"you remind me of Dustin\". After meeting, I offered to work for free just to stay in his orbit. Weekly meetings led to start-up talk which eveuntally resulted in us Cofounding 2 companies together (Joyn + Phenom).",
                                                     style: TextStyle(
@@ -774,7 +750,6 @@ class _JoynScreenState extends State<JoynScreen> {
                                                           FontWeight.bold,
                                                     ),
                                                   ),
-                                                  SizedBox(height: 5),
                                                   Text(
                                                     "We met during Blue Start-ups & were working on different companies at the time but, stayed in touch as we overlapped during our travels through NYC, LA, Boston, SF, & Hawaii. Rishab was back in Hawaii when he mentioned his exit in the prev start-up & I recruited him to Joyn.",
                                                     style: TextStyle(
@@ -798,7 +773,6 @@ class _JoynScreenState extends State<JoynScreen> {
                                                           FontWeight.bold,
                                                     ),
                                                   ),
-                                                  SizedBox(height: 5),
                                                   Text(
                                                     "She was our first hire & was specifically chosen by her background in graphic design, psychology, & gaming. She was with the team since day 1 & was crucial in helping bring our vision to life; tgether we produced over 400 mockups, 100 custom graphics, & 200 prototypes.",
                                                     style: TextStyle(
@@ -822,7 +796,6 @@ class _JoynScreenState extends State<JoynScreen> {
                                                           FontWeight.bold,
                                                     ),
                                                   ),
-                                                  SizedBox(height: 5),
                                                   Text(
                                                     "To remain cost efficient we built our dev team internationally. At the beginning, we worked with 2 agencies operating with a team of 15 to quickly build a proof of concept. After the POC, we internalized the best developers focusing our team to 5; improving moral, productivity, & quality. In order to mitigate inefficiencies of working across timezones & language barriers we wrote detailed documentation of tasks, implemented asynchronous communication practices, & integrated logging tools.",
                                                     style: TextStyle(
@@ -855,7 +828,6 @@ class _JoynScreenState extends State<JoynScreen> {
                                                           "Satoshi-Black.otf",
                                                     ),
                                                   ),
-                                                  SizedBox(height: 10),
                                                   Text(
                                                     "Dustin intially invested \$50k for development costs. In Q1 2023 we raised a preseed round of \$200k on a uncapped SAFE. I also executed stock warrant deals at a \$10m valuation.",
                                                     style: TextStyle(
@@ -888,7 +860,6 @@ class _JoynScreenState extends State<JoynScreen> {
                                                           "Satoshi-Black.otf",
                                                     ),
                                                   ),
-                                                  SizedBox(height: 10),
                                                   Text(
                                                     "In Q4 2023 Dustin & I were preparing to raise the next round, but noticed a unfortunate difference in vision. To articulate it, he wants to build a international Whats App & wanted to take down LinkedIn. We mutually & cordially decided that the best decision for everyone involved was for me to exit via a share sale. I helped with the leadership transition & am still avaialble for advisory calls.",
                                                     style: TextStyle(
@@ -921,7 +892,6 @@ class _JoynScreenState extends State<JoynScreen> {
                                                           "Satoshi-Black.otf",
                                                     ),
                                                   ),
-                                                  SizedBox(height: 10),
                                                   Text(
                                                     "1) There is such a thing as moving too fast",
                                                     style: TextStyle(
@@ -933,7 +903,6 @@ class _JoynScreenState extends State<JoynScreen> {
                                                           "Satoshi-Black.otf",
                                                     ),
                                                   ),
-                                                  SizedBox(height: 5),
                                                   Text(
                                                     "Our ambition was to take Joyn public in 2024. To even be considered for a SPAC deal we needed a minimum \$30m valuation by the end of 2023 & conducted company operations accordingly. I believe this forced us to try to do to much in too little time, I learned to let momentum dictate the pace…crawling towards PMF so we have the capacity to sprint when the time is right.",
                                                     style: TextStyle(
@@ -957,7 +926,6 @@ class _JoynScreenState extends State<JoynScreen> {
                                                           "Satoshi-Black.otf",
                                                     ),
                                                   ),
-                                                  SizedBox(height: 5),
                                                   Text(
                                                     "“First time founders focus on product, second time founders focus on distribution” is a well known philosophy in start-ups. After attempting both & seeing the pros / cons I believe, that like most cases it’s a neither one or the other, but a symbiotic balance. One can’t exist without the other & should be built in tandem.",
                                                     style: TextStyle(
@@ -981,7 +949,6 @@ class _JoynScreenState extends State<JoynScreen> {
                                                           "Satoshi-Black.otf",
                                                     ),
                                                   ),
-                                                  SizedBox(height: 5),
                                                   Text(
                                                     "We had an unfair distribution advantage in Japan thanks to my Cofounders status. While this was a great opportunity, we overlooked a major aspect in this customer segment: Japan has a higher quality standard than the US. In order to reach their standard of excellence we pushed to develop fully-flushed features, make Joyn available on all platforms / devices, & bug bash our way to 99%+ crash-free rates ultimately producing a great product. However, this required intense focus & pushed back our launch considerably. A refined approach would be to select a customer segment where the product need outweighs the tolerance for minor initial product inconveniences so product & market validation can be built in tandem.",
                                                     style: TextStyle(

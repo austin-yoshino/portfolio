@@ -80,7 +80,6 @@ class _LandingScreenState extends State<LandingScreen> {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    const SizedBox(height: 10),
                     const Text(
                       "5 years of experience in \"figure it out\" roles across product, growth, & business ops",
                       style: TextStyle(
@@ -278,7 +277,6 @@ class _LandingScreenState extends State<LandingScreen> {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    const SizedBox(height: 10),
                     const Text(
                       "Cofounder of Joyn (exited): social messaging platform designed to enrich 1:1 interactions & connections",
                       style: TextStyle(
@@ -325,21 +323,20 @@ class _LandingScreenState extends State<LandingScreen> {
                         fontWeight: FontWeight.w300,
                       ),
                     ),
-                    // const SizedBox(height: 5),
-                    // InkWell(
-                    //   onTap: () =>
-                    //       _launchURL('https://austinyoshino.com/phenom'),
-                    //   child: const Text(
-                    //     '- Learn more',
-                    //     style: TextStyle(
-                    //       decoration: TextDecoration.underline,
-                    //       decorationColor: AppColors.white,
-                    //       color: AppColors.white,
-                    //       fontSize: 14,
-                    //       fontWeight: FontWeight.w300,
-                    //     ),
-                    //   ),
-                    // ),
+                    InkWell(
+                      onTap: () =>
+                          _launchURL('https://austinyoshino.com/phenom'),
+                      child: const Text(
+                        '- Learn more',
+                        style: TextStyle(
+                          decoration: TextDecoration.underline,
+                          decorationColor: AppColors.white,
+                          color: AppColors.white,
+                          fontSize: 14,
+                          fontWeight: FontWeight.w300,
+                        ),
+                      ),
+                    ),
                     const SizedBox(height: 10),
                     const Text(
                       "Special Projects at Noa Botanicals: seed to sale cannabis operation",
@@ -422,7 +419,6 @@ class _LandingScreenState extends State<LandingScreen> {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    SizedBox(height: 10),
                     Text(
                       "Mechanical Engineering at University of Hawaii at Manoa",
                       style: TextStyle(
@@ -489,7 +485,6 @@ class _LandingScreenState extends State<LandingScreen> {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    const SizedBox(height: 10),
                     const Text(
                       "Caregiver to little brother diagnosed with cerebral palsy",
                       style: TextStyle(
@@ -630,7 +625,6 @@ class _LandingScreenState extends State<LandingScreen> {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    SizedBox(height: 10),
                     Text(
                       "\"Superpowers\": resilient optimism + relentless drive to figure things out",
                       style: TextStyle(
@@ -689,7 +683,6 @@ class _LandingScreenState extends State<LandingScreen> {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    const SizedBox(height: 5),
                     InkWell(
                       onTap: () => _launchURL(
                           'https://pace.shidler.hawaii.edu/faces-of-pace/austin-yoshino/'),
