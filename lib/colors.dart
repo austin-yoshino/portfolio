@@ -8,4 +8,5 @@ class AppColors {
   static const Color phenomBlue = Color(0xff00aff0);
   static const Color phenomBlack = Color(0xFF231F20);
   static const Color phenomGreen = Color(0xFFA4FD02);
+  static const Color noaLightGreen = Color(0xFFcada2e);
 }

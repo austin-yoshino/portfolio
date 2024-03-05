@@ -37,8 +37,7 @@ class _NoaScreenState extends State<NoaScreen> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
                     CircleAvatar(
-                      backgroundImage:
-                          AssetImage("assets/images/austinHeadshot.png"),
+                      backgroundImage: AssetImage("assets/images/noaLogo.png"),
                       radius: 40,
                     ),
                     SizedBox(width: 10),
@@ -46,21 +45,20 @@ class _NoaScreenState extends State<NoaScreen> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Text>[
                         Text(
-                          "Austin Yoshino",
+                          "Noa Botanicals",
                           style: TextStyle(
-                            color: AppColors.gold,
-                            fontSize: 30,
-                            fontWeight: FontWeight.bold,
-                          ),
+                              color: AppColors.noaLightGreen,
+                              fontSize: 30,
+                              fontWeight: FontWeight.bold,
+                              fontFamily: "Kegger.ttf"),
                         ),
-                        Text(
-                          "Portfolio",
-                          style: TextStyle(
-                            color: AppColors.white,
-                            fontSize: 16,
-                            fontWeight: FontWeight.normal,
-                          ),
-                        ),
+                        Text("Seed to sale medical cannabis dispensary",
+                            style: TextStyle(
+                              color: AppColors.white,
+                              fontSize: 16,
+                              fontWeight: FontWeight.w300,
+                              fontFamily: "Barlow.ttf",
+                            )),
                       ],
                     ),
                   ],
@@ -73,772 +71,294 @@ class _NoaScreenState extends State<NoaScreen> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     const Text(
-                      "About",
+                      "Case Study",
                       style: TextStyle(
-                        color: AppColors.gold,
+                        color: AppColors.noaLightGreen,
                         fontSize: 18,
                         fontWeight: FontWeight.bold,
+                        fontFamily: "Barlow.ttf",
                       ),
                     ),
-                    const SizedBox(height: 10),
                     const Text(
-                      "Product builder, growth hacker, & business operator currently looking for whats next",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                      ),
-                    ),
-                    const SizedBox(height: 10),
-                    const Text(
-                      "Highlights:",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontWeight: FontWeight.bold,
-                        fontSize: 14,
-                      ),
-                    ),
-                    const SizedBox(height: 5),
-                    const Text(
-                      "- Exited social x ai start up with 56% 28-day retention, 40/60% organic growth, & 99%+ crash-free rates",
+                      "By: Austin Yoshino, Special Projects",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
                         fontWeight: FontWeight.w300,
+                        fontFamily: "Barlow.ttf",
                       ),
                     ),
-                    const SizedBox(height: 5),
                     const Text(
-                      "- Accepted into accelerator backed by Tetris for sports-tech start up",
+                      "Oct 2020 to Jul 2021",
                       style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
                         fontWeight: FontWeight.w300,
+                        fontFamily: "Barlow.ttf",
                       ),
                     ),
-                    const SizedBox(height: 5),
-                    const Text(
-                      "- Helped launch 12 new products at seed to sale cannabis operation",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
-                    const SizedBox(height: 5),
-                    const Text(
-                      "- 10x'd fundraising for college fraternity",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
-                    const SizedBox(height: 10),
-                    const Text(
-                      "Links:",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontWeight: FontWeight.bold,
-                        fontSize: 14,
-                      ),
-                    ),
-                    const SizedBox(height: 5),
-                    const Text(
-                      "- ay@austinyoshino.com",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
-                    InkWell(
-                      onTap: () =>
-                          _launchURL('https://github.com/austin-yoshino'),
-                      child: const Text(
-                        '- Github',
-                        style: TextStyle(
-                          decoration: TextDecoration.underline,
-                          decorationColor: AppColors.white,
-                          color: AppColors.white,
-                          fontSize: 14,
-                          fontWeight: FontWeight.w300,
-                        ),
-                      ),
-                    ),
-                    InkWell(
-                      onTap: () => _launchURL(
-                          'https://www.linkedin.com/in/austin-yoshino/'),
-                      child: const Text(
-                        '- LinkedIn',
-                        style: TextStyle(
-                          decoration: TextDecoration.underline,
-                          decorationColor: AppColors.white, // Underline color
-                          color: AppColors.white,
-                          fontSize: 14,
-                          fontWeight: FontWeight.w300,
-                        ),
-                      ),
-                    ),
-                    InkWell(
-                      onTap: () =>
-                          _launchURL('https://www.instagram.com/geinyuhs/'),
-                      child: const Text(
-                        '- Instagram',
-                        style: TextStyle(
-                          decoration: TextDecoration.underline,
-                          decorationColor: AppColors.white, // Underline color
-                          color: AppColors.white,
-                          fontSize: 14,
-                          fontWeight: FontWeight.w300,
-                        ),
-                      ),
-                    ),
-                    InkWell(
-                      onTap: () => _launchURL('https://twitter.com/geinyuhs'),
-                      child: const Text(
-                        '- Twitter / X',
-                        style: TextStyle(
-                          decoration: TextDecoration.underline,
-                          decorationColor: AppColors.white, // Underline color
-                          color: AppColors.white,
-                          fontSize: 14,
-                          fontWeight: FontWeight.w300,
-                        ),
+                    Padding(
+                      padding: const EdgeInsets.symmetric(vertical: 20),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          const Text(
+                            "About",
+                            style: TextStyle(
+                              color: AppColors.noaLightGreen,
+                              fontSize: 18,
+                              fontWeight: FontWeight.bold,
+                              fontFamily: "Barlow.ttf",
+                            ),
+                          ),
+                          const Text(
+                            "Noa is a vertically integrated cannabis operation with 3 retail stores & a grow facility in Honolulu, Hawaii doing 8-figures in annual sales.",
+                            style: TextStyle(
+                              color: AppColors.white,
+                              fontSize: 14,
+                              fontFamily: "Barlow.ttf",
+                            ),
+                          ),
+                          const SizedBox(height: 10),
+                          const Text(
+                            "Highlights:",
+                            style: TextStyle(
+                              color: AppColors.white,
+                              fontWeight: FontWeight.bold,
+                              fontSize: 14,
+                              fontFamily: "Barlow.ttf",
+                            ),
+                          ),
+                          const Text(
+                            "- Implemented new tech stack (ERP, POS, & CRM)\n- Helped launch 12 new products\n- Broke monthly & daily sales records for 4/20 event",
+                            style: TextStyle(
+                              color: AppColors.white,
+                              fontSize: 14,
+                              fontWeight: FontWeight.w300,
+                              fontFamily: "Barlow.ttf",
+                            ),
+                          ),
+                          const SizedBox(height: 5),
+                          const Text(
+                            "Links:",
+                            style: TextStyle(
+                              color: AppColors.white,
+                              fontWeight: FontWeight.bold,
+                              fontSize: 14,
+                              fontFamily: "Satoshi-Black.otf",
+                            ),
+                          ),
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.start,
+                            children: [
+                              GestureDetector(
+                                onTap: () => _launchURL('https://noacares.com'),
+                                child: ClipRRect(
+                                  borderRadius: BorderRadius.circular(5),
+                                  child: Image.asset(
+                                    'assets/images/websiteIcon.png',
+                                    width: 24,
+                                    height: 24,
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                          const Padding(
+                            padding: EdgeInsets.symmetric(vertical: 20),
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  "Live-Streaming App",
+                                  style: TextStyle(
+                                    color: AppColors.noaLightGreen,
+                                    fontSize: 18,
+                                    fontWeight: FontWeight.bold,
+                                    fontFamily: "Barlow.ttf",
+                                  ),
+                                ),
+                                Text(
+                                  "The app was called Shaka Sports, it was my first software endavour built in React Native & published to the Apple Store. We launched by partnering with high schools & youth sports organizations to quickly grow to a few hundred happy parents who could now watch their kids games",
+                                  style: TextStyle(
+                                    color: AppColors.white,
+                                    fontSize: 14,
+                                    fontFamily: "Barlow.ttf",
+                                    fontWeight: FontWeight.w300,
+                                  ),
+                                ),
+                                Padding(
+                                  padding: EdgeInsets.symmetric(vertical: 20),
+                                  child: Column(
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    children: [
+                                      Text(
+                                        "Blue Startups Accelerator",
+                                        style: TextStyle(
+                                          color: AppColors.noaLightGreen,
+                                          fontSize: 18,
+                                          fontWeight: FontWeight.bold,
+                                          fontFamily: "Barlow.ttf",
+                                        ),
+                                      ),
+                                      Text(
+                                        "We were accepted into Cohort 13 (backed by Tetris, <2% acceptance) which ran from August to November 2021. This was a great opportunity to learn in tandem with building, while expanding my network. It ended with a demo day in NYC, where I stayed for a couple months to maxamize opportunities.",
+                                        style: TextStyle(
+                                          color: AppColors.white,
+                                          fontSize: 14,
+                                          fontFamily: "Barlow.ttf",
+                                          fontWeight: FontWeight.w300,
+                                        ),
+                                      ),
+                                      Padding(
+                                        padding:
+                                            EdgeInsets.symmetric(vertical: 20),
+                                        child: Column(
+                                          crossAxisAlignment:
+                                              CrossAxisAlignment.start,
+                                          children: [
+                                            Text(
+                                              "Coaching Marketplace",
+                                              style: TextStyle(
+                                                color: AppColors.noaLightGreen,
+                                                fontSize: 18,
+                                                fontWeight: FontWeight.bold,
+                                                fontFamily: "Barlow.ttf",
+                                              ),
+                                            ),
+                                            Text(
+                                              "Dustin's son was taking pitching lessons from MLB all-star Kirby Yates, only made possible through insider connections. We saw an opportunity to unlock access for others & pivoted to building a coaching marketplace. We leveraged our relationships with professional athletes & youth sports teams to conduct a pilot that validated a \$250/hour price point. While this went well & showed promising signs of pmf, we ran into issues as we tried to move beyond...it's very difficult to scale famous people's time.",
+                                              style: TextStyle(
+                                                color: AppColors.white,
+                                                fontSize: 14,
+                                                fontFamily: "Barlow.ttf",
+                                                fontWeight: FontWeight.w300,
+                                              ),
+                                            ),
+                                            Padding(
+                                              padding: EdgeInsets.symmetric(
+                                                  vertical: 20),
+                                              child: Column(
+                                                crossAxisAlignment:
+                                                    CrossAxisAlignment.start,
+                                                children: [
+                                                  Text(
+                                                    "Fundraising",
+                                                    style: TextStyle(
+                                                      color: AppColors
+                                                          .noaLightGreen,
+                                                      fontSize: 18,
+                                                      fontWeight:
+                                                          FontWeight.bold,
+                                                      fontFamily: "Barlow.ttf",
+                                                    ),
+                                                  ),
+                                                  Text(
+                                                    "I cofounded this company with my business partner & mentor Dustin Shindo who intially invested \$50k & served as the Chairman. We went on to raise a little over \$100k from other high net worth individuals & venture capital firms.",
+                                                    style: TextStyle(
+                                                      color: AppColors.white,
+                                                      fontSize: 14,
+                                                      fontWeight:
+                                                          FontWeight.normal,
+                                                      fontFamily: "Barlow.ttf",
+                                                    ),
+                                                  ),
+                                                ],
+                                              ),
+                                            ),
+                                            Padding(
+                                              padding: EdgeInsets.symmetric(
+                                                  vertical: 20),
+                                              child: Column(
+                                                crossAxisAlignment:
+                                                    CrossAxisAlignment.start,
+                                                children: [
+                                                  Text(
+                                                    "Lessons",
+                                                    style: TextStyle(
+                                                      color: AppColors
+                                                          .noaLightGreen,
+                                                      fontSize: 18,
+                                                      fontWeight:
+                                                          FontWeight.bold,
+                                                      fontFamily: "Barlow.ttf",
+                                                    ),
+                                                  ),
+                                                  Text(
+                                                    "1) First time fundraising...",
+                                                    style: TextStyle(
+                                                      color: AppColors.white,
+                                                      fontSize: 14,
+                                                      fontWeight:
+                                                          FontWeight.bold,
+                                                      fontFamily: "Barlow.ttf",
+                                                    ),
+                                                  ),
+                                                  Text(
+                                                    "This was my first time successfully raising money for a startup. At this time, I had a very limited investor network & forcing me to do a lot of cold outreaches. Our first investor came from Twitter who invested just \$2.5k.",
+                                                    style: TextStyle(
+                                                      color: AppColors.white,
+                                                      fontSize: 14,
+                                                      fontFamily: "Barlow.ttf",
+                                                      fontWeight:
+                                                          FontWeight.w300,
+                                                    ),
+                                                  ),
+                                                  SizedBox(height: 10),
+                                                  Text(
+                                                    "2) First time launching a software product...",
+                                                    style: TextStyle(
+                                                      color: AppColors.white,
+                                                      fontSize: 14,
+                                                      fontWeight:
+                                                          FontWeight.bold,
+                                                      fontFamily: "Barlow.ttf",
+                                                    ),
+                                                  ),
+                                                  Text(
+                                                    "This was my first time doing anything in hardware (was a mech eng). I made a very painful mistake of hiring the wrong developers & choosing the wrong architecture for the live streaming app. In order to launch in time to take advantage of covid protocols I quickly sourced new developers & was up till 3am to rewrite the app.",
+                                                    style: TextStyle(
+                                                      color: AppColors.white,
+                                                      fontSize: 14,
+                                                      fontFamily: "Barlow.ttf",
+                                                      fontWeight:
+                                                          FontWeight.w300,
+                                                    ),
+                                                  ),
+                                                ],
+                                              ),
+                                            ),
+                                          ],
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                          InkWell(
+                            onTap: () =>
+                                _launchURL('https://austinyoshino.com'),
+                            child: const Text(
+                              'Back to Portfolio',
+                              style: TextStyle(
+                                decoration: TextDecoration.underline,
+                                decorationColor: AppColors.white,
+                                color: AppColors.white,
+                                fontSize: 14,
+                                fontWeight: FontWeight.w300,
+                                fontFamily: "Barlow.ttf",
+                              ),
+                            ),
+                          ),
+                        ],
                       ),
                     ),
                   ],
                 ),
               ),
-              const Padding(
-                padding: EdgeInsets.symmetric(vertical: 20),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      "Work",
-                      style: TextStyle(
-                        color: AppColors.gold,
-                        fontSize: 18,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                    SizedBox(height: 10),
-                    Text(
-                      "Cofounder of Joyn (exited): social messaging platform designed to enrich 1:1 interactions & connections",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                    SizedBox(height: 5),
-                    Text(
-                      "- Launched full product available on iOS, Android, Mac, & Windows",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
-                    SizedBox(height: 5),
-                    Text(
-                      "- Raised preseed round in Q1 2023",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
-                    SizedBox(height: 5),
-                    Text(
-                      "- 56% 28-day retention, 40/60% monthly growth, & 99%+ crash-free rates",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
-                    SizedBox(height: 10),
-                    Text(
-                      "Cofounder of Phenom: marketplace that connected professional athletes & kids for coaching lessons",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                    SizedBox(height: 5),
-                    Text(
-                      "- Accepted into Blue Startups accelerator (backed by Tetris)",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
-                    SizedBox(height: 5),
-                    Text(
-                      "- Worked with sports agency in LA & MLB all-star athlete",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
-                    SizedBox(height: 5),
-                    Text(
-                      "- Conducted pilot validating \$250/hour price point for lessons",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
-                    SizedBox(height: 10),
-                    Text(
-                      "Special Projects at Noa Botanicals: seed to sale cannabis operation",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                    SizedBox(height: 5),
-                    Text(
-                      "- Implemented new tech stack",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
-                    SizedBox(height: 5),
-                    Text(
-                      "- Helped launch 12 new products",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
-                    SizedBox(height: 5),
-                    Text(
-                      "- Broke monthly & daily sales records for 4/20 event",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
-                    SizedBox(height: 10),
-                    Text(
-                      "Advisor",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                    SizedBox(height: 5),
-                    Text(
-                      "- Technical Product for Coincerge: venture studio building a crypto-native PoS, wallet, & currency",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
-                    SizedBox(height: 5),
-                    Text(
-                      "- Strategy / Growth for aVenture (Techstars '23): research platform for VC's",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
-                    SizedBox(height: 10),
-                    Text(
-                      "Freelance",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                    SizedBox(height: 5),
-                    Text(
-                      "- Dilligence for Pono Capital (SPAC) = deal announced in Aug 2023",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
-                    SizedBox(height: 5),
-                    Text(
-                      "- Marketing campaigns for aVenture Investment Funds = 7-figures in waitlist commitments",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
-                    SizedBox(height: 5),
-                    Text(
-                      "- Engineering for SeeRescue Corporation = 3-D printed prototype of patented device",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-              const Padding(
-                padding: EdgeInsets.symmetric(vertical: 20),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      "Education",
-                      style: TextStyle(
-                        color: AppColors.gold,
-                        fontSize: 18,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                    SizedBox(height: 10),
-                    Text(
-                      "Mechanical Engineering at University of Hawaii at Manoa",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                    SizedBox(height: 5),
-                    Text(
-                      "- Built autonomous aerial & ground drone (senior project)",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
-                    SizedBox(height: 5),
-                    Text(
-                      "- Won \$50k in grant funding for medical device start up = 3-D printed prototype of gyroscopically stabalized walking assistive device",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
-                    SizedBox(height: 5),
-                    Text(
-                      "- Grand Treasurer / Social Chair for Kappa Sigma Fraternity = 10x'd fundraising",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
-                    SizedBox(height: 10),
-                    Text(
-                      "Power Writing by Shaan Puuri",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                    SizedBox(height: 5),
-                    Text(
-                      "Online copywriting course covering cold emails, social media, pitching, headlines, landing pages, & company updates.\"Some write to express, some write to impress, power-writing gets results\"",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
-                    SizedBox(height: 10),
-                    Text(
-                      "Human-Centered Design by eCornell",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                    SizedBox(height: 5),
-                    Text(
-                      "Online UX course covering design essentials, user research, user personas, developing a UX concept, prototyping, UX feedback & evaluating usability",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(vertical: 20),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    const Text(
-                      "Extras",
-                      style: TextStyle(
-                        color: AppColors.gold,
-                        fontSize: 18,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                    const SizedBox(height: 10),
-                    const Text(
-                      "Caregiver to little brother diagnosed with cerebral palsy",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                    const SizedBox(height: 5),
-                    const Text(
-                      "My brother embodies world-class reselience & optimism, 2 superpowers I inherited",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
-                    const SizedBox(height: 10),
-                    const Text(
-                      "Ran marathon (5:36) in Dec 2023",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                    const SizedBox(height: 5),
-                    const Text(
-                      "When I committed running 26.2 miles sounded crazy, it was the ultimate test of mental fortitude, discipline, & consistency",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
-                    const SizedBox(height: 10),
-                    const Text(
-                      "Started non-profit helping individuals with special needs express their unique life prespectives through art",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                    const SizedBox(height: 5),
-                    const Text(
-                      "Conducted pilot in summer 2023 with outstanding PMF heuristics",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
-                    const SizedBox(height: 10),
-                    const Text(
-                      "Learned how to code using chatGPT",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                    const SizedBox(height: 5),
-                    const Text(
-                      "Started during Joyn when we had an overload of tasks, currently still refining my front-end skills",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
-                    const SizedBox(height: 10),
-                    const Text(
-                      "Went viral on Twitter (294k impressions & 30k engagements)",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                    const SizedBox(height: 5),
-                    InkWell(
-                      onTap: () => _launchURL(
-                          'https://x.com/geinyuhs/status/1447029262154825736?s=20'),
-                      child: const Text(
-                        'See Tweet',
-                        style: TextStyle(
-                          decoration: TextDecoration.underline,
-                          decorationColor: AppColors.white,
-                          color: AppColors.white,
-                          fontSize: 14,
-                          fontWeight: FontWeight.w300,
-                        ),
-                      ),
-                    ),
-                    const SizedBox(height: 10),
-                    const Text(
-                      "Lived nomadically between 2021 -> 2023 (mostly NYC & LA)",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                    const SizedBox(height: 5),
-                    const Text(
-                      "For awhile, home was an airplane seat",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
-                    const SizedBox(height: 10),
-                    const Text(
-                      "Corresponded with Mark Cuban via cold email",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                    const SizedBox(height: 5),
-                    const Text(
-                      "Researched that he often responds to customer complaints so I posed as an angry customer to get his attention",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-              const Padding(
-                padding: EdgeInsets.symmetric(vertical: 20),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      "Skills",
-                      style: TextStyle(
-                        color: AppColors.gold,
-                        fontSize: 18,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                    SizedBox(height: 10),
-                    Text(
-                      "\"Superpowers\": resilient optimism + relentless drive to figure things out",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                    SizedBox(height: 10),
-                    Text(
-                      "Core Compentencies:",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                    SizedBox(height: 5),
-                    Text(
-                      "Leadership, storytelling, empathy, product development / engineering, user experience, fundraising, creative direction, copywriting",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
-                    SizedBox(height: 10),
-                    Text(
-                      "Technical Toolkit:",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                    SizedBox(height: 5),
-                    Text(
-                      "openAI / chatGPT, Flutter, DALLE, Figma, Canva, Notion, Discord, Asana, Github / Github Priojects, Microsoft Office, Software Architecture, VS Code, 3-D Printing / Modeling, Zapier. Beehiiv, Squarespace, Apollo, Google Cloud",
-                      style: TextStyle(
-                        color: AppColors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w300,
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(vertical: 20),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    const Text(
-                      "Media",
-                      style: TextStyle(
-                        color: AppColors.gold,
-                        fontSize: 18,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                    const SizedBox(height: 5),
-                    InkWell(
-                      onTap: () => _launchURL(
-                          'https://pace.shidler.hawaii.edu/faces-of-pace/austin-yoshino/'),
-                      child: const Text(
-                        '- Faces of PACE',
-                        style: TextStyle(
-                          decoration: TextDecoration.underline,
-                          decorationColor: AppColors.white,
-                          color: AppColors.white,
-                          fontSize: 14,
-                          fontWeight: FontWeight.w300,
-                        ),
-                      ),
-                    ),
-                    const SizedBox(height: 5),
-                    InkWell(
-                      onTap: () => _launchURL(
-                          'https://www.bluestartups.com/blog/cohort-13-founder-austin-yoshino-featured-in-inno-under-25/'),
-                      child: const Text(
-                        '- Innovators Under 25',
-                        style: TextStyle(
-                          decoration: TextDecoration.underline,
-                          decorationColor: AppColors.white,
-                          color: AppColors.white,
-                          fontSize: 14,
-                          fontWeight: FontWeight.w300,
-                        ),
-                      ),
-                    ),
-                    const SizedBox(height: 5),
-                    InkWell(
-                      onTap: () => _launchURL(
-                          'https://www.manoanow.org/kaleo/features/40-000-total-awarded-to-three-uh-student-startups/article_4049cff4-6277-11ea-869f-ff0ceb47af40.html'),
-                      child: const Text(
-                        '- \$40,000 total awarded to three UH student startups',
-                        style: TextStyle(
-                          decoration: TextDecoration.underline,
-                          decorationColor: AppColors.white,
-                          color: AppColors.white,
-                          fontSize: 14,
-                          fontWeight: FontWeight.w300,
-                        ),
-                      ),
-                    ),
-                    const SizedBox(height: 5),
-                    InkWell(
-                      onTap: () =>
-                          _launchURL('https://www.hawaiibusiness.com/gsea-19/'),
-                      child: const Text(
-                        '- Student Entrepreneurs Honored for Actual Businesses, Not Just Ideas',
-                        style: TextStyle(
-                          decoration: TextDecoration.underline,
-                          decorationColor: AppColors.white,
-                          color: AppColors.white,
-                          fontSize: 14,
-                          fontWeight: FontWeight.w300,
-                        ),
-                      ),
-                    ),
-                    const SizedBox(height: 5),
-                    InkWell(
-                      onTap: () =>
-                          _launchURL('https://www.eng.hawaii.edu/yoshino-eo/'),
-                      child: const Text(
-                        '- UH student wins fifth-annual Global Student Entrepreneur Awards statewide qualifier',
-                        style: TextStyle(
-                          decoration: TextDecoration.underline,
-                          decorationColor: AppColors.white,
-                          color: AppColors.white,
-                          fontSize: 14,
-                          fontWeight: FontWeight.w300,
-                        ),
-                      ),
-                    ),
-                    const SizedBox(height: 5),
-                    InkWell(
-                      onTap: () => _launchURL(
-                          'https://www.linkedin.com/feed/update/urn:li:activity:7096891531101433856?updateEntityUrn=urn:li:fs_feedUpdate:(V2,urn:li:activity:7096891531101433856)'),
-                      child: const Text(
-                        '- Austin Yoshino Building Social, AI x Social, Social Presence on the Blockchain',
-                        style: TextStyle(
-                          decoration: TextDecoration.underline,
-                          decorationColor: AppColors.white,
-                          color: AppColors.white,
-                          fontSize: 14,
-                          fontWeight: FontWeight.w300,
-                        ),
-                      ),
-                    ),
-                    const SizedBox(height: 5),
-                    InkWell(
-                      onTap: () => _launchURL(
-                          'https://www.manoanow.org/kaleo/features/an-innovative-invention/article_0d7d5af4-50d1-11e9-a6f3-43078fa71fd1.html'),
-                      child: const Text(
-                        '- An innovative invention, Austin Yoshino’s customizable gait trainer',
-                        style: TextStyle(
-                          decoration: TextDecoration.underline,
-                          decorationColor: AppColors.white,
-                          color: AppColors.white,
-                          fontSize: 14,
-                          fontWeight: FontWeight.w300,
-                        ),
-                      ),
-                    ),
-                    const SizedBox(height: 5),
-                    InkWell(
-                      onTap: () => _launchURL(
-                          'https://www.hawaii.edu/news/2018/12/05/2018-breakthrough-innovation-challenge/'),
-                      child: const Text(
-                        '- Customizable walking device wins innovation challenge',
-                        style: TextStyle(
-                          decoration: TextDecoration.underline,
-                          decorationColor: AppColors.white,
-                          color: AppColors.white,
-                          fontSize: 14,
-                          fontWeight: FontWeight.w300,
-                        ),
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-              const SizedBox(height: 40),
-              const Text(
-                "www.austinyoshino.com",
-                style: TextStyle(
-                  color: AppColors.white,
-                  fontSize: 12,
-                  fontWeight: FontWeight.w100,
-                ),
-              ),
-              const SizedBox(height: 10),
             ],
           ),
         ),
