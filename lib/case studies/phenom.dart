@@ -179,7 +179,7 @@ class _PhenomScreenState extends State<PhenomScreen> {
                                         ),
                                       ),
                                       Text(
-                                        "We were accepted into Cohort 13 (backed by Tetris, <2% acceptance) which ran from August to November 2021. This was a great opportunity to learn in tandem with building, while increasing my network. It ended with a demo day in NYC, where I stayed for a couple months to maxamize opportunities.",
+                                        "We were accepted into Cohort 13 (backed by Tetris, <2% acceptance) which ran from August to November 2021. This was a great opportunity to learn in tandem with building, while expanding my network. It ended with a demo day in NYC, where I stayed for a couple months to maxamize opportunities.",
                                         style: TextStyle(
                                           color: AppColors.white,
                                           fontSize: 14,
