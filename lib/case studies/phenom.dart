@@ -314,7 +314,6 @@ class _PhenomScreenState extends State<PhenomScreen> {
                               ],
                             ),
                           ),
-                          const SizedBox(height: 5),
                           InkWell(
                             onTap: () =>
                                 _launchURL('https://austinyoshino.com'),
