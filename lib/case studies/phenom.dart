@@ -51,16 +51,16 @@ class _PhenomScreenState extends State<PhenomScreen> {
                               color: AppColors.phenomBlue,
                               fontSize: 30,
                               fontWeight: FontWeight.bold,
-                              fontFamily: "Kegger W01 Reg.tff"),
+                              fontFamily: "Kegger.ttf"),
                         ),
                         Text(
-                          "Connecting pro athletes & kids for coaching lessons",
-                          style: TextStyle(
+                            "Connecting pro athletes & kids for coaching lessons",
+                            style: TextStyle(
                               color: AppColors.white,
                               fontSize: 16,
                               fontWeight: FontWeight.w300,
-                              fontFamily: "Barlow-Black.tff"),
-                        ),
+                              fontFamily: "Barlow.ttf",
+                            )),
                       ],
                     ),
                   ],
@@ -78,7 +78,7 @@ class _PhenomScreenState extends State<PhenomScreen> {
                         color: AppColors.phenomBlue,
                         fontSize: 18,
                         fontWeight: FontWeight.bold,
-                        fontFamily: "Barlow-Black.tff",
+                        fontFamily: "Barlow.ttf",
                       ),
                     ),
                     const Text(
@@ -87,7 +87,7 @@ class _PhenomScreenState extends State<PhenomScreen> {
                         color: AppColors.white,
                         fontSize: 14,
                         fontWeight: FontWeight.w300,
-                        fontFamily: "Barlow-Black.tff",
+                        fontFamily: "Barlow.ttf",
                       ),
                     ),
                     const Text(
@@ -96,7 +96,7 @@ class _PhenomScreenState extends State<PhenomScreen> {
                         color: AppColors.white,
                         fontSize: 14,
                         fontWeight: FontWeight.w300,
-                        fontFamily: "Barlow-Black.tff",
+                        fontFamily: "Barlow.ttf",
                       ),
                     ),
                     Padding(
@@ -110,7 +110,7 @@ class _PhenomScreenState extends State<PhenomScreen> {
                               color: AppColors.phenomBlue,
                               fontSize: 18,
                               fontWeight: FontWeight.bold,
-                              fontFamily: "Barlow-Black.tff",
+                              fontFamily: "Barlow.ttf",
                             ),
                           ),
                           const Text(
@@ -118,7 +118,7 @@ class _PhenomScreenState extends State<PhenomScreen> {
                             style: TextStyle(
                               color: AppColors.white,
                               fontSize: 14,
-                              fontFamily: "Barlow-Black.tff",
+                              fontFamily: "Barlow.ttf",
                             ),
                           ),
                           const SizedBox(height: 10),
@@ -128,7 +128,7 @@ class _PhenomScreenState extends State<PhenomScreen> {
                               color: AppColors.white,
                               fontWeight: FontWeight.bold,
                               fontSize: 14,
-                              fontFamily: "Barlow-Black.tff",
+                              fontFamily: "Barlow.ttf",
                             ),
                           ),
                           const Text(
@@ -137,7 +137,7 @@ class _PhenomScreenState extends State<PhenomScreen> {
                               color: AppColors.white,
                               fontSize: 14,
                               fontWeight: FontWeight.w300,
-                              fontFamily: "Barlow-Black.tff",
+                              fontFamily: "Barlow.ttf",
                             ),
                           ),
                           const Padding(
@@ -151,7 +151,7 @@ class _PhenomScreenState extends State<PhenomScreen> {
                                     color: AppColors.phenomBlue,
                                     fontSize: 18,
                                     fontWeight: FontWeight.bold,
-                                    fontFamily: "Barlow-Black.tff",
+                                    fontFamily: "Barlow.ttf",
                                   ),
                                 ),
                                 Text(
@@ -159,7 +159,7 @@ class _PhenomScreenState extends State<PhenomScreen> {
                                   style: TextStyle(
                                     color: AppColors.white,
                                     fontSize: 14,
-                                    fontFamily: "Barlow-Black.tff",
+                                    fontFamily: "Barlow.ttf",
                                     fontWeight: FontWeight.w300,
                                   ),
                                 ),
@@ -175,7 +175,7 @@ class _PhenomScreenState extends State<PhenomScreen> {
                                           color: AppColors.phenomBlue,
                                           fontSize: 18,
                                           fontWeight: FontWeight.bold,
-                                          fontFamily: "Barlow-Black.tff",
+                                          fontFamily: "Barlow.ttf",
                                         ),
                                       ),
                                       Text(
@@ -183,7 +183,7 @@ class _PhenomScreenState extends State<PhenomScreen> {
                                         style: TextStyle(
                                           color: AppColors.white,
                                           fontSize: 14,
-                                          fontFamily: "Barlow-Black.tff",
+                                          fontFamily: "Barlow.ttf",
                                           fontWeight: FontWeight.w300,
                                         ),
                                       ),
@@ -200,7 +200,7 @@ class _PhenomScreenState extends State<PhenomScreen> {
                                                 color: AppColors.phenomBlue,
                                                 fontSize: 18,
                                                 fontWeight: FontWeight.bold,
-                                                fontFamily: "Barlow-Black.tff",
+                                                fontFamily: "Barlow.ttf",
                                               ),
                                             ),
                                             Text(
@@ -208,7 +208,7 @@ class _PhenomScreenState extends State<PhenomScreen> {
                                               style: TextStyle(
                                                 color: AppColors.white,
                                                 fontSize: 14,
-                                                fontFamily: "Barlow-Black.tff",
+                                                fontFamily: "Barlow.ttf",
                                                 fontWeight: FontWeight.w300,
                                               ),
                                             ),
@@ -227,8 +227,7 @@ class _PhenomScreenState extends State<PhenomScreen> {
                                                       fontSize: 18,
                                                       fontWeight:
                                                           FontWeight.bold,
-                                                      fontFamily:
-                                                          "Barlow-Black.tff",
+                                                      fontFamily: "Barlow.ttf",
                                                     ),
                                                   ),
                                                   Text(
@@ -238,8 +237,7 @@ class _PhenomScreenState extends State<PhenomScreen> {
                                                       fontSize: 14,
                                                       fontWeight:
                                                           FontWeight.normal,
-                                                      fontFamily:
-                                                          "Barlow-Black.tff",
+                                                      fontFamily: "Barlow.ttf",
                                                     ),
                                                   ),
                                                 ],
@@ -260,8 +258,7 @@ class _PhenomScreenState extends State<PhenomScreen> {
                                                       fontSize: 18,
                                                       fontWeight:
                                                           FontWeight.bold,
-                                                      fontFamily:
-                                                          "Barlow-Black.tff",
+                                                      fontFamily: "Barlow.ttf",
                                                     ),
                                                   ),
                                                   Text(
@@ -271,8 +268,7 @@ class _PhenomScreenState extends State<PhenomScreen> {
                                                       fontSize: 14,
                                                       fontWeight:
                                                           FontWeight.bold,
-                                                      fontFamily:
-                                                          "Barlow-Black.tff",
+                                                      fontFamily: "Barlow.ttf",
                                                     ),
                                                   ),
                                                   Text(
@@ -280,8 +276,7 @@ class _PhenomScreenState extends State<PhenomScreen> {
                                                     style: TextStyle(
                                                       color: AppColors.white,
                                                       fontSize: 14,
-                                                      fontFamily:
-                                                          "Barlow-Black.tff",
+                                                      fontFamily: "Barlow.ttf",
                                                       fontWeight:
                                                           FontWeight.w300,
                                                     ),
@@ -294,8 +289,7 @@ class _PhenomScreenState extends State<PhenomScreen> {
                                                       fontSize: 14,
                                                       fontWeight:
                                                           FontWeight.bold,
-                                                      fontFamily:
-                                                          "Barlow-Black.tff",
+                                                      fontFamily: "Barlow.ttf",
                                                     ),
                                                   ),
                                                   Text(
@@ -303,8 +297,7 @@ class _PhenomScreenState extends State<PhenomScreen> {
                                                     style: TextStyle(
                                                       color: AppColors.white,
                                                       fontSize: 14,
-                                                      fontFamily:
-                                                          "Barlow-Black.tff",
+                                                      fontFamily: "Barlow.ttf",
                                                       fontWeight:
                                                           FontWeight.w300,
                                                     ),
@@ -333,7 +326,7 @@ class _PhenomScreenState extends State<PhenomScreen> {
                                 color: AppColors.white,
                                 fontSize: 14,
                                 fontWeight: FontWeight.w300,
-                                fontFamily: "Barlow-Black.tff",
+                                fontFamily: "Barlow.ttf",
                               ),
                             ),
                           ),
